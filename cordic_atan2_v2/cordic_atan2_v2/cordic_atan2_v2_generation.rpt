@@ -1,0 +1,62 @@
+Info: Starting: Create simulation model
+Info: qsys-generate C:\intelFPGA_lite\17.1\quartus\MyDev\fft_atan2_v1\cordic_atan2_v2\cordic_atan2_v2.qsys --simulation=VHDL --allow-mixed-language-simulation --output-directory=C:\intelFPGA_lite\17.1\quartus\MyDev\fft_atan2_v1\cordic_atan2_v2\cordic_atan2_v2\simulation --family="Cyclone V" --part=5CGXFC7C7F23C8
+Progress: Loading cordic_atan2_v2/cordic_atan2_v2.qsys
+Progress: Reading input file
+Progress: Adding CORDIC_0 [altera_CORDIC 17.1]
+Progress: Parameterizing module CORDIC_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: cordic_atan2_v2: Generating cordic_atan2_v2 "cordic_atan2_v2" for SIM_VHDL
+Info: CORDIC_0: C:/intelfpga_lite/17.1/quartus/dspba/backend/windows64/cmdPolyEval -target CycloneV -frequency 200 -name cordic_atan2_v2_CORDIC_0 -noChanValid -faithfulRounding -enable -printMachineReadable -lang VHDL -speedgrade 8_H7 FXPVecTranslate 16 15 1 13 1
+Info: CORDIC_0: Latency on Cyclone V is 22 cycles
+Info: CORDIC_0: DSP Blocks Used: 0
+Info: CORDIC_0: LUTs Used: 2189
+Info: CORDIC_0: Memory Bits Used: 0
+Info: CORDIC_0: Memory Blocks Used: 0
+Info: CORDIC_0: "cordic_atan2_v2" instantiated altera_CORDIC "CORDIC_0"
+Info: cordic_atan2_v2: Done "cordic_atan2_v2" with 2 modules, 4 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=C:\intelFPGA_lite\17.1\quartus\MyDev\fft_atan2_v1\cordic_atan2_v2\cordic_atan2_v2\cordic_atan2_v2.spd --output-directory=C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v1/cordic_atan2_v2/cordic_atan2_v2/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=C:\intelFPGA_lite\17.1\quartus\MyDev\fft_atan2_v1\cordic_atan2_v2\cordic_atan2_v2\cordic_atan2_v2.spd --output-directory=C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v1/cordic_atan2_v2/cordic_atan2_v2/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v1/cordic_atan2_v2/cordic_atan2_v2/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Skipping VCS script generation since VHDL file $QUARTUS_INSTALL_DIR/eda/sim_lib/altera_syn_attributes.vhd is required for simulation
+Info: Generating the following file(s) for VCSMX simulator in C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v1/cordic_atan2_v2/cordic_atan2_v2/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v1/cordic_atan2_v2/cordic_atan2_v2/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	1 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v1/cordic_atan2_v2/cordic_atan2_v2/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v1/cordic_atan2_v2/cordic_atan2_v2/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\intelFPGA_lite\17.1\quartus\MyDev\fft_atan2_v1\cordic_atan2_v2\cordic_atan2_v2.qsys --synthesis=VHDL --output-directory=C:\intelFPGA_lite\17.1\quartus\MyDev\fft_atan2_v1\cordic_atan2_v2\cordic_atan2_v2\synthesis --family="Cyclone V" --part=5CGXFC7C7F23C8
+Progress: Loading cordic_atan2_v2/cordic_atan2_v2.qsys
+Progress: Reading input file
+Progress: Adding CORDIC_0 [altera_CORDIC 17.1]
+Progress: Parameterizing module CORDIC_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: cordic_atan2_v2: Generating cordic_atan2_v2 "cordic_atan2_v2" for QUARTUS_SYNTH
+Info: CORDIC_0: C:/intelfpga_lite/17.1/quartus/dspba/backend/windows64/cmdPolyEval -target CycloneV -frequency 200 -name cordic_atan2_v2_CORDIC_0 -noChanValid -faithfulRounding -enable -printMachineReadable -lang VHDL -speedgrade 8_H7 FXPVecTranslate 16 15 1 13 1
+Info: CORDIC_0: Latency on Cyclone V is 22 cycles
+Info: CORDIC_0: DSP Blocks Used: 0
+Info: CORDIC_0: LUTs Used: 2189
+Info: CORDIC_0: Memory Bits Used: 0
+Info: CORDIC_0: Memory Blocks Used: 0
+Info: CORDIC_0: "cordic_atan2_v2" instantiated altera_CORDIC "CORDIC_0"
+Info: cordic_atan2_v2: Done "cordic_atan2_v2" with 2 modules, 4 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

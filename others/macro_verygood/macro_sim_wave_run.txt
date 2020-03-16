@@ -1,0 +1,4 @@
+vsim work.fft_atan2_v1_vhd_tst
+add wave -position insertpoint sim:/fft_atan2_v1_vhd_tst/*
+run
+wave zoom full

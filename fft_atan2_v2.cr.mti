@@ -1,0 +1,1187 @@
+C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_ctrl_qe.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_ctrl_qe.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_unbburst_ctrl_qe
+-- Compiling architecture cnt_sw of asj_fft_unbburst_ctrl_qe
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_data_r.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_data_r.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_cxb_data_r
+-- Compiling architecture syn of asj_fft_cxb_data_r
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadgen.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadgen.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_twadgen
+-- Compiling architecture gen_all of asj_fft_twadgen
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_mult_add.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_mult_add.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity asj_fft_mult_add
+-- Compiling architecture syn of asj_fft_mult_add
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_dual_port_rom.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_dual_port_rom.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Loading package altera_lnsim_components
+-- Compiling entity altera_fft_dual_port_rom
+-- Compiling architecture rtl of altera_fft_dual_port_rom
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_o_1pt.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_o_1pt.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_bfp_o_1pt
+-- Compiling architecture output_bfp of asj_fft_bfp_o_1pt
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twid_rom_tdp.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twid_rom_tdp.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity asj_fft_twid_rom_tdp
+-- Compiling architecture SYN of asj_fft_twid_rom_tdp
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_dual_port_ram.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_dual_port_ram.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Loading package altera_lnsim_components
+-- Compiling entity altera_fft_dual_port_ram
+-- Compiling architecture rtl of altera_fft_dual_port_ram
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_burst_ctrl.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_burst_ctrl.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_burst_ctrl
+-- Compiling architecture burst_sw of asj_fft_burst_ctrl
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dft_bfp.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dft_bfp.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity asj_fft_dft_bfp
+-- Compiling architecture dft_r4 of asj_fft_dft_bfp
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_wrengen.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_wrengen.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_wrengen
+-- Compiling architecture gen_all of asj_fft_wrengen
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/simulation/fft_atan2_v2_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/simulation/fft_atan2_v2_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fft_atan2_v2_tb
+-- Compiling architecture fft_atan2_v2 of fft_atan2_v2_tb
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cmult_can.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cmult_can.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity asj_fft_cmult_can
+-- Compiling architecture model of asj_fft_cmult_can
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dp_mram.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dp_mram.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity asj_fft_dp_mram
+-- Compiling architecture syn of asj_fft_dp_mram
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/fft_pack.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/fft_pack.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling package fft_pack
+-- Compiling package body fft_pack
+-- Loading package fft_pack
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_sink.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_sink.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Compiling entity auk_dspip_avalon_streaming_block_sink
+-- Compiling architecture rtl of auk_dspip_avalon_streaming_block_sink
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/submodules/dspba_library.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/submodules/dspba_library.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package dspba_library_package
+-- Compiling entity dspba_delay
+-- Compiling architecture delay of dspba_delay
+-- Loading package NUMERIC_STD
+-- Compiling entity dspba_sync_reg
+-- Compiling architecture sync_reg of dspba_sync_reg
+-- Compiling entity dspba_pipe
+-- Compiling architecture rtl of dspba_pipe
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadsogen.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadsogen.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_twadsogen
+-- Compiling architecture gen_all of asj_fft_twadsogen
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity asj_fft_tdl
+-- Compiling architecture syn of asj_fft_tdl
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_3dp_rom.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_3dp_rom.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity asj_fft_3dp_rom
+-- Compiling architecture syn of asj_fft_3dp_rom
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_ctrl.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_ctrl.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_bfp_ctrl
+-- Compiling architecture syn of asj_fft_bfp_ctrl
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_burst_ctrl_de.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_burst_ctrl_de.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_burst_ctrl_de
+-- Compiling architecture cnt_sw of asj_fft_burst_ctrl_de
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/hyper_pipeline_interface.v {1 {vlog -work work -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/hyper_pipeline_interface.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+
+Top level modules:
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_text_pkg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_text_pkg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package auk_dspip_text_pkg
+-- Compiling package body auk_dspip_text_pkg
+-- Loading package auk_dspip_text_pkg
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_m_k_counter.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_m_k_counter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_m_k_counter
+-- Compiling architecture gen_all of asj_fft_m_k_counter
+** Warning: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_m_k_counter.vhd(69): Nonresolved signal 'k_state' may have multiple sources.
+  Drivers:
+    C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_m_k_counter.vhd(665):Process fsm
+       Driven at:
+          C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_m_k_counter.vhd(669)
+    C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_m_k_counter.vhd(501):Process fsm
+       Driven at:
+          C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_m_k_counter.vhd(505)
+    C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_m_k_counter.vhd(322):Process fsm
+       Driven at:
+          C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_m_k_counter.vhd(326)
+    C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_m_k_counter.vhd(165):Process fsm
+       Driven at:
+          C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_m_k_counter.vhd(169)
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpp_serial_r2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpp_serial_r2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_lpp_serial_r2
+-- Compiling architecture lp of asj_fft_lpp_serial_r2
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_single_port_rom.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_single_port_rom.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Loading package altera_lnsim_components
+-- Compiling entity altera_fft_single_port_rom
+-- Compiling architecture rtl of altera_fft_single_port_rom
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_sose_so_b.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_sose_so_b.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package fft_pack
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_lib_pkg
+-- Compiling entity asj_fft_si_sose_so_b
+-- Compiling architecture transform of asj_fft_si_sose_so_b
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_lib_pkg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_lib_pkg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Compiling package auk_dspip_lib_pkg
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_i.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_i.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_bfp_i
+-- Compiling architecture input_bfp of asj_fft_bfp_i
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpprdadgen.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpprdadgen.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_lpprdadgen
+-- Compiling architecture gen_all of asj_fft_lpprdadgen
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_source.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_source.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Compiling entity auk_dspip_avalon_streaming_source
+-- Compiling architecture rtl of auk_dspip_avalon_streaming_source
+** Warning: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_source.vhd(164): Nonresolved signal 'count_finished' may have multiple sources.
+  Drivers:
+    C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_source.vhd(185):Conditional signal assignment line__184
+    C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_source.vhd(172):Conditional signal assignment line__170
+** Warning: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_source.vhd(165): Nonresolved signal 'count_started' may have multiple sources.
+  Drivers:
+    C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_source.vhd(187):Conditional signal assignment line__186
+    C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_source.vhd(176):Conditional signal assignment line__174
+** Warning: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_source.vhd(109): Nonresolved signal 'source_next_state' may have multiple sources.
+  Drivers:
+    C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_source.vhd(213):Process source_comb_update_2
+       Driven at:
+          C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_source.vhd(220)
+    C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_source.vhd(157):Conditional signal assignment line__156
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/twid_rom.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/twid_rom.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity twid_rom
+-- Compiling architecture SYN of twid_rom
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cnt_ctrl.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cnt_ctrl.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_cnt_ctrl
+-- Compiling architecture cnt_sw of asj_fft_cnt_ctrl
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cnt_ctrl_de.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cnt_ctrl_de.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_cnt_ctrl_de
+-- Compiling architecture cnt_sw of asj_fft_cnt_ctrl_de
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_sose_ctrl.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_sose_ctrl.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_unbburst_sose_ctrl
+-- Compiling architecture burst_sw of asj_fft_unbburst_sose_ctrl
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl_bit_rst.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl_bit_rst.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_tdl_bit_rst
+-- Compiling architecture syn of asj_fft_tdl_bit_rst
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_wrswgen.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_wrswgen.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_wrswgen
+-- Compiling architecture gen_all of asj_fft_wrswgen
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_se_so_b.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_se_so_b.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package fft_pack
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_lib_pkg
+-- Compiling entity asj_fft_si_se_so_b
+-- Compiling architecture transform of asj_fft_si_se_so_b
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_sink.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_sink.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_lib_pkg
+-- Loading package altera_mf_components
+-- Compiling entity auk_dspip_avalon_streaming_sink
+-- Compiling architecture rtl of auk_dspip_avalon_streaming_sink
+** Warning: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_sink.vhd(118): Nonresolved signal 'sink_next_state' may have multiple sources.
+  Drivers:
+    C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_sink.vhd(281):Process sink_comb_update_2
+       Driven at:
+          C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_sink.vhd(283)
+    C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_sink.vhd(191):Process sink_comb_update_1
+       Driven at:
+          C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_sink.vhd(193)
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_mult_cpx.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_mult_cpx.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity apn_fft_mult_cpx
+-- Compiling architecture rtl of apn_fft_mult_cpx
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_de_so_b.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_de_so_b.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package fft_pack
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_lib_pkg
+-- Compiling entity asj_fft_si_de_so_b
+-- Compiling architecture transform of asj_fft_si_de_so_b
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_o.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_o.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_bfp_o
+-- Compiling architecture output_bfp of asj_fft_bfp_o
+** Warning: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_o.vhd(105): Nonresolved signal 'sdet' may have multiple sources.
+  Drivers:
+    C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_o.vhd(1034):Process fsm
+       Driven at:
+          C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_o.vhd(1038)
+    C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_o.vhd(247):Process fsm
+       Driven at:
+          C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_o.vhd(251)
+** Warning: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_o.vhd(108): Nonresolved signal 'sdetd' may have multiple sources.
+  Drivers:
+    C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_o.vhd(801):Process fsm
+       Driven at:
+          C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_o.vhd(805)
+    C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_o.vhd(524):Process fsm
+       Driven at:
+          C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_o.vhd(528)
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_data.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_data.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_cxb_data
+-- Compiling architecture syn of asj_fft_cxb_data
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cmult_std.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cmult_std.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity asj_fft_cmult_std
+-- Compiling architecture model of asj_fft_cmult_std
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_pround.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_pround.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity asj_fft_pround
+-- Compiling architecture AROUNDPIPE_SYNTH of asj_fft_pround
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_mult_cpx_1825.v {1 {vlog -work work -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_mult_cpx_1825.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+
+Top level modules:
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lcm_mult_2m.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lcm_mult_2m.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity asj_fft_lcm_mult_2m
+-- Compiling architecture mult of asj_fft_lcm_mult_2m
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_data_ram_dp.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_data_ram_dp.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity asj_fft_data_ram_dp
+-- Compiling architecture SYN of asj_fft_data_ram_dp
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_in_write_sgl.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_in_write_sgl.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_in_write_sgl
+-- Compiling architecture writer of asj_fft_in_write_sgl
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadgen_dual.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadgen_dual.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_twadgen_dual
+-- Compiling architecture gen_all of asj_fft_twadgen_dual
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_4dp_ram.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_4dp_ram.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity asj_fft_4dp_ram
+-- Compiling architecture syn of asj_fft_4dp_ram
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_addr.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_addr.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_cxb_addr
+-- Compiling architecture syn of asj_fft_cxb_addr
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_3pi_mram.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_3pi_mram.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity asj_fft_3pi_mram
+-- Compiling architecture syn of asj_fft_3pi_mram
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_burst_ctrl_qe.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_burst_ctrl_qe.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_burst_ctrl_qe
+-- Compiling architecture cnt_sw of asj_fft_burst_ctrl_qe
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_RAWDATA/ROM_RAWDATA.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_RAWDATA/ROM_RAWDATA.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ROM_RAWDATA
+-- Compiling architecture SYN of rom_rawdata
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_sglstream.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_sglstream.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package fft_pack
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_lib_pkg
+-- Compiling entity asj_fft_sglstream
+-- Compiling architecture transform of asj_fft_sglstream
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dualstream.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dualstream.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package fft_pack
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_lib_pkg
+-- Compiling entity asj_fft_dualstream
+-- Compiling architecture transform of asj_fft_dualstream
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_data_mram.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_data_mram.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_cxb_data_mram
+-- Compiling architecture syn of asj_fft_cxb_data_mram
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl_rst.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl_rst.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity asj_fft_tdl_rst
+-- Compiling architecture syn of asj_fft_tdl_rst
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_mult_can.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_mult_can.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity apn_fft_mult_can
+-- Compiling architecture rtl of apn_fft_mult_can
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_mult_add.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_mult_add.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity altera_fft_mult_add
+-- Compiling architecture rtl of altera_fft_mult_add
+-- Loading package altera_lnsim_components
+-- Compiling entity altera_fft_mult_add_new
+-- Compiling architecture rtl of altera_fft_mult_add_new
+-- Loading package altera_mf_components
+-- Compiling entity altera_fft_mult_add_old
+-- Compiling architecture rtl of altera_fft_mult_add_old
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twiddle_ctrl_qe.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twiddle_ctrl_qe.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_twiddle_ctrl_qe
+-- Compiling architecture cnt_sw of asj_fft_twiddle_ctrl_qe
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_source.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_source.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_lib_pkg
+-- Loading package altera_mf_components
+-- Compiling entity auk_dspip_avalon_streaming_block_source
+-- Compiling architecture rtl of auk_dspip_avalon_streaming_block_source
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_roundsat.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_roundsat.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity auk_dspip_roundsat
+-- Compiling architecture beh of auk_dspip_roundsat
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_3tdp_rom.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_3tdp_rom.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity asj_fft_3tdp_rom
+-- Compiling architecture syn of asj_fft_3tdp_rom
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_ctrl_de.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_ctrl_de.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_unbburst_ctrl_de
+-- Compiling architecture cnt_sw of asj_fft_unbburst_ctrl_de
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_ctrl.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_ctrl.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_unbburst_ctrl
+-- Compiling architecture burst_sw of asj_fft_unbburst_ctrl
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dpi_mram.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dpi_mram.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity asj_fft_dpi_mram
+-- Compiling architecture syn of asj_fft_dpi_mram
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_alt_shift_tdl.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_alt_shift_tdl.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity asj_fft_alt_shift_tdl
+-- Compiling architecture SYN of asj_fft_alt_shift_tdl
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_math_pkg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_math_pkg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package auk_dspip_math_pkg
+-- Compiling package body auk_dspip_math_pkg
+-- Loading package auk_dspip_math_pkg
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_1dp_ram.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_1dp_ram.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity asj_fft_1dp_ram
+-- Compiling architecture syn of asj_fft_1dp_ram
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fft_atan2_v2
+-- Compiling architecture rtl of fft_atan2_v2
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_se_so_bb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_se_so_bb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package fft_pack
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_lib_pkg
+-- Compiling entity asj_fft_si_se_so_bb
+-- Compiling architecture transform of asj_fft_si_se_so_bb
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/FFT_Burst_16x1024_v1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/FFT_Burst_16x1024_v1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity FFT_Burst_16x1024_v1
+-- Compiling architecture rtl of FFT_Burst_16x1024_v1
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_cmult_cpx.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_cmult_cpx.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package altera_mf_components
+-- Compiling entity apn_fft_cmult_cpx
+-- Compiling architecture model of apn_fft_cmult_cpx
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_data_ram.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_data_ram.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity asj_fft_data_ram
+-- Compiling architecture SYN of asj_fft_data_ram
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_cmult_cpx2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_cmult_cpx2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package altera_mf_components
+-- Compiling entity apn_fft_cmult_cpx2
+-- Compiling architecture model of apn_fft_cmult_cpx2
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_qe_so_b.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_qe_so_b.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package fft_pack
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_lib_pkg
+-- Compiling entity asj_fft_si_qe_so_b
+-- Compiling architecture transform of asj_fft_si_qe_so_b
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpp_serial.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpp_serial.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_lpp_serial
+-- Compiling architecture lp of asj_fft_lpp_serial
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/cordic_atan2_v2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/cordic_atan2_v2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cordic_atan2_v2
+-- Compiling architecture rtl of cordic_atan2_v2
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_6tdp_rom.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_6tdp_rom.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity asj_fft_6tdp_rom
+-- Compiling architecture syn of asj_fft_6tdp_rom
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadsogen_q.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadsogen_q.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_twadsogen_q
+-- Compiling architecture gen_all of asj_fft_twadsogen_q
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpp.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpp.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_lpp
+-- Compiling architecture dft of asj_fft_lpp
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/auk_fft_pkg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/auk_fft_pkg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package auk_fft_pkg
+-- Compiling package body auk_fft_pkg
+-- Loading package auk_fft_pkg
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpprdadr2gen.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpprdadr2gen.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_lpprdadr2gen
+-- Compiling architecture gen_all of asj_fft_lpprdadr2gen
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lcm_mult.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lcm_mult.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity asj_fft_lcm_mult
+-- Compiling architecture mult of asj_fft_lcm_mult
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/submodules/dspba_library_package.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/submodules/dspba_library_package.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package dspba_library_package
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_1tdp_rom.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_1tdp_rom.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity asj_fft_1tdp_rom
+-- Compiling architecture syn of asj_fft_1tdp_rom
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/submodules/cordic_atan2_v2_CORDIC_0.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/submodules/cordic_atan2_v2_CORDIC_0.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package dspba_library_package
+-- Loading package altera_mf_components
+-- Loading package altera_lnsim_components
+-- Loading package LPM_COMPONENTS
+-- Compiling entity cordic_atan2_v2_CORDIC_0
+-- Compiling architecture normal of cordic_atan2_v2_CORDIC_0
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/counter_module.sv {1 {vlog -work work -sv -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/counter_module.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+
+Top level modules:
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_de_so_bb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_de_so_bb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package fft_pack
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_lib_pkg
+-- Compiling entity asj_fft_si_de_so_bb
+-- Compiling architecture transform of asj_fft_si_de_so_bb
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dataadgen.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dataadgen.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_dataadgen
+-- Compiling architecture gen_all of asj_fft_dataadgen
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1_fft_ii_0.sv {1 {vlog -work work -sv -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1_fft_ii_0.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module FFT_Burst_16x1024_v1_fft_ii_0
+
+Top level modules:
+	FFT_Burst_16x1024_v1_fft_ii_0
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl_bit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl_bit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_tdl_bit
+-- Compiling architecture syn of asj_fft_tdl_bit
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dft_bfp_sgl.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dft_bfp_sgl.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Loading package LPM_COMPONENTS
+-- Loading package altera_mf_components
+-- Compiling entity asj_fft_dft_bfp_sgl
+-- Compiling architecture dft_r4 of asj_fft_dft_bfp_sgl
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_controller.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_controller.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity auk_dspip_avalon_streaming_controller
+-- Compiling architecture struct of auk_dspip_avalon_streaming_controller
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_i_1pt.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_i_1pt.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package fft_pack
+-- Compiling entity asj_fft_bfp_i_1pt
+-- Compiling architecture input_bfp of asj_fft_bfp_i_1pt
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_qe_so_bb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_qe_so_bb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package fft_pack
+-- Loading package auk_dspip_math_pkg
+-- Loading package auk_dspip_lib_pkg
+-- Compiling entity asj_fft_si_qe_so_bb
+-- Compiling architecture transform of asj_fft_si_qe_so_bb
+
+} {} {}}

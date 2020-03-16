@@ -1,0 +1,557 @@
+Analysis & Synthesis report for fft_atan2_v2
+Sun Mar 15 20:06:30 2020
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Analysis & Synthesis RAM Summary
+  9. General Register Statistics
+ 10. Source assignments for ROM_RAWDATA:inst2|altsyncram:altsyncram_component|altsyncram_ob24:auto_generated
+ 11. Parameter Settings for User Entity Instance: ROM_RAWDATA:inst2|altsyncram:altsyncram_component
+ 12. altsyncram Parameter Settings by Entity Instance
+ 13. Port Connectivity Checks: "ROM_READER_V2:inst1"
+ 14. Post-Synthesis Netlist Statistics for Top Partition
+ 15. Elapsed Time Per Partition
+ 16. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Sun Mar 15 20:06:29 2020       ;
+; Quartus Prime Version           ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
+; Revision Name                   ; fft_atan2_v2                                ;
+; Top-level Entity Name           ; fft_atan2_v2                                ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 26                                          ;
+; Total pins                      ; 82                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 16,384                                      ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CEFA4F23C7        ;                    ;
+; Top-level entity name                                                           ; fft_atan2_v2       ; fft_atan2_v2       ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation      ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 4           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ;   0.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                    ;
++----------------------------------+-----------------+----------------------------------------+-----------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                      ; Library ;
++----------------------------------+-----------------+----------------------------------------+-----------------------------------------------------------------------------------+---------+
+; fft_atan2_v2.vhd                 ; yes             ; User VHDL File                         ; C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd                ;         ;
+; ROM_READER_V2/ROM_READER_V2.vhd  ; yes             ; User VHDL File                         ; C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_READER_V2/ROM_READER_V2.vhd ;         ;
+; ROM_RAWDATA/ROM_RAWDATA.vhd      ; yes             ; User Wizard-Generated File             ; C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_RAWDATA/ROM_RAWDATA.vhd     ;         ;
+; altsyncram.tdf                   ; yes             ; Megafunction                           ; c:/intelfpga_lite/17.1/quartus/libraries/megafunctions/altsyncram.tdf             ;         ;
+; stratix_ram_block.inc            ; yes             ; Megafunction                           ; c:/intelfpga_lite/17.1/quartus/libraries/megafunctions/stratix_ram_block.inc      ;         ;
+; lpm_mux.inc                      ; yes             ; Megafunction                           ; c:/intelfpga_lite/17.1/quartus/libraries/megafunctions/lpm_mux.inc                ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                           ; c:/intelfpga_lite/17.1/quartus/libraries/megafunctions/lpm_decode.inc             ;         ;
+; aglobal171.inc                   ; yes             ; Megafunction                           ; c:/intelfpga_lite/17.1/quartus/libraries/megafunctions/aglobal171.inc             ;         ;
+; a_rdenreg.inc                    ; yes             ; Megafunction                           ; c:/intelfpga_lite/17.1/quartus/libraries/megafunctions/a_rdenreg.inc              ;         ;
+; altrom.inc                       ; yes             ; Megafunction                           ; c:/intelfpga_lite/17.1/quartus/libraries/megafunctions/altrom.inc                 ;         ;
+; altram.inc                       ; yes             ; Megafunction                           ; c:/intelfpga_lite/17.1/quartus/libraries/megafunctions/altram.inc                 ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                           ; c:/intelfpga_lite/17.1/quartus/libraries/megafunctions/altdpram.inc               ;         ;
+; db/altsyncram_ob24.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/db/altsyncram_ob24.tdf          ;         ;
+; rawdata.hex                      ; yes             ; Auto-Found Memory Initialization File  ; C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/rawdata.hex                     ;         ;
++----------------------------------+-----------------+----------------------------------------+-----------------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimate of Logic utilization (ALMs needed) ; 14        ;
+;                                             ;           ;
+; Combinational ALUT usage for logic          ; 15        ;
+;     -- 7 input functions                    ; 0         ;
+;     -- 6 input functions                    ; 0         ;
+;     -- 5 input functions                    ; 2         ;
+;     -- 4 input functions                    ; 1         ;
+;     -- <=3 input functions                  ; 12        ;
+;                                             ;           ;
+; Dedicated logic registers                   ; 26        ;
+;                                             ;           ;
+; I/O pins                                    ; 82        ;
+; Total MLAB memory bits                      ; 0         ;
+; Total block memory bits                     ; 16384     ;
+;                                             ;           ;
+; Total DSP Blocks                            ; 0         ;
+;                                             ;           ;
+; Maximum fan-out node                        ; CLK~input ;
+; Maximum fan-out                             ; 41        ;
+; Total fan-out                               ; 424       ;
+; Average fan-out                             ; 1.92      ;
++---------------------------------------------+-----------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                  ;
++-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------------+-----------------+--------------+
+; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                            ; Entity Name     ; Library Name ;
++-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------------+-----------------+--------------+
+; |fft_atan2_v2                             ; 15 (0)              ; 26 (0)                    ; 16384             ; 0          ; 82   ; 0            ; |fft_atan2_v2                                                                                  ; fft_atan2_v2    ; work         ;
+;    |ROM_RAWDATA:inst2|                    ; 0 (0)               ; 0 (0)                     ; 16384             ; 0          ; 0    ; 0            ; |fft_atan2_v2|ROM_RAWDATA:inst2                                                                ; ROM_RAWDATA     ; work         ;
+;       |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)                     ; 16384             ; 0          ; 0    ; 0            ; |fft_atan2_v2|ROM_RAWDATA:inst2|altsyncram:altsyncram_component                                ; altsyncram      ; work         ;
+;          |altsyncram_ob24:auto_generated| ; 0 (0)               ; 0 (0)                     ; 16384             ; 0          ; 0    ; 0            ; |fft_atan2_v2|ROM_RAWDATA:inst2|altsyncram:altsyncram_component|altsyncram_ob24:auto_generated ; altsyncram_ob24 ; work         ;
+;    |ROM_READER_V2:inst1|                  ; 15 (15)             ; 26 (26)                   ; 0                 ; 0          ; 0    ; 0            ; |fft_atan2_v2|ROM_READER_V2:inst1                                                              ; ROM_READER_V2   ; work         ;
++-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------------+-----------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                              ;
++---------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+-------+---------------+
+; Name                                                                                        ; Type ; Mode ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size  ; MIF           ;
++---------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+-------+---------------+
+; ROM_RAWDATA:inst2|altsyncram:altsyncram_component|altsyncram_ob24:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; 1024         ; 16           ; --           ; --           ; 16384 ; ./rawdata.hex ;
++---------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+-------+---------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 26    ;
+; Number of registers using Synchronous Clear  ; 10    ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 25    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 10    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++---------------------------------------------------------------------------------------------------------+
+; Source assignments for ROM_RAWDATA:inst2|altsyncram:altsyncram_component|altsyncram_ob24:auto_generated ;
++---------------------------------+--------------------+------+-------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                        ;
++---------------------------------+--------------------+------+-------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                         ;
++---------------------------------+--------------------+------+-------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ROM_RAWDATA:inst2|altsyncram:altsyncram_component ;
++------------------------------------+----------------------+------------------------------------+
+; Parameter Name                     ; Value                ; Type                               ;
++------------------------------------+----------------------+------------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                            ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                         ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                       ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                       ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE                     ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                            ;
+; OPERATION_MODE                     ; ROM                  ; Untyped                            ;
+; WIDTH_A                            ; 16                   ; Signed Integer                     ;
+; WIDTHAD_A                          ; 10                   ; Signed Integer                     ;
+; NUMWORDS_A                         ; 1024                 ; Signed Integer                     ;
+; OUTDATA_REG_A                      ; CLOCK0               ; Untyped                            ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                            ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                            ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                            ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                            ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                            ;
+; WIDTH_B                            ; 1                    ; Signed Integer                     ;
+; WIDTHAD_B                          ; 1                    ; Signed Integer                     ;
+; NUMWORDS_B                         ; 0                    ; Signed Integer                     ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                            ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                            ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                            ;
+; ADDRESS_REG_B                      ; CLOCK1               ; Untyped                            ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                            ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                            ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                            ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                            ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                            ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                            ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                            ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                            ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer                     ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Signed Integer                     ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                            ;
+; BYTE_SIZE                          ; 8                    ; Signed Integer                     ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                            ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                            ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                            ;
+; INIT_FILE                          ; ./rawdata.hex        ; Untyped                            ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                            ;
+; MAXIMUM_DEPTH                      ; 0                    ; Signed Integer                     ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                            ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                            ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS               ; Untyped                            ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                            ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                            ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                            ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                            ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                            ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Signed Integer                     ;
+; DEVICE_FAMILY                      ; Cyclone V            ; Untyped                            ;
+; CBXI_PARAMETER                     ; altsyncram_ob24      ; Untyped                            ;
++------------------------------------+----------------------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------+
+; altsyncram Parameter Settings by Entity Instance                                              ;
++-------------------------------------------+---------------------------------------------------+
+; Name                                      ; Value                                             ;
++-------------------------------------------+---------------------------------------------------+
+; Number of entity instances                ; 1                                                 ;
+; Entity Instance                           ; ROM_RAWDATA:inst2|altsyncram:altsyncram_component ;
+;     -- OPERATION_MODE                     ; ROM                                               ;
+;     -- WIDTH_A                            ; 16                                                ;
+;     -- NUMWORDS_A                         ; 1024                                              ;
+;     -- OUTDATA_REG_A                      ; CLOCK0                                            ;
+;     -- WIDTH_B                            ; 1                                                 ;
+;     -- NUMWORDS_B                         ; 0                                                 ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                            ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                      ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                              ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                         ;
++-------------------------------------------+---------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ROM_READER_V2:inst1"                                                                ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; sop  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; eop  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_ff             ; 26                          ;
+;     CLR               ; 15                          ;
+;     ENA CLR SCLR      ; 10                          ;
+;     plain             ; 1                           ;
+; arriav_lcell_comb     ; 16                          ;
+;     arith             ; 10                          ;
+;         1 data inputs ; 10                          ;
+;     normal            ; 6                           ;
+;         0 data inputs ; 1                           ;
+;         2 data inputs ; 1                           ;
+;         3 data inputs ; 1                           ;
+;         4 data inputs ; 1                           ;
+;         5 data inputs ; 2                           ;
+; boundary_port         ; 82                          ;
+; stratixv_ram_block    ; 16                          ;
+;                       ;                             ;
+; Max LUT depth         ; 2.00                        ;
+; Average LUT depth     ; 0.90                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+    Info: Processing started: Sun Mar 15 20:06:17 2020
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off fft_atan2_v2 -c fft_atan2_v2
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file fft_atan2_v2.vhd
+    Info (12022): Found design unit 1: fft_atan2_v2-rtl File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 31
+    Info (12023): Found entity 1: fft_atan2_v2 File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 8
+Info (12021): Found 2 design units, including 1 entities, in source file rom_reader_v2/rom_reader_v2.vhd
+    Info (12022): Found design unit 1: ROM_READER_V2-rtl File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_READER_V2/ROM_READER_V2.vhd Line: 26
+    Info (12023): Found entity 1: ROM_READER_V2 File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_READER_V2/ROM_READER_V2.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file rom_rawdata/rom_rawdata.vhd
+    Info (12022): Found design unit 1: rom_rawdata-SYN File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_RAWDATA/ROM_RAWDATA.vhd Line: 53
+    Info (12023): Found entity 1: ROM_RAWDATA File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_RAWDATA/ROM_RAWDATA.vhd Line: 42
+Info (12127): Elaborating entity "fft_atan2_v2" for the top level hierarchy
+Warning (10036): Verilog HDL or VHDL warning at fft_atan2_v2.vhd(100): object "RESETn" assigned a value but never read File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 100
+Warning (10036): Verilog HDL or VHDL warning at fft_atan2_v2.vhd(103): object "w1" assigned a value but never read File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 103
+Warning (10036): Verilog HDL or VHDL warning at fft_atan2_v2.vhd(104): object "w2" assigned a value but never read File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 104
+Info (12128): Elaborating entity "ROM_READER_V2" for hierarchy "ROM_READER_V2:inst1" File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 121
+Info (12128): Elaborating entity "ROM_RAWDATA" for hierarchy "ROM_RAWDATA:inst2" File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 134
+Info (12128): Elaborating entity "altsyncram" for hierarchy "ROM_RAWDATA:inst2|altsyncram:altsyncram_component" File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_RAWDATA/ROM_RAWDATA.vhd Line: 60
+Info (12130): Elaborated megafunction instantiation "ROM_RAWDATA:inst2|altsyncram:altsyncram_component" File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_RAWDATA/ROM_RAWDATA.vhd Line: 60
+Info (12133): Instantiated megafunction "ROM_RAWDATA:inst2|altsyncram:altsyncram_component" with the following parameter: File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_RAWDATA/ROM_RAWDATA.vhd Line: 60
+    Info (12134): Parameter "address_aclr_a" = "NONE"
+    Info (12134): Parameter "address_aclr_b" = "NONE"
+    Info (12134): Parameter "address_reg_b" = "CLOCK1"
+    Info (12134): Parameter "byte_size" = "8"
+    Info (12134): Parameter "byteena_aclr_a" = "UNUSED"
+    Info (12134): Parameter "byteena_aclr_b" = "NONE"
+    Info (12134): Parameter "byteena_reg_b" = "CLOCK1"
+    Info (12134): Parameter "clock_enable_core_a" = "USE_INPUT_CLKEN"
+    Info (12134): Parameter "clock_enable_core_b" = "USE_INPUT_CLKEN"
+    Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_input_b" = "NORMAL"
+    Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_output_b" = "NORMAL"
+    Info (12134): Parameter "intended_device_family" = "Cyclone V"
+    Info (12134): Parameter "ecc_pipeline_stage_enabled" = "FALSE"
+    Info (12134): Parameter "enable_ecc" = "FALSE"
+    Info (12134): Parameter "implement_in_les" = "OFF"
+    Info (12134): Parameter "indata_aclr_a" = "UNUSED"
+    Info (12134): Parameter "indata_aclr_b" = "NONE"
+    Info (12134): Parameter "indata_reg_b" = "CLOCK1"
+    Info (12134): Parameter "init_file" = "./rawdata.hex"
+    Info (12134): Parameter "init_file_layout" = "PORT_A"
+    Info (12134): Parameter "maximum_depth" = "0"
+    Info (12134): Parameter "numwords_a" = "1024"
+    Info (12134): Parameter "numwords_b" = "0"
+    Info (12134): Parameter "operation_mode" = "ROM"
+    Info (12134): Parameter "outdata_aclr_a" = "NONE"
+    Info (12134): Parameter "outdata_aclr_b" = "NONE"
+    Info (12134): Parameter "outdata_reg_a" = "CLOCK0"
+    Info (12134): Parameter "outdata_reg_b" = "UNREGISTERED"
+    Info (12134): Parameter "power_up_uninitialized" = "FALSE"
+    Info (12134): Parameter "ram_block_type" = "AUTO"
+    Info (12134): Parameter "rdcontrol_aclr_b" = "NONE"
+    Info (12134): Parameter "rdcontrol_reg_b" = "CLOCK1"
+    Info (12134): Parameter "read_during_write_mode_mixed_ports" = "DONT_CARE"
+    Info (12134): Parameter "read_during_write_mode_port_a" = "NEW_DATA_NO_NBE_READ"
+    Info (12134): Parameter "read_during_write_mode_port_b" = "NEW_DATA_NO_NBE_READ"
+    Info (12134): Parameter "stratixiv_m144k_allow_dual_clocks" = "ON"
+    Info (12134): Parameter "width_a" = "16"
+    Info (12134): Parameter "width_b" = "1"
+    Info (12134): Parameter "width_byteena_a" = "1"
+    Info (12134): Parameter "width_byteena_b" = "1"
+    Info (12134): Parameter "width_eccstatus" = "3"
+    Info (12134): Parameter "widthad_a" = "10"
+    Info (12134): Parameter "widthad_b" = "1"
+    Info (12134): Parameter "wrcontrol_aclr_a" = "UNUSED"
+    Info (12134): Parameter "wrcontrol_aclr_b" = "NONE"
+    Info (12134): Parameter "wrcontrol_wraddress_reg_b" = "CLOCK1"
+    Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
+    Info (12134): Parameter "lpm_type" = "altsyncram"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_ob24.tdf
+    Info (12023): Found entity 1: altsyncram_ob24 File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/db/altsyncram_ob24.tdf Line: 27
+Info (12128): Elaborating entity "altsyncram_ob24" for hierarchy "ROM_RAWDATA:inst2|altsyncram:altsyncram_component|altsyncram_ob24:auto_generated" File: c:/intelfpga_lite/17.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "source_imag[0]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 21
+    Warning (13410): Pin "source_imag[1]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 21
+    Warning (13410): Pin "source_imag[2]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 21
+    Warning (13410): Pin "source_imag[3]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 21
+    Warning (13410): Pin "source_imag[4]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 21
+    Warning (13410): Pin "source_imag[5]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 21
+    Warning (13410): Pin "source_imag[6]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 21
+    Warning (13410): Pin "source_imag[7]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 21
+    Warning (13410): Pin "source_imag[8]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 21
+    Warning (13410): Pin "source_imag[9]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 21
+    Warning (13410): Pin "source_imag[10]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 21
+    Warning (13410): Pin "source_imag[11]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 21
+    Warning (13410): Pin "source_imag[12]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 21
+    Warning (13410): Pin "source_imag[13]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 21
+    Warning (13410): Pin "source_imag[14]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 21
+    Warning (13410): Pin "source_imag[15]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 21
+    Warning (13410): Pin "source_real[0]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 22
+    Warning (13410): Pin "source_real[1]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 22
+    Warning (13410): Pin "source_real[2]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 22
+    Warning (13410): Pin "source_real[3]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 22
+    Warning (13410): Pin "source_real[4]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 22
+    Warning (13410): Pin "source_real[5]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 22
+    Warning (13410): Pin "source_real[6]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 22
+    Warning (13410): Pin "source_real[7]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 22
+    Warning (13410): Pin "source_real[8]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 22
+    Warning (13410): Pin "source_real[9]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 22
+    Warning (13410): Pin "source_real[10]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 22
+    Warning (13410): Pin "source_real[11]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 22
+    Warning (13410): Pin "source_real[12]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 22
+    Warning (13410): Pin "source_real[13]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 22
+    Warning (13410): Pin "source_real[14]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 22
+    Warning (13410): Pin "source_real[15]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 22
+    Warning (13410): Pin "mag[0]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 25
+    Warning (13410): Pin "mag[1]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 25
+    Warning (13410): Pin "mag[2]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 25
+    Warning (13410): Pin "mag[3]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 25
+    Warning (13410): Pin "mag[4]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 25
+    Warning (13410): Pin "mag[5]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 25
+    Warning (13410): Pin "mag[6]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 25
+    Warning (13410): Pin "mag[7]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 25
+    Warning (13410): Pin "mag[8]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 25
+    Warning (13410): Pin "mag[9]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 25
+    Warning (13410): Pin "mag[10]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 25
+    Warning (13410): Pin "mag[11]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 25
+    Warning (13410): Pin "mag[12]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 25
+    Warning (13410): Pin "mag[13]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 25
+    Warning (13410): Pin "mag[14]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 25
+    Warning (13410): Pin "rad[0]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 26
+    Warning (13410): Pin "rad[1]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 26
+    Warning (13410): Pin "rad[2]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 26
+    Warning (13410): Pin "rad[3]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 26
+    Warning (13410): Pin "rad[4]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 26
+    Warning (13410): Pin "rad[5]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 26
+    Warning (13410): Pin "rad[6]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 26
+    Warning (13410): Pin "rad[7]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 26
+    Warning (13410): Pin "rad[8]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 26
+    Warning (13410): Pin "rad[9]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 26
+    Warning (13410): Pin "rad[10]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 26
+    Warning (13410): Pin "rad[11]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 26
+    Warning (13410): Pin "rad[12]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 26
+    Warning (13410): Pin "rad[13]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 26
+    Warning (13410): Pin "rad[14]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 26
+    Warning (13410): Pin "rad[15]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 26
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 128 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 3 input pins
+    Info (21059): Implemented 79 output pins
+    Info (21061): Implemented 30 logic cells
+    Info (21064): Implemented 16 RAM segments
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 68 warnings
+    Info: Peak virtual memory: 4869 megabytes
+    Info: Processing ended: Sun Mar 15 20:06:30 2020
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:26
+
+

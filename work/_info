@@ -1,0 +1,4692 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2
+Ealtera_fft_dual_port_ram
+Z1 w1581906116
+Z2 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 dfin^_@l97Ngz6cK0kjS62
+Z3 DPx9 altera_mf 20 altera_mf_components 0 22 Sn8Ol<dGSW99iM6NfOU>g1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_dual_port_ram.vhd
+Z7 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_dual_port_ram.vhd
+l0
+L36
+VlTfz;ez=Vg7UEXML<<]e90
+!s100 BdH<Ejoz0S=ZH<o>;hXEU3
+Z8 OV;C;10.5b;63
+32
+Z9 !s110 1584206625
+!i10b 1
+Z10 !s108 1584206625.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_dual_port_ram.vhd|
+Z12 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_dual_port_ram.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+R5
+DEx4 work 24 altera_fft_dual_port_ram 0 22 lTfz;ez=Vg7UEXML<<]e90
+l72
+L58
+VSM8E[:_P[o48?EMD@X[[c1
+!s100 gm8ZEgojZ5`o8H:6`25<N0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ealtera_fft_dual_port_rom
+R1
+R2
+R3
+R4
+R5
+R0
+Z15 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_dual_port_rom.vhd
+Z16 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_dual_port_rom.vhd
+l0
+L23
+Vl6<?C0D6;^:iDRfF9iYjm0
+!s100 H@bfF4k1@3>K]G7b8V1o31
+R8
+32
+R9
+!i10b 1
+R10
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_dual_port_rom.vhd|
+Z18 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_dual_port_rom.vhd|
+!i113 1
+R13
+R14
+Artl
+R2
+R3
+R4
+R5
+DEx4 work 24 altera_fft_dual_port_rom 0 22 l6<?C0D6;^:iDRfF9iYjm0
+l56
+L43
+Vll<jb<PTZAjO]_nz?VIZ11
+!s100 ;GaRoKFCibl2c^@<T9i<e3
+R8
+32
+R9
+!i10b 1
+R10
+R17
+R18
+!i113 1
+R13
+R14
+Ealtera_fft_mult_add
+R1
+Z19 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z20 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+R4
+R5
+R0
+Z21 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_mult_add.vhd
+Z22 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_mult_add.vhd
+l0
+L23
+V>n1lX;AfnI63ddb0jmem?2
+!s100 H3ijk[GZk;X8zc0o_;TmB2
+R8
+32
+R9
+!i10b 1
+R10
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_mult_add.vhd|
+Z24 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_mult_add.vhd|
+!i113 1
+R13
+R14
+Artl
+R19
+R20
+R4
+R5
+DEx4 work 19 altera_fft_mult_add 0 22 >n1lX;AfnI63ddb0jmem?2
+l90
+L42
+VQ4EgLKKY3l1mGVog02X`12
+!s100 XM<X`BMJP<j_BQ5P>ITka0
+R8
+32
+R9
+!i10b 1
+R10
+R23
+R24
+!i113 1
+R13
+R14
+Ealtera_fft_mult_add_new
+R1
+R2
+R19
+R20
+R4
+R5
+R0
+R21
+R22
+l0
+L140
+VO[dV5MGOM@<oOi>iJ[PC_2
+!s100 c]NbY]7F0z4IKmBL3546X3
+R8
+32
+R9
+!i10b 1
+R10
+R23
+R24
+!i113 1
+R13
+R14
+Artl
+R2
+R19
+R20
+R4
+R5
+DEx4 work 23 altera_fft_mult_add_new 0 22 O[dV5MGOM@<oOi>iJ[PC_2
+l160
+L159
+VfVF8L^;[b8Me_@3l``8M82
+!s100 UlgY90<;2FLH1=;EO>Cz?0
+R8
+32
+R9
+!i10b 1
+R10
+R23
+R24
+!i113 1
+R13
+R14
+Ealtera_fft_mult_add_old
+R1
+R3
+R19
+R20
+R4
+R5
+R0
+R21
+R22
+l0
+L396
+VKURGCGmC2Zn<]EnD7agEM1
+!s100 aF?UYhC@k_k9hUB@4LdAJ0
+R8
+32
+R9
+!i10b 1
+R10
+R23
+R24
+!i113 1
+R13
+R14
+Artl
+R3
+R19
+R20
+R4
+R5
+DEx4 work 23 altera_fft_mult_add_old 0 22 KURGCGmC2Zn<]EnD7agEM1
+l416
+L415
+V1aA3^HDP_gREWa6]>Q47>1
+!s100 `9=3M8iUc?d1YHYUJ4[A:0
+R8
+32
+R9
+!i10b 1
+R10
+R23
+R24
+!i113 1
+R13
+R14
+Ealtera_fft_single_port_rom
+R1
+R2
+R3
+R4
+R5
+R0
+Z25 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_single_port_rom.vhd
+Z26 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_single_port_rom.vhd
+l0
+L23
+VANi]fTKVb5b46jo5W1`C43
+!s100 G6:9o[WFbD2oWH;=8]nNE0
+R8
+32
+Z27 !s110 1584206626
+!i10b 1
+R10
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_single_port_rom.vhd|
+Z29 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/altera_fft_single_port_rom.vhd|
+!i113 1
+R13
+R14
+Artl
+R2
+R3
+R4
+R5
+DEx4 work 26 altera_fft_single_port_rom 0 22 ANi]fTKVb5b46jo5W1`C43
+l53
+L40
+Vz^]2HVULa5g63?J>?XCPF3
+!s100 3eQFGiX^SoLO=2e[F@R1U1
+R8
+32
+R27
+!i10b 1
+R10
+R28
+R29
+!i113 1
+R13
+R14
+Eapn_fft_cmult_cpx
+R1
+R3
+Z30 DPx4 work 8 fft_pack 0 22 FI>ng:6fAz_@k=mf4WM9=3
+Z31 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R19
+R4
+R5
+R0
+Z32 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_cmult_cpx.vhd
+Z33 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_cmult_cpx.vhd
+l0
+L38
+V=bYWbFfjVRSL:<8JTh>Bm2
+!s100 Kg]P?d<bZ42R^j;AFO5D@0
+R8
+32
+R27
+!i10b 1
+Z34 !s108 1584206626.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_cmult_cpx.vhd|
+Z36 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_cmult_cpx.vhd|
+!i113 1
+R13
+R14
+Amodel
+R3
+R30
+R31
+R19
+R4
+R5
+DEx4 work 17 apn_fft_cmult_cpx 0 22 =bYWbFfjVRSL:<8JTh>Bm2
+l70
+L58
+VzKinz1d1D]@O6odzPIkd`2
+!s100 F:81:fzHN^QIzEb6EPGVC3
+R8
+32
+R27
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R13
+R14
+Eapn_fft_cmult_cpx2
+R1
+R3
+R30
+R31
+R19
+R4
+R5
+R0
+Z37 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_cmult_cpx2.vhd
+Z38 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_cmult_cpx2.vhd
+l0
+L38
+VU8??hW_ME`SZ=8W=jSC[03
+!s100 ]AV:G_G7>7RTgN8nmOnYP0
+R8
+32
+R27
+!i10b 1
+R34
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_cmult_cpx2.vhd|
+Z40 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_cmult_cpx2.vhd|
+!i113 1
+R13
+R14
+Amodel
+R3
+R30
+R31
+R19
+R4
+R5
+DEx4 work 18 apn_fft_cmult_cpx2 0 22 U8??hW_ME`SZ=8W=jSC[03
+l69
+L57
+V:GAhK;4_DG>g9LE?dZb5L2
+!s100 <`leZDnb@NP<@ODVn=Ef73
+R8
+32
+R27
+!i10b 1
+R34
+R39
+R40
+!i113 1
+R13
+R14
+Eapn_fft_mult_can
+R1
+Z41 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R4
+R5
+R0
+Z42 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_mult_can.vhd
+Z43 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_mult_can.vhd
+l0
+L21
+V7djQJ9zOSU9ciBXze`XB62
+!s100 lEcolbV>2PX_DQRI[@?C42
+R8
+32
+R27
+!i10b 1
+R34
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_mult_can.vhd|
+Z45 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_mult_can.vhd|
+!i113 1
+R13
+R14
+Artl
+R41
+R4
+R5
+DEx4 work 16 apn_fft_mult_can 0 22 7djQJ9zOSU9ciBXze`XB62
+l57
+L39
+VgBV`IT4Z^m6nc0zOVIGB02
+!s100 [O7jgRH:4l_8HkZSQVEIK2
+R8
+32
+R27
+!i10b 1
+R34
+R44
+R45
+!i113 1
+R13
+R14
+Eapn_fft_mult_cpx
+R1
+R41
+R4
+R5
+R0
+Z46 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_mult_cpx.vhd
+Z47 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_mult_cpx.vhd
+l0
+L21
+VH0mEcncci:nk^b<88g[c>0
+!s100 PekPO659JaXM;L7Z6KC@M3
+R8
+32
+R27
+!i10b 1
+R34
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_mult_cpx.vhd|
+Z49 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_mult_cpx.vhd|
+!i113 1
+R13
+R14
+Artl
+R41
+R4
+R5
+DEx4 work 16 apn_fft_mult_cpx 0 22 H0mEcncci:nk^b<88g[c>0
+l50
+L39
+VJ_PdgaJVXTHY?2eC=XcaR1
+!s100 74f@jkKkhZ8@nLZ=>Z1LG1
+R8
+32
+R27
+!i10b 1
+R34
+R48
+R49
+!i113 1
+R13
+R14
+vTO18jROEBw/PEojQsx0aQ7I7iNrCOtSSvKvW/UZD2jg=
+R27
+!i10b 0
+!s100 ROe`QZ`_O8;YRM=fJ1[]X0
+I46H]kd_;`In1i[SgS6F3n3
+Z50 VDg1SIo80bB@j0V0VzS_@n1
+!i8a 287241856
+R0
+w1584206626
+8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_mult_cpx_1825.v
+FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_mult_cpx_1825.v
+Z51 L0 38
+Z52 OV;L;10.5b;63
+r1
+!s85 0
+31
+R34
+!s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_mult_cpx_1825.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/apn_fft_mult_cpx_1825.v|
+!i113 1
+Z53 o-work work
+Z54 tCvgOpt 0
+n73d7cc5
+Easj_fft_1dp_ram
+R1
+R3
+Z55 DPx3 lpm 14 lpm_components 0 22 LL[@dD@lm0N5G7N5gC9bn1
+R30
+R19
+R31
+R4
+R5
+R0
+Z56 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_1dp_ram.vhd
+Z57 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_1dp_ram.vhd
+l0
+L45
+V]OHn`]67;XXoA_1eSkz3k3
+!s100 S`C:DNImQjmZ6dT1A34iW1
+R8
+32
+Z58 !s110 1584206627
+!i10b 1
+Z59 !s108 1584206627.000000
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_1dp_ram.vhd|
+Z61 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_1dp_ram.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R55
+R30
+R19
+R31
+R4
+R5
+DEx4 work 15 asj_fft_1dp_ram 0 22 ]OHn`]67;XXoA_1eSkz3k3
+l71
+L64
+V^dDK04Q8^Eo@LJmJFI2[S2
+!s100 CEPg3e2;gQ`b5>TND^Z8f1
+R8
+32
+R58
+!i10b 1
+R59
+R60
+R61
+!i113 1
+R13
+R14
+Easj_fft_1tdp_rom
+R1
+R3
+R55
+R30
+R19
+R31
+R4
+R5
+R0
+Z62 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_1tdp_rom.vhd
+Z63 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_1tdp_rom.vhd
+l0
+L47
+VgP[dB`Bziaj@C>if@L^B]3
+!s100 5RR[1aA_`VT=bYoSPiobN2
+R8
+32
+R58
+!i10b 1
+R59
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_1tdp_rom.vhd|
+Z65 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_1tdp_rom.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R55
+R30
+R19
+R31
+R4
+R5
+DEx4 work 16 asj_fft_1tdp_rom 0 22 gP[dB`Bziaj@C>if@L^B]3
+l71
+L69
+V@R]PnWecKfAOznNdJEJGb0
+!s100 QWHJ5amCk5m0FGDP5Cm[N3
+R8
+32
+R58
+!i10b 1
+R59
+R64
+R65
+!i113 1
+R13
+R14
+Easj_fft_3dp_rom
+R1
+R3
+R55
+R30
+R19
+R31
+R4
+R5
+R0
+Z66 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_3dp_rom.vhd
+Z67 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_3dp_rom.vhd
+l0
+L48
+Vh^]W[8H[b3g]Qd<9d2U;[2
+!s100 NJZB;Z3]GoDRBm7fORh@C1
+R8
+32
+R58
+!i10b 1
+R59
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_3dp_rom.vhd|
+Z69 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_3dp_rom.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R55
+R30
+R19
+R31
+R4
+R5
+DEx4 work 15 asj_fft_3dp_rom 0 22 h^]W[8H[b3g]Qd<9d2U;[2
+l75
+L73
+VKaL[:8hf2n9JR6G>MBFzQ0
+!s100 :mE79a9_38cG`XNmB5ANP3
+R8
+32
+R58
+!i10b 1
+R59
+R68
+R69
+!i113 1
+R13
+R14
+Easj_fft_3pi_mram
+R1
+R3
+R55
+R31
+R19
+R30
+R4
+R5
+R0
+Z70 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_3pi_mram.vhd
+Z71 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_3pi_mram.vhd
+l0
+L75
+VEXCYai92S;kFFRToXgC`F1
+!s100 J;dbifL4akUIgYk4UE2_J3
+R8
+32
+R58
+!i10b 1
+R59
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_3pi_mram.vhd|
+Z73 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_3pi_mram.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R55
+R31
+R19
+R30
+R4
+R5
+DEx4 work 16 asj_fft_3pi_mram 0 22 EXCYai92S;kFFRToXgC`F1
+l158
+L100
+V3o@=e_a?W^>XG^aBb4L2Q3
+!s100 c22UP0>F=1@;3VhOa7Xhh2
+R8
+32
+R58
+!i10b 1
+R59
+R72
+R73
+!i113 1
+R13
+R14
+Easj_fft_3tdp_rom
+R1
+R3
+R55
+R30
+R19
+R31
+R4
+R5
+R0
+Z74 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_3tdp_rom.vhd
+Z75 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_3tdp_rom.vhd
+l0
+L55
+V?azOQT]WG6f95<jX8TYCz1
+!s100 4Dga_zNgbY[HGJmf<5XGF0
+R8
+32
+R58
+!i10b 1
+R59
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_3tdp_rom.vhd|
+Z77 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_3tdp_rom.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R55
+R30
+R19
+R31
+R4
+R5
+DEx4 work 16 asj_fft_3tdp_rom 0 22 ?azOQT]WG6f95<jX8TYCz1
+l95
+L87
+VaO=mQ2YEES@jzc5=4DZ9U2
+!s100 [:FgeoBUPf>UiGOziT]h@1
+R8
+32
+R58
+!i10b 1
+R59
+R76
+R77
+!i113 1
+R13
+R14
+Easj_fft_4dp_ram
+R1
+R3
+R55
+R30
+R19
+R31
+R4
+R5
+R0
+Z78 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_4dp_ram.vhd
+Z79 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_4dp_ram.vhd
+l0
+L47
+Vag^U51;I8jUf5i9[=i3Ia1
+!s100 FMefJHTCDWSLad;YlGzdB2
+R8
+32
+R58
+!i10b 1
+R59
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_4dp_ram.vhd|
+Z81 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_4dp_ram.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R55
+R30
+R19
+R31
+R4
+R5
+DEx4 work 15 asj_fft_4dp_ram 0 22 ag^U51;I8jUf5i9[=i3Ia1
+l80
+L68
+VLe>:kYClMGeKI9=SacmHg2
+!s100 ^[=FQRD_[ZKROzjC2]niI1
+R8
+32
+R58
+!i10b 1
+R59
+R80
+R81
+!i113 1
+R13
+R14
+Easj_fft_6tdp_rom
+R1
+R3
+R55
+R30
+R19
+R31
+R4
+R5
+R0
+Z82 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_6tdp_rom.vhd
+Z83 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_6tdp_rom.vhd
+l0
+L56
+VU<^4XBomQSNWeV;JhCjb71
+!s100 Y2NFOIVDDn2Wnmfi^jAZ:1
+R8
+32
+R58
+!i10b 1
+R59
+Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_6tdp_rom.vhd|
+Z85 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_6tdp_rom.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R55
+R30
+R19
+R31
+R4
+R5
+DEx4 work 16 asj_fft_6tdp_rom 0 22 U<^4XBomQSNWeV;JhCjb71
+l101
+L96
+V_l6@hl`P2EH0WQ_Mn_N>z3
+!s100 RK54B]AaV2l9N4X71jEO>1
+R8
+32
+R58
+!i10b 1
+R59
+R84
+R85
+!i113 1
+R13
+R14
+Easj_fft_alt_shift_tdl
+R1
+R3
+R55
+R31
+R19
+R30
+R4
+R5
+R0
+Z86 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_alt_shift_tdl.vhd
+Z87 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_alt_shift_tdl.vhd
+l0
+L82
+V3]S[Mb=[j=K_dF=Dn]YS<3
+!s100 hU6COj6k<=HjI9[4C^[5F1
+R8
+32
+Z88 !s110 1584206628
+!i10b 1
+Z89 !s108 1584206628.000000
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_alt_shift_tdl.vhd|
+Z91 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_alt_shift_tdl.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R55
+R31
+R19
+R30
+R4
+R5
+DEx4 work 21 asj_fft_alt_shift_tdl 0 22 3]S[Mb=[j=K_dF=Dn]YS<3
+l124
+L100
+V?]=AZ3HaiTe__kcGh<@Pn1
+!s100 fnIC2e<[>I`T_<nf^IITd3
+R8
+32
+R88
+!i10b 1
+R89
+R90
+R91
+!i113 1
+R13
+R14
+Easj_fft_bfp_ctrl
+R1
+R30
+R19
+R31
+R4
+R5
+R0
+Z92 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_ctrl.vhd
+Z93 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_ctrl.vhd
+l0
+L40
+VWhV4jaZ29Bn8bUdc2?=AU3
+!s100 MXG^BRXFAERV:RH8a];z33
+R8
+32
+R88
+!i10b 1
+R89
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_ctrl.vhd|
+Z95 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_ctrl.vhd|
+!i113 1
+R13
+R14
+Asyn
+R30
+R19
+R31
+R4
+R5
+DEx4 work 16 asj_fft_bfp_ctrl 0 22 WhV4jaZ29Bn8bUdc2?=AU3
+l116
+L62
+V7E=jI;]S1?nn[`SLmNOZl1
+!s100 DLB7z_f_PWAzk:YjYHo@82
+R8
+32
+R88
+!i10b 1
+R89
+R94
+R95
+!i113 1
+R13
+R14
+Easj_fft_bfp_i
+R1
+R31
+R30
+R19
+R20
+R4
+R5
+R0
+Z96 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_i.vhd
+Z97 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_i.vhd
+l0
+L39
+V2NOeLmeeh06F>A[@GNM7C0
+!s100 GkjUV]eEK>lJ=bP37G<o_2
+R8
+32
+R88
+!i10b 1
+R89
+Z98 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_i.vhd|
+Z99 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_i.vhd|
+!i113 1
+R13
+R14
+Ainput_bfp
+R31
+R30
+R19
+R20
+R4
+R5
+DEx4 work 13 asj_fft_bfp_i 0 22 2NOeLmeeh06F>A[@GNM7C0
+l125
+L70
+V0AAj_Q4dSobF7TFcAM3dH2
+!s100 IGAajG2N;@^@I@[4E^nWg3
+R8
+32
+R88
+!i10b 1
+R89
+R98
+R99
+!i113 1
+R13
+R14
+Easj_fft_bfp_i_1pt
+R1
+R31
+R30
+R19
+R20
+R4
+R5
+R0
+Z100 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_i_1pt.vhd
+Z101 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_i_1pt.vhd
+l0
+L39
+VN_2@lYZ8[1ogZYO<f[2IY3
+!s100 eAC76RJozS:FLKQH<dd_@0
+R8
+32
+R88
+!i10b 1
+R89
+Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_i_1pt.vhd|
+Z103 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_i_1pt.vhd|
+!i113 1
+R13
+R14
+Ainput_bfp
+R31
+R30
+R19
+R20
+R4
+R5
+DEx4 work 17 asj_fft_bfp_i_1pt 0 22 N_2@lYZ8[1ogZYO<f[2IY3
+l97
+L69
+V?lD=L?L@JC0JolNF_Mc<R1
+!s100 0_SJ6AMMKT98ABB13WhW22
+R8
+32
+R88
+!i10b 1
+R89
+R102
+R103
+!i113 1
+R13
+R14
+Easj_fft_bfp_o
+R1
+R30
+R19
+R31
+R4
+R5
+R0
+Z104 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_o.vhd
+Z105 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_o.vhd
+l0
+L45
+VF=J7_K53]dFh9b=dZJ8Zf0
+!s100 Z:G>Gl>g6hFS4oJlDegk02
+R8
+32
+R88
+!i10b 1
+R89
+Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_o.vhd|
+Z107 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_o.vhd|
+!i113 1
+R13
+R14
+Aoutput_bfp
+R30
+R19
+R31
+R4
+R5
+DEx4 work 13 asj_fft_bfp_o 0 22 F=J7_K53]dFh9b=dZJ8Zf0
+l143
+L76
+VPJK^nc[3Hb10e@60>=XDe0
+!s100 0BNX>C]bTo7^nE<PH?3GX1
+R8
+32
+R88
+!i10b 1
+R89
+R106
+R107
+!i113 1
+R13
+R14
+Easj_fft_bfp_o_1pt
+R1
+R31
+R30
+R19
+R20
+R4
+R5
+R0
+Z108 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_o_1pt.vhd
+Z109 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_o_1pt.vhd
+l0
+L35
+VJz8;XV;cl]WX`]BH5e_O31
+!s100 CDnnU<;9dYM3C_>9O6_SQ3
+R8
+32
+R88
+!i10b 1
+R89
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_o_1pt.vhd|
+Z111 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_bfp_o_1pt.vhd|
+!i113 1
+R13
+R14
+Aoutput_bfp
+R31
+R30
+R19
+R20
+R4
+R5
+DEx4 work 17 asj_fft_bfp_o_1pt 0 22 Jz8;XV;cl]WX`]BH5e_O31
+l100
+L60
+VDk3_V@@g>?=cGL4E5OE^g3
+!s100 ]NJ1PBD_0DbW:JlWVk44b3
+R8
+32
+R88
+!i10b 1
+R89
+R110
+R111
+!i113 1
+R13
+R14
+Easj_fft_burst_ctrl
+R1
+R30
+R19
+R31
+R4
+R5
+R0
+Z112 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_burst_ctrl.vhd
+Z113 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_burst_ctrl.vhd
+l0
+L41
+Vh:ACLG7F:G?53If2FbgZ_2
+!s100 n201E]1Mo`W3TGDRnn=lz0
+R8
+32
+Z114 !s110 1584206629
+!i10b 1
+R89
+Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_burst_ctrl.vhd|
+Z116 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_burst_ctrl.vhd|
+!i113 1
+R13
+R14
+Aburst_sw
+R30
+R19
+R31
+R4
+R5
+DEx4 work 18 asj_fft_burst_ctrl 0 22 h:ACLG7F:G?53If2FbgZ_2
+l96
+L92
+V1SHEIja]A518z36:l504m1
+!s100 edzQk^L5SGOdYGmIN4zQa2
+R8
+32
+R114
+!i10b 1
+R89
+R115
+R116
+!i113 1
+R13
+R14
+Easj_fft_burst_ctrl_de
+R1
+R30
+R19
+R31
+R4
+R5
+R0
+Z117 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_burst_ctrl_de.vhd
+Z118 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_burst_ctrl_de.vhd
+l0
+L39
+VdSDW^IWDcbeA]nD;NjJaD0
+!s100 HXCje19Qe6_c?QU?W6b0:3
+R8
+32
+R114
+!i10b 1
+Z119 !s108 1584206629.000000
+Z120 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_burst_ctrl_de.vhd|
+Z121 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_burst_ctrl_de.vhd|
+!i113 1
+R13
+R14
+Acnt_sw
+R30
+R19
+R31
+R4
+R5
+DEx4 work 21 asj_fft_burst_ctrl_de 0 22 dSDW^IWDcbeA]nD;NjJaD0
+l104
+L101
+V?@<QIaIfWFA_5`d2O6b^o0
+!s100 _<hOBYF[C324i?MQ1mCHk2
+R8
+32
+R114
+!i10b 1
+R119
+R120
+R121
+!i113 1
+R13
+R14
+Easj_fft_burst_ctrl_qe
+Z122 w1581906117
+R30
+R19
+R31
+R4
+R5
+R0
+Z123 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_burst_ctrl_qe.vhd
+Z124 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_burst_ctrl_qe.vhd
+l0
+L39
+V;iYY;U76O>BSXI016HfMP1
+!s100 @UjYbGlz>k_m?]JW1E]^z1
+R8
+32
+R114
+!i10b 1
+R119
+Z125 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_burst_ctrl_qe.vhd|
+Z126 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_burst_ctrl_qe.vhd|
+!i113 1
+R13
+R14
+Acnt_sw
+R30
+R19
+R31
+R4
+R5
+DEx4 work 21 asj_fft_burst_ctrl_qe 0 22 ;iYY;U76O>BSXI016HfMP1
+l133
+L126
+V>X41F1ZZfbLF]L[:2[0f^1
+!s100 9PIJf2XKD?VakKHA7Cj`C0
+R8
+32
+R114
+!i10b 1
+R119
+R125
+R126
+!i113 1
+R13
+R14
+Easj_fft_cmult_can
+R122
+R3
+R55
+R30
+R31
+R19
+R4
+R5
+R0
+Z127 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cmult_can.vhd
+Z128 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cmult_can.vhd
+l0
+L44
+V_d3@:FWdY7;gCi<mS7Hbc2
+!s100 AmBPC<JfaWhW3;=F0EkjG0
+R8
+32
+R114
+!i10b 1
+R119
+Z129 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cmult_can.vhd|
+Z130 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cmult_can.vhd|
+!i113 1
+R13
+R14
+Amodel
+R3
+R55
+R30
+R31
+R19
+R4
+R5
+DEx4 work 17 asj_fft_cmult_can 0 22 _d3@:FWdY7;gCi<mS7Hbc2
+l113
+L65
+VoDMJ0Vml^Eb2gQ>><5G0[0
+!s100 ci]1FO9HSokhCBzC4<iSG1
+R8
+32
+R114
+!i10b 1
+R119
+R129
+R130
+!i113 1
+R13
+R14
+Easj_fft_cmult_std
+R122
+R3
+R55
+R30
+R31
+R19
+R4
+R5
+R0
+Z131 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cmult_std.vhd
+Z132 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cmult_std.vhd
+l0
+L43
+VY2oCGeF8B`=C1Mj;U>06>0
+!s100 62oXVBY8=8hD8;jUWFVXe3
+R8
+32
+R114
+!i10b 1
+R119
+Z133 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cmult_std.vhd|
+Z134 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cmult_std.vhd|
+!i113 1
+R13
+R14
+Amodel
+R3
+R55
+R30
+R31
+R19
+R4
+R5
+DEx4 work 17 asj_fft_cmult_std 0 22 Y2oCGeF8B`=C1Mj;U>06>0
+l108
+L62
+VhHgJf^bC8[?g7J<Ea;2`93
+!s100 iigQ:5Tcm@]<BU?^7?5LV2
+R8
+32
+R114
+!i10b 1
+R119
+R133
+R134
+!i113 1
+R13
+R14
+Easj_fft_cnt_ctrl
+R122
+R30
+R19
+R31
+R4
+R5
+R0
+Z135 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cnt_ctrl.vhd
+Z136 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cnt_ctrl.vhd
+l0
+L35
+VdDe>onzUPe7:0OdjU[j550
+!s100 H1NYcXm3G[J3WXE^>c<1e3
+R8
+32
+Z137 !s110 1584206630
+!i10b 1
+R119
+Z138 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cnt_ctrl.vhd|
+Z139 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cnt_ctrl.vhd|
+!i113 1
+R13
+R14
+Acnt_sw
+R30
+R19
+R31
+R4
+R5
+DEx4 work 16 asj_fft_cnt_ctrl 0 22 dDe>onzUPe7:0OdjU[j550
+l89
+L86
+V`=Q7jID^LMWQ1Xe8Z6j_01
+!s100 M2G?D=>6E<nF9JECQZZl[0
+R8
+32
+R137
+!i10b 1
+R119
+R138
+R139
+!i113 1
+R13
+R14
+Easj_fft_cnt_ctrl_de
+R122
+R30
+R19
+R31
+R4
+R5
+R0
+Z140 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cnt_ctrl_de.vhd
+Z141 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cnt_ctrl_de.vhd
+l0
+L36
+VT]SDm:95144>[zW@9Ne1f2
+!s100 jAMR67S=5[L=QLSk3@Efa2
+R8
+32
+R137
+!i10b 1
+Z142 !s108 1584206630.000000
+Z143 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cnt_ctrl_de.vhd|
+Z144 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cnt_ctrl_de.vhd|
+!i113 1
+R13
+R14
+Acnt_sw
+R30
+R19
+R31
+R4
+R5
+DEx4 work 19 asj_fft_cnt_ctrl_de 0 22 T]SDm:95144>[zW@9Ne1f2
+l101
+L98
+VRTDHf`0]fAK1^nGSU`9V=2
+!s100 37j1<25^>M>Om9fQDZXlN1
+R8
+32
+R137
+!i10b 1
+R142
+R143
+R144
+!i113 1
+R13
+R14
+Easj_fft_cxb_addr
+R122
+R30
+R31
+R19
+R4
+R5
+R0
+Z145 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_addr.vhd
+Z146 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_addr.vhd
+l0
+L37
+V[NS4kmcY3XjLAhGJ0_YE>3
+!s100 ]EbUbcnAU;8^P]RYMhMb=1
+R8
+32
+R137
+!i10b 1
+R142
+Z147 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_addr.vhd|
+Z148 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_addr.vhd|
+!i113 1
+R13
+R14
+Asyn
+R30
+R31
+R19
+R4
+R5
+DEx4 work 16 asj_fft_cxb_addr 0 22 [NS4kmcY3XjLAhGJ0_YE>3
+l78
+L60
+VhoGHN9aR7?nb4M`]^UeZP0
+!s100 Z9QUE8e_mX_]1=bVd]UJl0
+R8
+32
+R137
+!i10b 1
+R142
+R147
+R148
+!i113 1
+R13
+R14
+Easj_fft_cxb_data
+R122
+R30
+R31
+R19
+R4
+R5
+R0
+Z149 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_data.vhd
+Z150 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_data.vhd
+l0
+L44
+Vo1ZWkY8kDOjehLK6=Yb`G2
+!s100 9BmcUX1@48i?H^6>5lHz:1
+R8
+32
+R137
+!i10b 1
+R142
+Z151 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_data.vhd|
+Z152 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_data.vhd|
+!i113 1
+R13
+R14
+Asyn
+R30
+R31
+R19
+R4
+R5
+DEx4 work 16 asj_fft_cxb_data 0 22 o1ZWkY8kDOjehLK6=Yb`G2
+l76
+L66
+V4fzgWM;:mXm2OU99dk:hG1
+!s100 PaA`k;Tc[@he^3E=;QP0T1
+R8
+32
+R137
+!i10b 1
+R142
+R151
+R152
+!i113 1
+R13
+R14
+Easj_fft_cxb_data_mram
+R122
+R30
+R31
+R19
+R4
+R5
+R0
+Z153 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_data_mram.vhd
+Z154 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_data_mram.vhd
+l0
+L38
+V;G4Dof7AU_P8nEF^]:PFk0
+!s100 onieUML0dLSFP2D7h6RaJ2
+R8
+32
+R137
+!i10b 1
+R142
+Z155 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_data_mram.vhd|
+Z156 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_data_mram.vhd|
+!i113 1
+R13
+R14
+Asyn
+R30
+R31
+R19
+R4
+R5
+DEx4 work 21 asj_fft_cxb_data_mram 0 22 ;G4Dof7AU_P8nEF^]:PFk0
+l77
+L67
+VWhP[z9_`AQjgM=8UR79X;0
+!s100 mMf1VhSVGMGQJA1V^Pa9c0
+R8
+32
+R137
+!i10b 1
+R142
+R155
+R156
+!i113 1
+R13
+R14
+Easj_fft_cxb_data_r
+R122
+R30
+R31
+R19
+R4
+R5
+R0
+Z157 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_data_r.vhd
+Z158 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_data_r.vhd
+l0
+L44
+Voe5k=3b_ecPT>TLH<:WPc2
+!s100 88[6[P_CbR`zR@k=Hil[O3
+R8
+32
+R137
+!i10b 1
+R142
+Z159 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_data_r.vhd|
+Z160 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_cxb_data_r.vhd|
+!i113 1
+R13
+R14
+Asyn
+R30
+R31
+R19
+R4
+R5
+DEx4 work 18 asj_fft_cxb_data_r 0 22 oe5k=3b_ecPT>TLH<:WPc2
+l76
+L66
+Vl]^Q<;j^i7gh87m@zgO_V3
+!s100 nb5D1G]on99GLdlEfOWH93
+R8
+32
+R137
+!i10b 1
+R142
+R159
+R160
+!i113 1
+R13
+R14
+Easj_fft_data_ram
+R122
+R3
+R55
+R31
+R19
+R30
+R4
+R5
+R0
+Z161 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_data_ram.vhd
+Z162 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_data_ram.vhd
+l0
+L40
+V[[B3W<VTQDDcnFci?EXg72
+!s100 I^eDnMIjK1^JHPT3D59oY1
+R8
+32
+R137
+!i10b 1
+R142
+Z163 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_data_ram.vhd|
+Z164 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_data_ram.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R55
+R31
+R19
+R30
+R4
+R5
+DEx4 work 16 asj_fft_data_ram 0 22 [[B3W<VTQDDcnFci?EXg72
+l88
+L61
+VVWJ9f=>`m0d<G<<S<g_]O1
+!s100 BQj[TVeh1koVS^oaFWONX1
+R8
+32
+R137
+!i10b 1
+R142
+R163
+R164
+!i113 1
+R13
+R14
+Easj_fft_data_ram_dp
+R122
+R3
+R55
+R31
+R19
+R30
+R4
+R5
+R0
+Z165 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_data_ram_dp.vhd
+Z166 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_data_ram_dp.vhd
+l0
+L40
+V:?ZnejiOGgWzjFFGZRC2V3
+!s100 :TB8`[7Z<`32T`F4fQdU^0
+R8
+32
+Z167 !s110 1584206631
+!i10b 1
+R142
+Z168 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_data_ram_dp.vhd|
+Z169 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_data_ram_dp.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R55
+R31
+R19
+R30
+R4
+R5
+DEx4 work 19 asj_fft_data_ram_dp 0 22 :?ZnejiOGgWzjFFGZRC2V3
+l112
+L63
+VYfMbD;AneiOHh`B2ViWj:2
+!s100 @8Dhao@;9NCl0^j?09F<B3
+R8
+32
+R167
+!i10b 1
+R142
+R168
+R169
+!i113 1
+R13
+R14
+Easj_fft_dataadgen
+R122
+R30
+R19
+R31
+R4
+R5
+R0
+Z170 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dataadgen.vhd
+Z171 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dataadgen.vhd
+l0
+L38
+VK<6YQ`^QX=Vo2fM6o0KRn1
+!s100 Ug8k9CU[2L5>d5NMAO_Qi3
+R8
+32
+R167
+!i10b 1
+Z172 !s108 1584206631.000000
+Z173 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dataadgen.vhd|
+Z174 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dataadgen.vhd|
+!i113 1
+R13
+R14
+Agen_all
+R30
+R19
+R31
+R4
+R5
+DEx4 work 17 asj_fft_dataadgen 0 22 K<6YQ`^QX=Vo2fM6o0KRn1
+l66
+L60
+VL9FHAQF]45S@h4:6j6bG=2
+!s100 9:OWM<]]1<UkGAehf<[=Z3
+R8
+32
+R167
+!i10b 1
+R172
+R173
+R174
+!i113 1
+R13
+R14
+Easj_fft_dft_bfp
+R122
+R3
+R55
+R31
+R30
+R19
+R20
+R4
+R5
+R0
+Z175 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dft_bfp.vhd
+Z176 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dft_bfp.vhd
+l0
+L42
+Vl[QzRCnWb;[P4z2Y7WhC41
+!s100 J=UEPN]iZ]`kRA1G5K2gV2
+R8
+32
+R167
+!i10b 1
+R172
+Z177 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dft_bfp.vhd|
+Z178 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dft_bfp.vhd|
+!i113 1
+R13
+R14
+Adft_r4
+R3
+R55
+R31
+R30
+R19
+R20
+R4
+R5
+DEx4 work 15 asj_fft_dft_bfp 0 22 l[QzRCnWb;[P4z2Y7WhC41
+l212
+L95
+V1`jkK5A]P]5HNz<0lnQMg2
+!s100 2T>m5=^BAVzdOK=k[Zb`>2
+R8
+32
+R167
+!i10b 1
+R172
+R177
+R178
+!i113 1
+R13
+R14
+Easj_fft_dft_bfp_sgl
+R122
+R3
+R55
+R31
+R30
+R19
+R20
+R4
+R5
+R0
+Z179 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dft_bfp_sgl.vhd
+Z180 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dft_bfp_sgl.vhd
+l0
+L42
+VhZBV33GMF`YlhZogN]nNJ3
+!s100 RRkR9;IEeOlYehI3]_`2M1
+R8
+32
+R167
+!i10b 1
+R172
+Z181 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dft_bfp_sgl.vhd|
+Z182 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dft_bfp_sgl.vhd|
+!i113 1
+R13
+R14
+Adft_r4
+R3
+R55
+R31
+R30
+R19
+R20
+R4
+R5
+DEx4 work 19 asj_fft_dft_bfp_sgl 0 22 hZBV33GMF`YlhZogN]nNJ3
+l255
+L80
+V_4dHVXA8SSQ^NGzk83nZB1
+!s100 P8WaoQRKAhoMNg[;4;L7]0
+R8
+32
+R167
+!i10b 1
+R172
+R181
+R182
+!i113 1
+R13
+R14
+Easj_fft_dp_mram
+R122
+R3
+R55
+R31
+R19
+R30
+R4
+R5
+R0
+Z183 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dp_mram.vhd
+Z184 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dp_mram.vhd
+l0
+L73
+V>h6z5_C_BZXNPjM[KFLZ71
+!s100 ^B`6KnJhDLINDo36m78Pg0
+R8
+32
+R167
+!i10b 1
+R172
+Z185 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dp_mram.vhd|
+Z186 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dp_mram.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R55
+R31
+R19
+R30
+R4
+R5
+DEx4 work 15 asj_fft_dp_mram 0 22 >h6z5_C_BZXNPjM[KFLZ71
+l131
+L92
+VICKOP:9HnEM<zYoe:TaLQ0
+!s100 YQSQ4nAKdfeiEkmH>37<T3
+R8
+32
+R167
+!i10b 1
+R172
+R185
+R186
+!i113 1
+R13
+R14
+Easj_fft_dpi_mram
+R122
+R3
+R55
+R31
+R19
+R30
+R4
+R5
+R0
+Z187 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dpi_mram.vhd
+Z188 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dpi_mram.vhd
+l0
+L76
+V9PB@fhN:bHlG]SV3z7cmU2
+!s100 ooTiZK]TFWTV2gohaHLGd1
+R8
+32
+R167
+!i10b 1
+R172
+Z189 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dpi_mram.vhd|
+Z190 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dpi_mram.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R55
+R31
+R19
+R30
+R4
+R5
+DEx4 work 16 asj_fft_dpi_mram 0 22 9PB@fhN:bHlG]SV3z7cmU2
+l160
+L98
+VdMB^Y;dIdf;X096?i?GXh0
+!s100 _OeS_n[3ff5A@Xdk1k;gS3
+R8
+32
+R167
+!i10b 1
+R172
+R189
+R190
+!i113 1
+R13
+R14
+Easj_fft_dualstream
+R122
+Z191 DPx4 work 18 auk_dspip_math_pkg 0 22 feAJWTeL]Mhij:o[8KNI`0
+Z192 DPx4 work 17 auk_dspip_lib_pkg 0 22 @5TZ3J`6R0Z4E@<HDj:l_0
+R30
+R41
+R19
+R31
+R4
+R5
+R0
+Z193 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dualstream.vhd
+Z194 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dualstream.vhd
+l0
+L40
+Vz4AG;BKj=2To:S34JR5ZJ3
+!s100 6<]H0jW7[WNngKbWe1nPC3
+R8
+32
+R167
+!i10b 1
+R172
+Z195 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dualstream.vhd|
+Z196 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_dualstream.vhd|
+!i113 1
+R13
+R14
+Atransform
+R191
+R192
+R30
+R41
+R19
+R31
+R4
+R5
+DEx4 work 18 asj_fft_dualstream 0 22 z4AG;BKj=2To:S34JR5ZJ3
+l529
+L88
+V4=fV>keN`V=TO[^8A4fGd1
+!s100 jZ=H0K`_>hM=WRQRC9`CH3
+R8
+32
+R167
+!i10b 1
+R172
+R195
+R196
+!i113 1
+R13
+R14
+Easj_fft_in_write_sgl
+R122
+R31
+R30
+R19
+R20
+R4
+R5
+R0
+Z197 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_in_write_sgl.vhd
+Z198 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_in_write_sgl.vhd
+l0
+L35
+V8?>8gmeS:<NL_EAam[QVH0
+!s100 >DV<V8:jlmf@]0f5d2n]52
+R8
+32
+Z199 !s110 1584206632
+!i10b 1
+Z200 !s108 1584206632.000000
+Z201 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_in_write_sgl.vhd|
+Z202 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_in_write_sgl.vhd|
+!i113 1
+R13
+R14
+Awriter
+R31
+R30
+R19
+R20
+R4
+R5
+DEx4 work 20 asj_fft_in_write_sgl 0 22 8?>8gmeS:<NL_EAam[QVH0
+l117
+L66
+V736a9JH1JPLR8HVeT74NL2
+!s100 bneePTh<lfR;GR`^nEPho3
+R8
+32
+R199
+!i10b 1
+R200
+R201
+R202
+!i113 1
+R13
+R14
+Easj_fft_lcm_mult
+R122
+R3
+R55
+R31
+R30
+R19
+R20
+R4
+R5
+R0
+Z203 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lcm_mult.vhd
+Z204 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lcm_mult.vhd
+l0
+L43
+VKJQN>^eFG4X848K^Ca3lE3
+!s100 FCo0LzEgC`di7c?04e35G0
+R8
+32
+R199
+!i10b 1
+R200
+Z205 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lcm_mult.vhd|
+Z206 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lcm_mult.vhd|
+!i113 1
+R13
+R14
+Amult
+R3
+R55
+R31
+R30
+R19
+R20
+R4
+R5
+DEx4 work 16 asj_fft_lcm_mult 0 22 KJQN>^eFG4X848K^Ca3lE3
+l135
+L62
+V9@kh@db:65cJnWWSU;O`T3
+!s100 2ZW1zz^GN8lLVhWgPbTWI3
+R8
+32
+R199
+!i10b 1
+R200
+R205
+R206
+!i113 1
+R13
+R14
+Easj_fft_lcm_mult_2m
+R122
+R3
+R55
+R31
+R30
+R19
+R20
+R4
+R5
+R0
+Z207 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lcm_mult_2m.vhd
+Z208 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lcm_mult_2m.vhd
+l0
+L45
+VdC51OJ^JhjCEgb`cU9:PK2
+!s100 _a4cA=A@<=hUeVMd_AKcc0
+R8
+32
+R199
+!i10b 1
+R200
+Z209 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lcm_mult_2m.vhd|
+Z210 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lcm_mult_2m.vhd|
+!i113 1
+R13
+R14
+Amult
+R3
+R55
+R31
+R30
+R19
+R20
+R4
+R5
+DEx4 work 19 asj_fft_lcm_mult_2m 0 22 dC51OJ^JhjCEgb`cU9:PK2
+l121
+L64
+VNW]QHRd`J<G@LfM:@ZSW71
+!s100 K;VCo_UM9z>EIIVjh>Kom3
+R8
+32
+R199
+!i10b 1
+R200
+R209
+R210
+!i113 1
+R13
+R14
+Easj_fft_lpp
+R122
+R31
+R30
+R19
+R20
+R4
+R5
+R0
+Z211 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpp.vhd
+Z212 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpp.vhd
+l0
+L36
+V;zOBS:`bZ>ONL4IISmiC:3
+!s100 1]niQl[DHBCb20jN]WePk3
+R8
+32
+R199
+!i10b 1
+R200
+Z213 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpp.vhd|
+Z214 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpp.vhd|
+!i113 1
+R13
+R14
+Adft
+R31
+R30
+R19
+R20
+R4
+R5
+DEx4 work 11 asj_fft_lpp 0 22 ;zOBS:`bZ>ONL4IISmiC:3
+l107
+L67
+V1io;B?A5PD4@^4Q??]D5a2
+!s100 ^QDhk_i9Z[DZ_TSd?EQiM1
+R8
+32
+R199
+!i10b 1
+R200
+R213
+R214
+!i113 1
+R13
+R14
+Easj_fft_lpp_serial
+R122
+R31
+R30
+R19
+R20
+R4
+R5
+R0
+Z215 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpp_serial.vhd
+Z216 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpp_serial.vhd
+l0
+L37
+VN^khNfgT3eU[ZKQ9i`>:_0
+!s100 B=?D5FRCcNz@?8kU_0B^c0
+R8
+32
+R199
+!i10b 1
+R200
+Z217 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpp_serial.vhd|
+Z218 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpp_serial.vhd|
+!i113 1
+R13
+R14
+Alp
+R31
+R30
+R19
+R20
+R4
+R5
+DEx4 work 18 asj_fft_lpp_serial 0 22 N^khNfgT3eU[ZKQ9i`>:_0
+l152
+L65
+V0Nie;N4U>RSg?k`TKK1P11
+!s100 zfJ5C>M7bO:f:Z4;gY;^D2
+R8
+32
+R199
+!i10b 1
+R200
+R217
+R218
+!i113 1
+R13
+R14
+Easj_fft_lpp_serial_r2
+R122
+R31
+R30
+R19
+R20
+R4
+R5
+R0
+Z219 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpp_serial_r2.vhd
+Z220 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpp_serial_r2.vhd
+l0
+L39
+V@1C9o4`ANRD0DfP;[Q1WE2
+!s100 ]I@TX`5aaLZDcLG`X=:OZ2
+R8
+32
+R199
+!i10b 1
+R200
+Z221 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpp_serial_r2.vhd|
+Z222 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpp_serial_r2.vhd|
+!i113 1
+R13
+R14
+Alp
+R31
+R30
+R19
+R20
+R4
+R5
+DEx4 work 21 asj_fft_lpp_serial_r2 0 22 @1C9o4`ANRD0DfP;[Q1WE2
+l119
+L63
+Vj=GaK1f6N7RjTfP5A0inM2
+!s100 W`ZGz@QXFTjPFlmBliI[d0
+R8
+32
+R199
+!i10b 1
+R200
+R221
+R222
+!i113 1
+R13
+R14
+Easj_fft_lpprdadgen
+R122
+R30
+R19
+R31
+R4
+R5
+R0
+Z223 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpprdadgen.vhd
+Z224 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpprdadgen.vhd
+l0
+L37
+Vi03>6md<]SNjYkR5oEmT31
+!s100 Em:j@MALK3J`?G6UC5JZW2
+R8
+32
+R199
+!i10b 1
+R200
+Z225 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpprdadgen.vhd|
+Z226 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpprdadgen.vhd|
+!i113 1
+R13
+R14
+Agen_all
+R30
+R19
+R31
+R4
+R5
+DEx4 work 18 asj_fft_lpprdadgen 0 22 i03>6md<]SNjYkR5oEmT31
+l85
+L63
+VEHZ<JBaEH80US<i4Q3aN11
+!s100 =DP>4ohjH:9497I]iVV052
+R8
+32
+R199
+!i10b 1
+R200
+R225
+R226
+!i113 1
+R13
+R14
+Easj_fft_lpprdadr2gen
+R122
+R30
+R19
+R31
+R4
+R5
+R0
+Z227 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpprdadr2gen.vhd
+Z228 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpprdadr2gen.vhd
+l0
+L37
+VM2Yd9Y9E5Xja0HN[:ojA42
+!s100 5[laMM4E_RY:E6;3<;BSS0
+R8
+32
+Z229 !s110 1584206633
+!i10b 1
+R200
+Z230 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpprdadr2gen.vhd|
+Z231 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_lpprdadr2gen.vhd|
+!i113 1
+R13
+R14
+Agen_all
+R30
+R19
+R31
+R4
+R5
+DEx4 work 20 asj_fft_lpprdadr2gen 0 22 M2Yd9Y9E5Xja0HN[:ojA42
+l80
+L63
+VGH22^;^SWJTLLC6i5P@cC1
+!s100 UZaCNnIgY74@EDi=^kD7C1
+R8
+32
+R229
+!i10b 1
+R200
+R230
+R231
+!i113 1
+R13
+R14
+Easj_fft_m_k_counter
+R122
+R30
+R19
+R31
+R4
+R5
+R0
+Z232 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_m_k_counter.vhd
+Z233 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_m_k_counter.vhd
+l0
+L35
+VHGV`j]6?MdDfG?NY0kcEB3
+!s100 Ym?GN?[U;c^><Q5E9Kf@_3
+R8
+32
+R229
+!i10b 1
+Z234 !s108 1584206633.000000
+Z235 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_m_k_counter.vhd|
+Z236 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_m_k_counter.vhd|
+!i113 1
+R13
+R14
+Agen_all
+R30
+R19
+R31
+R4
+R5
+DEx4 work 19 asj_fft_m_k_counter 0 22 HGV`j]6?MdDfG?NY0kcEB3
+l89
+L59
+VARFFPDNn<:MFZ1j2B>`9M0
+!s100 mc4LmeJVmTY^SWd[Iz1XE1
+R8
+32
+R229
+!i10b 1
+R234
+R235
+R236
+!i113 1
+R13
+R14
+Easj_fft_mult_add
+R122
+R3
+R55
+R30
+R19
+R31
+R4
+R5
+R0
+Z237 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_mult_add.vhd
+Z238 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_mult_add.vhd
+l0
+L77
+VecQz16?7Z;VAQ^[DCN4oW1
+!s100 6DBz[P1ELZN_W2e<]Joi]1
+R8
+32
+R229
+!i10b 1
+R234
+Z239 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_mult_add.vhd|
+Z240 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_mult_add.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R55
+R30
+R19
+R31
+R4
+R5
+DEx4 work 16 asj_fft_mult_add 0 22 ecQz16?7Z;VAQ^[DCN4oW1
+l130
+L97
+VbMgcL1eV:K16OMX>@:9YB2
+!s100 RQDOSgnLJB@?`d5f:RZMb1
+R8
+32
+R229
+!i10b 1
+R234
+R239
+R240
+!i113 1
+R13
+R14
+Easj_fft_pround
+R122
+R3
+R55
+R30
+R19
+R31
+R4
+R5
+R0
+Z241 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_pround.vhd
+Z242 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_pround.vhd
+l0
+L42
+V6Ei0aA=`g]LeKWZe1mV2j1
+!s100 mf==S>JTfgX^R3h9EHVBB0
+R8
+32
+R229
+!i10b 1
+R234
+Z243 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_pround.vhd|
+Z244 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_pround.vhd|
+!i113 1
+R13
+R14
+Aaroundpipe_synth
+R3
+R55
+R30
+R19
+R31
+R4
+R5
+DEx4 work 14 asj_fft_pround 0 22 6Ei0aA=`g]LeKWZe1mV2j1
+l70
+L57
+VF@OGzg4zQlaa9=<e21PT90
+!s100 Kb:KoKJlZPD7C8Q[2YeHQ2
+R8
+32
+R229
+!i10b 1
+R234
+R243
+R244
+!i113 1
+R13
+R14
+Easj_fft_sglstream
+R122
+R191
+R192
+R30
+R41
+R19
+R31
+R4
+R5
+R0
+Z245 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_sglstream.vhd
+Z246 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_sglstream.vhd
+l0
+L42
+VO?0[:HCiUhd3dR?3^:eM=1
+!s100 RID6F5iaSHVJJca[2CHVm3
+R8
+32
+R229
+!i10b 1
+R234
+Z247 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_sglstream.vhd|
+Z248 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_sglstream.vhd|
+!i113 1
+R13
+R14
+Atransform
+R191
+R192
+R30
+R41
+R19
+R31
+R4
+R5
+DEx4 work 17 asj_fft_sglstream 0 22 O?0[:HCiUhd3dR?3^:eM=1
+l460
+L90
+VM2ne?`Aal]a19?4dDUC[h2
+!s100 ;OKP4`:?W0^Kz>HCh5H410
+R8
+32
+R229
+!i10b 1
+R234
+R247
+R248
+!i113 1
+R13
+R14
+Easj_fft_si_de_so_b
+R122
+R191
+R192
+R30
+R41
+R19
+R31
+R4
+R5
+R0
+Z249 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_de_so_b.vhd
+Z250 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_de_so_b.vhd
+l0
+L41
+V`DBOC=JVV0KM9;3WDGnCI2
+!s100 N88fh906fJSFXU?8?ZR<S0
+R8
+32
+R229
+!i10b 1
+R234
+Z251 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_de_so_b.vhd|
+Z252 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_de_so_b.vhd|
+!i113 1
+R13
+R14
+Atransform
+R191
+R192
+R30
+R41
+R19
+R31
+R4
+R5
+DEx4 work 18 asj_fft_si_de_so_b 0 22 `DBOC=JVV0KM9;3WDGnCI2
+l406
+L89
+VkPL:F`E85OE_?CQhS10E=3
+!s100 WKOzR]3;99c=Y:n6N2eFk2
+R8
+32
+R229
+!i10b 1
+R234
+R251
+R252
+!i113 1
+R13
+R14
+Easj_fft_si_de_so_bb
+R122
+R191
+R192
+R30
+R41
+R19
+R31
+R4
+R5
+R0
+Z253 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_de_so_bb.vhd
+Z254 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_de_so_bb.vhd
+l0
+L42
+V>mmALa_cQCgFz=IdBoj^O1
+!s100 Y@fFCn^m_K67NmmWdf[ni2
+R8
+32
+Z255 !s110 1584206634
+!i10b 1
+R234
+Z256 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_de_so_bb.vhd|
+Z257 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_de_so_bb.vhd|
+!i113 1
+R13
+R14
+Atransform
+R191
+R192
+R30
+R41
+R19
+R31
+R4
+R5
+DEx4 work 19 asj_fft_si_de_so_bb 0 22 >mmALa_cQCgFz=IdBoj^O1
+l553
+L90
+Vm:PzB?]8NEMeTf:fUolWF2
+!s100 no_Ik6?<[5[20e[l[gWNh2
+R8
+32
+R255
+!i10b 1
+R234
+R256
+R257
+!i113 1
+R13
+R14
+Easj_fft_si_qe_so_b
+R122
+R191
+R192
+R30
+R41
+R19
+R31
+R4
+R5
+R0
+Z258 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_qe_so_b.vhd
+Z259 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_qe_so_b.vhd
+l0
+L39
+Vj<HHXYL1lE01<a`z566S50
+!s100 dz?<0SXAT@Z`>l@fkaWJY0
+R8
+32
+R255
+!i10b 1
+Z260 !s108 1584206634.000000
+Z261 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_qe_so_b.vhd|
+Z262 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_qe_so_b.vhd|
+!i113 1
+R13
+R14
+Atransform
+R191
+R192
+R30
+R41
+R19
+R31
+R4
+R5
+DEx4 work 18 asj_fft_si_qe_so_b 0 22 j<HHXYL1lE01<a`z566S50
+l599
+L96
+VV@mULH<5f6_aOiY=9i@1>0
+!s100 5H6zo^?LHYnGYMRfI:WHo1
+R8
+32
+R255
+!i10b 1
+R260
+R261
+R262
+!i113 1
+R13
+R14
+Easj_fft_si_qe_so_bb
+R122
+R191
+R192
+R30
+R41
+R19
+R31
+R4
+R5
+R0
+Z263 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_qe_so_bb.vhd
+Z264 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_qe_so_bb.vhd
+l0
+L40
+VUz_`@8@fnCI<3dm^ASJ@?3
+!s100 T:N<WUQjE]N5nELm?BI0>1
+R8
+32
+R255
+!i10b 1
+R260
+Z265 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_qe_so_bb.vhd|
+Z266 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_qe_so_bb.vhd|
+!i113 1
+R13
+R14
+Atransform
+R191
+R192
+R30
+R41
+R19
+R31
+R4
+R5
+DEx4 work 19 asj_fft_si_qe_so_bb 0 22 Uz_`@8@fnCI<3dm^ASJ@?3
+l595
+L97
+Vo;BUki58o?4fK;IN3`EXY2
+!s100 fE;?;Bj^IoA_c9hT=RmD_3
+R8
+32
+R255
+!i10b 1
+R260
+R265
+R266
+!i113 1
+R13
+R14
+Easj_fft_si_se_so_b
+R122
+R191
+R192
+R30
+R41
+R19
+R31
+R4
+R5
+R0
+Z267 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_se_so_b.vhd
+Z268 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_se_so_b.vhd
+l0
+L37
+VIT>0@YC;DW[z9i[@nFnLg3
+!s100 4^QQKOh6:jnC_gO017ED23
+R8
+32
+R255
+!i10b 1
+R260
+Z269 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_se_so_b.vhd|
+Z270 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_se_so_b.vhd|
+!i113 1
+R13
+R14
+Atransform
+R191
+R192
+R30
+R41
+R19
+R31
+R4
+R5
+DEx4 work 18 asj_fft_si_se_so_b 0 22 IT>0@YC;DW[z9i[@nFnLg3
+l479
+L85
+V8M8iahUknNbFzRY5NVj^T0
+!s100 Bc:eIRHZi3l9iee8dYJS@3
+R8
+32
+R255
+!i10b 1
+R260
+R269
+R270
+!i113 1
+R13
+R14
+Easj_fft_si_se_so_bb
+R122
+R191
+R192
+R30
+R41
+R19
+R31
+R4
+R5
+R0
+Z271 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_se_so_bb.vhd
+Z272 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_se_so_bb.vhd
+l0
+L40
+VGBGUQ431dgzOhU>46Ae9c2
+!s100 ^]X8WH6S?T0`O0]D<YEd;2
+R8
+32
+R255
+!i10b 1
+R260
+Z273 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_se_so_bb.vhd|
+Z274 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_se_so_bb.vhd|
+!i113 1
+R13
+R14
+Atransform
+R191
+R192
+R30
+R41
+R19
+R31
+R4
+R5
+DEx4 work 19 asj_fft_si_se_so_bb 0 22 GBGUQ431dgzOhU>46Ae9c2
+l484
+L88
+V3BFkcEHe0<<Kh=Ez5P[nX2
+!s100 1@iB@3lKgQ0GX5zj8;V272
+R8
+32
+R255
+!i10b 1
+R260
+R273
+R274
+!i113 1
+R13
+R14
+Easj_fft_si_sose_so_b
+R122
+R191
+R192
+R30
+R41
+R19
+R31
+R4
+R5
+R0
+Z275 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_sose_so_b.vhd
+Z276 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_sose_so_b.vhd
+l0
+L37
+VbMI1h`9l5Sd6RJX^2^3BZ3
+!s100 V`5NJOZZQdkJjSSDc^J<N3
+R8
+32
+R255
+!i10b 1
+R260
+Z277 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_sose_so_b.vhd|
+Z278 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_sose_so_b.vhd|
+!i113 1
+R13
+R14
+Atransform
+R191
+R192
+R30
+R41
+R19
+R31
+R4
+R5
+DEx4 work 20 asj_fft_si_sose_so_b 0 22 bMI1h`9l5Sd6RJX^2^3BZ3
+l549
+L85
+Vb^=7h_E5Yk98Xh0zSYHJY2
+!s100 P9=<znJjY8aoGHiJ>HNbD3
+R8
+32
+R255
+!i10b 1
+R260
+R277
+R278
+!i113 1
+R13
+R14
+Easj_fft_tdl
+R122
+R3
+R55
+R30
+R31
+R19
+R4
+R5
+R0
+Z279 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl.vhd
+Z280 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl.vhd
+l0
+L42
+VoS1c>jX^8`m31<AE0mH:`3
+!s100 47l0dn8[P9hmTPdG?zBGm2
+R8
+32
+Z281 !s110 1584206635
+!i10b 1
+R260
+Z282 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl.vhd|
+Z283 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R55
+R30
+R31
+R19
+R4
+R5
+DEx4 work 11 asj_fft_tdl 0 22 oS1c>jX^8`m31<AE0mH:`3
+l66
+L58
+VN68MK9z_U[HiHQHKJ3g0^1
+!s100 @GNQ`@@4d>7V>=5SC68ng3
+R8
+32
+R281
+!i10b 1
+R260
+R282
+R283
+!i113 1
+R13
+R14
+Easj_fft_tdl_bit
+R122
+R30
+R31
+R19
+R4
+R5
+R0
+Z284 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl_bit.vhd
+Z285 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl_bit.vhd
+l0
+L37
+VTn_A^>RL81U]C^9h]52ke0
+!s100 NFFBJMSmk?=:Za]@=EH]n0
+R8
+32
+R281
+!i10b 1
+Z286 !s108 1584206635.000000
+Z287 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl_bit.vhd|
+Z288 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl_bit.vhd|
+!i113 1
+R13
+R14
+Asyn
+R30
+R31
+R19
+R4
+R5
+DEx4 work 15 asj_fft_tdl_bit 0 22 Tn_A^>RL81U]C^9h]52ke0
+l58
+L51
+Vb?Dih^bk5iJ;A2kFU8T2E0
+!s100 gf8M>Rk6TVfoPGaQU4Cgf3
+R8
+32
+R281
+!i10b 1
+R286
+R287
+R288
+!i113 1
+R13
+R14
+Easj_fft_tdl_bit_rst
+R122
+R30
+R31
+R19
+R4
+R5
+R0
+Z289 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl_bit_rst.vhd
+Z290 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl_bit_rst.vhd
+l0
+L37
+Vk73bNHH_1W<PT1OB:KPKm1
+!s100 7P8^OfbLR;diWn@5IKJM_0
+R8
+32
+R281
+!i10b 1
+R286
+Z291 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl_bit_rst.vhd|
+Z292 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl_bit_rst.vhd|
+!i113 1
+R13
+R14
+Asyn
+R30
+R31
+R19
+R4
+R5
+DEx4 work 19 asj_fft_tdl_bit_rst 0 22 k73bNHH_1W<PT1OB:KPKm1
+l60
+L51
+VV18SND0Tg]ga=KPHJdc5c1
+!s100 aaa[bfV0biNZGl05jWcjg1
+R8
+32
+R281
+!i10b 1
+R286
+R291
+R292
+!i113 1
+R13
+R14
+Easj_fft_tdl_rst
+R122
+R3
+R55
+R30
+R31
+R19
+R4
+R5
+R0
+Z293 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl_rst.vhd
+Z294 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl_rst.vhd
+l0
+L42
+Vh3JH7mPROdIRTeURL3oBX1
+!s100 N=PPBHP=IXd3^5^?5:5BO2
+R8
+32
+R281
+!i10b 1
+R286
+Z295 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl_rst.vhd|
+Z296 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_tdl_rst.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R55
+R30
+R31
+R19
+R4
+R5
+DEx4 work 15 asj_fft_tdl_rst 0 22 h3JH7mPROdIRTeURL3oBX1
+l66
+L57
+VVKh2W5<R0CFJ`G[oTBR672
+!s100 V<cmaOeGWEnDZGlF5S88I2
+R8
+32
+R281
+!i10b 1
+R286
+R295
+R296
+!i113 1
+R13
+R14
+Easj_fft_twadgen
+R122
+R30
+R19
+R31
+R4
+R5
+R0
+Z297 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadgen.vhd
+Z298 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadgen.vhd
+l0
+L37
+VcJkc1z;6YIlfBX`_^cnTO3
+!s100 n1@1]NG6L7mdzPN4TkYPH1
+R8
+32
+R281
+!i10b 1
+R286
+Z299 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadgen.vhd|
+Z300 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadgen.vhd|
+!i113 1
+R13
+R14
+Agen_all
+R30
+R19
+R31
+R4
+R5
+DEx4 work 15 asj_fft_twadgen 0 22 cJkc1z;6YIlfBX`_^cnTO3
+l63
+L54
+VXQMVV9SW3nd5b<z0XbF:S2
+!s100 G4IR1Gc>0;T2Ff@5ld_OJ0
+R8
+32
+R281
+!i10b 1
+R286
+R299
+R300
+!i113 1
+R13
+R14
+Easj_fft_twadgen_dual
+R122
+R30
+R19
+R31
+R4
+R5
+R0
+Z301 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadgen_dual.vhd
+Z302 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadgen_dual.vhd
+l0
+L37
+V:T[]5dSf_B22IY=mc0a032
+!s100 So;fA7Ph[dDiB:o`23dAz1
+R8
+32
+R281
+!i10b 1
+R286
+Z303 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadgen_dual.vhd|
+Z304 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadgen_dual.vhd|
+!i113 1
+R13
+R14
+Agen_all
+R30
+R19
+R31
+R4
+R5
+DEx4 work 20 asj_fft_twadgen_dual 0 22 :T[]5dSf_B22IY=mc0a032
+l69
+L55
+V=`5hV2JA^JTB;R7cU?K`>3
+!s100 92c0a05<m<1732BBJJ_S<2
+R8
+32
+R281
+!i10b 1
+R286
+R303
+R304
+!i113 1
+R13
+R14
+Easj_fft_twadsogen
+R122
+R30
+R19
+R31
+R4
+R5
+R0
+Z305 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadsogen.vhd
+Z306 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadsogen.vhd
+l0
+L36
+V[DE2>WDCDHPnz0[BOjl8g1
+!s100 ?GICnPkObH8ageFcehOGQ0
+R8
+32
+R281
+!i10b 1
+R286
+Z307 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadsogen.vhd|
+Z308 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadsogen.vhd|
+!i113 1
+R13
+R14
+Agen_all
+R30
+R19
+R31
+R4
+R5
+DEx4 work 17 asj_fft_twadsogen 0 22 [DE2>WDCDHPnz0[BOjl8g1
+l77
+L54
+V?dZ`j]70UMl[N0;d5c=z52
+!s100 V5NoLgjgN=fLO;_G:6bY70
+R8
+32
+R281
+!i10b 1
+R286
+R307
+R308
+!i113 1
+R13
+R14
+Easj_fft_twadsogen_q
+R122
+R30
+R19
+R31
+R4
+R5
+R0
+Z309 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadsogen_q.vhd
+Z310 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadsogen_q.vhd
+l0
+L36
+V4bfaCOW@m_7Fh?HECag?f3
+!s100 7LU>WL61jz1^i[h^;7E=^1
+R8
+32
+R281
+!i10b 1
+R286
+Z311 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadsogen_q.vhd|
+Z312 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twadsogen_q.vhd|
+!i113 1
+R13
+R14
+Agen_all
+R30
+R19
+R31
+R4
+R5
+DEx4 work 19 asj_fft_twadsogen_q 0 22 4bfaCOW@m_7Fh?HECag?f3
+l84
+L55
+VNU4?B6Sc1JDh>AUSjk6e[3
+!s100 Q7Gz3g_cFA4Q6:d6gOA361
+R8
+32
+R281
+!i10b 1
+R286
+R311
+R312
+!i113 1
+R13
+R14
+Easj_fft_twid_rom_tdp
+R122
+R3
+R55
+R31
+R19
+R30
+R4
+R5
+R0
+Z313 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twid_rom_tdp.vhd
+Z314 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twid_rom_tdp.vhd
+l0
+L39
+VH2ah;HUfeAF0SAjPKb4H^3
+!s100 oB:8aiD`AIIUUiMial:gC3
+R8
+32
+Z315 !s110 1584206636
+!i10b 1
+Z316 !s108 1584206636.000000
+Z317 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twid_rom_tdp.vhd|
+Z318 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twid_rom_tdp.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R55
+R31
+R19
+R30
+R4
+R5
+DEx4 work 20 asj_fft_twid_rom_tdp 0 22 H2ah;HUfeAF0SAjPKb4H^3
+l88
+L59
+VC]5>EIJQ?ePz:D@^15k>k0
+!s100 7VWl<[mWRONhoZ[ngW6:J3
+R8
+32
+R315
+!i10b 1
+R316
+R317
+R318
+!i113 1
+R13
+R14
+Easj_fft_twiddle_ctrl_qe
+R122
+R30
+R19
+R31
+R4
+R5
+R0
+Z319 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twiddle_ctrl_qe.vhd
+Z320 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twiddle_ctrl_qe.vhd
+l0
+L37
+VD8<[=la:I<<c>BbY[:mGV3
+!s100 Pde]`DF;ARE`]D5ToQ4zY3
+R8
+32
+R315
+!i10b 1
+R316
+Z321 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twiddle_ctrl_qe.vhd|
+Z322 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_twiddle_ctrl_qe.vhd|
+!i113 1
+R13
+R14
+Acnt_sw
+R30
+R19
+R31
+R4
+R5
+DEx4 work 23 asj_fft_twiddle_ctrl_qe 0 22 D8<[=la:I<<c>BbY[:mGV3
+l106
+L86
+VDO7_J0CbUziR^jh?0QjI<0
+!s100 4;No;XT7MER9oCgeSFL]=1
+R8
+32
+R315
+!i10b 1
+R316
+R321
+R322
+!i113 1
+R13
+R14
+Easj_fft_unbburst_ctrl
+R122
+R30
+R19
+R31
+R4
+R5
+R0
+Z323 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_ctrl.vhd
+Z324 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_ctrl.vhd
+l0
+L34
+VVJYD^7]1TTjYSFFLlE:cO2
+!s100 deGOL;Z1bGEJj2LNIJ@c@0
+R8
+32
+R315
+!i10b 1
+R316
+Z325 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_ctrl.vhd|
+Z326 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_ctrl.vhd|
+!i113 1
+R13
+R14
+Aburst_sw
+R30
+R19
+R31
+R4
+R5
+DEx4 work 21 asj_fft_unbburst_ctrl 0 22 VJYD^7]1TTjYSFFLlE:cO2
+l89
+L85
+V0nHJ2[_QEiVHAfze1]Oc70
+!s100 e9memZDSHI9MD_7D3e>=20
+R8
+32
+R315
+!i10b 1
+R316
+R325
+R326
+!i113 1
+R13
+R14
+Easj_fft_unbburst_ctrl_de
+R122
+R30
+R19
+R31
+R4
+R5
+R0
+Z327 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_ctrl_de.vhd
+Z328 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_ctrl_de.vhd
+l0
+L34
+VAmhz3HBU3fILhi5bWkN`n2
+!s100 em>?<TI2I:i7IEJb[W]Qm2
+R8
+32
+R315
+!i10b 1
+R316
+Z329 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_ctrl_de.vhd|
+Z330 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_ctrl_de.vhd|
+!i113 1
+R13
+R14
+Acnt_sw
+R30
+R19
+R31
+R4
+R5
+DEx4 work 24 asj_fft_unbburst_ctrl_de 0 22 Amhz3HBU3fILhi5bWkN`n2
+l98
+L94
+Vi^3Ng?SMff5`OGG:bEF<_1
+!s100 @45Rb?<;D3XleTJVPWg=T2
+R8
+32
+R315
+!i10b 1
+R316
+R329
+R330
+!i113 1
+R13
+R14
+Easj_fft_unbburst_ctrl_qe
+R122
+R30
+R19
+R31
+R4
+R5
+R0
+Z331 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_ctrl_qe.vhd
+Z332 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_ctrl_qe.vhd
+l0
+L37
+V7RiOjo5dokGTe`WA^eGd21
+!s100 J;LKBL4EZ<YV01B];XmHN3
+R8
+32
+R315
+!i10b 1
+R316
+Z333 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_ctrl_qe.vhd|
+Z334 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_ctrl_qe.vhd|
+!i113 1
+R13
+R14
+Acnt_sw
+R30
+R19
+R31
+R4
+R5
+DEx4 work 24 asj_fft_unbburst_ctrl_qe 0 22 7RiOjo5dokGTe`WA^eGd21
+l126
+L119
+Vfgbbf^BOe[k^D@mMn`8W?2
+!s100 DHAG;Oo]9OnBbUIl:XAAU3
+R8
+32
+R315
+!i10b 1
+R316
+R333
+R334
+!i113 1
+R13
+R14
+Easj_fft_unbburst_sose_ctrl
+R122
+R30
+R19
+R31
+R4
+R5
+R0
+Z335 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_sose_ctrl.vhd
+Z336 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_sose_ctrl.vhd
+l0
+L41
+V5lz@VTUOb6UPHE<R[zTS^0
+!s100 _Xc;>SoFo=o6=2KIcW=UI3
+R8
+32
+R315
+!i10b 1
+R316
+Z337 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_sose_ctrl.vhd|
+Z338 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_unbburst_sose_ctrl.vhd|
+!i113 1
+R13
+R14
+Aburst_sw
+R30
+R19
+R31
+R4
+R5
+DEx4 work 26 asj_fft_unbburst_sose_ctrl 0 22 5lz@VTUOb6UPHE<R[zTS^0
+l83
+L72
+VCHWSAZ`?m?`D]`aH`6Z7A3
+!s100 0>l3T68=[[b`U1;XRD91f0
+R8
+32
+R315
+!i10b 1
+R316
+R337
+R338
+!i113 1
+R13
+R14
+Easj_fft_wrengen
+R122
+R30
+R19
+R31
+R4
+R5
+R0
+Z339 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_wrengen.vhd
+Z340 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_wrengen.vhd
+l0
+L37
+Vn:1`@OhIlK_LiQOU>F1YN3
+!s100 o4WM7>j@763PcZ^TLL8Mz0
+R8
+32
+R315
+!i10b 1
+R316
+Z341 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_wrengen.vhd|
+Z342 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_wrengen.vhd|
+!i113 1
+R13
+R14
+Agen_all
+R30
+R19
+R31
+R4
+R5
+DEx4 work 15 asj_fft_wrengen 0 22 n:1`@OhIlK_LiQOU>F1YN3
+l76
+L58
+VX@6EKiz<g2K]@^PSKID]j2
+!s100 lRQHo?NX:7E9gbK3zzUJe1
+R8
+32
+R315
+!i10b 1
+R316
+R341
+R342
+!i113 1
+R13
+R14
+Easj_fft_wrswgen
+R122
+R30
+R19
+R31
+R4
+R5
+R0
+Z343 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_wrswgen.vhd
+Z344 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_wrswgen.vhd
+l0
+L37
+V?_dVLC=;8R4X>HX95;eb_0
+!s100 GI88cdWGT?`2P@[Dl2G?M0
+R8
+32
+Z345 !s110 1584206637
+!i10b 1
+Z346 !s108 1584206637.000000
+Z347 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_wrswgen.vhd|
+Z348 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_wrswgen.vhd|
+!i113 1
+R13
+R14
+Agen_all
+R30
+R19
+R31
+R4
+R5
+DEx4 work 15 asj_fft_wrswgen 0 22 ?_dVLC=;8R4X>HX95;eb_0
+l66
+L57
+V;@4J>a4c<m1XlkPmSzY3W0
+!s100 5;[9om09o6W6d5T1ghb`k1
+R8
+32
+R345
+!i10b 1
+R346
+R347
+R348
+!i113 1
+R13
+R14
+Eauk_dspip_avalon_streaming_block_sink
+R1
+R191
+R41
+R4
+R5
+R0
+Z349 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_sink.vhd
+Z350 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_sink.vhd
+l0
+L22
+VjMYQFfmk<9QWEjF2HOE`N0
+!s100 5FkmY2J9_R^OCddRZBZ_i1
+R8
+32
+R345
+!i10b 1
+R346
+Z351 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_sink.vhd|
+Z352 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_sink.vhd|
+!i113 1
+R13
+R14
+Artl
+R191
+R41
+R4
+R5
+DEx4 work 37 auk_dspip_avalon_streaming_block_sink 0 22 jMYQFfmk<9QWEjF2HOE`N0
+l142
+L59
+VRT7AGi8;SefH7m`jznJND2
+!s100 38QZ;1;3801MEH1PhgNl=3
+R8
+32
+R345
+!i10b 1
+R346
+R351
+R352
+!i113 1
+R13
+R14
+Eauk_dspip_avalon_streaming_block_source
+R1
+R3
+R191
+R192
+R41
+R4
+R5
+R0
+Z353 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_source.vhd
+Z354 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_source.vhd
+l0
+L25
+VcER>X;DMoVS^j:o=>n`:;1
+!s100 PcknmbOT5fM?^3Ua7SJWA0
+R8
+32
+R345
+!i10b 1
+R346
+Z355 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_source.vhd|
+Z356 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/auk_dspip_avalon_streaming_block_source.vhd|
+!i113 1
+R13
+R14
+Artl
+R3
+R191
+R192
+R41
+R4
+R5
+DEx4 work 39 auk_dspip_avalon_streaming_block_source 0 22 cER>X;DMoVS^j:o=>n`:;1
+l119
+L47
+VCLUz=cWI35N_^6keM<;`[0
+!s100 :k4nQbJ<X1g=i>`Jeb;XM1
+R8
+32
+R345
+!i10b 1
+R346
+R355
+R356
+!i113 1
+R13
+R14
+Eauk_dspip_avalon_streaming_controller
+R1
+R19
+R4
+R5
+R0
+Z357 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_controller.vhd
+Z358 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_controller.vhd
+l0
+L57
+V9f1>ZMQSi7YDjJ<AV<ZRT3
+!s100 `cYja=lbnJ^F3>dl>Pc6[3
+R8
+32
+Z359 !s110 1584206624
+!i10b 1
+Z360 !s108 1584206624.000000
+Z361 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_controller.vhd|
+Z362 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_controller.vhd|
+!i113 1
+R13
+R14
+Astruct
+R19
+R4
+R5
+DEx4 work 37 auk_dspip_avalon_streaming_controller 0 22 9f1>ZMQSi7YDjJ<AV<ZRT3
+l97
+L80
+VMiNVL]F3JLFRKBQeb;=Nk1
+!s100 ml<bfFIC28PDReZ@kc_k;2
+R8
+32
+R359
+!i10b 1
+R360
+R361
+R362
+!i113 1
+R13
+R14
+Eauk_dspip_avalon_streaming_sink
+R1
+R3
+R191
+R192
+R41
+R4
+R5
+R0
+Z363 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_sink.vhd
+Z364 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_sink.vhd
+l0
+L60
+VeXn7=jnAola2Re5LLZlkg3
+!s100 WR_9jEX0=Z8MK;14ie:eB1
+R8
+32
+R359
+!i10b 1
+R360
+Z365 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_sink.vhd|
+Z366 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_sink.vhd|
+!i113 1
+R13
+R14
+Artl
+R3
+R191
+R192
+R41
+R4
+R5
+DEx4 work 31 auk_dspip_avalon_streaming_sink 0 22 eXn7=jnAola2Re5LLZlkg3
+l171
+L106
+Vi=><Uf=NJQ<dZ=0LNABCK3
+!s100 :P<1@5=zol[G9AX>0lMI;3
+R8
+32
+R359
+!i10b 1
+R360
+R365
+R366
+!i113 1
+R13
+R14
+Eauk_dspip_avalon_streaming_source
+R1
+R191
+R41
+R4
+R5
+R0
+Z367 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_source.vhd
+Z368 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_source.vhd
+l0
+L72
+V`CbPjBEgPB6K7`d`78T^`1
+!s100 =CcIhGGaPN[@fj@Yj`LI_0
+R8
+32
+R359
+!i10b 1
+R360
+Z369 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_source.vhd|
+Z370 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_avalon_streaming_source.vhd|
+!i113 1
+R13
+R14
+Artl
+R191
+R41
+R4
+R5
+DEx4 work 33 auk_dspip_avalon_streaming_source 0 22 `CbPjBEgPB6K7`d`78T^`1
+l145
+L105
+VAoBZ5kI@;LD`2Q<QUB12z2
+!s100 YQD:X[dIDUTl8ZlcW2EK[0
+R8
+32
+R359
+!i10b 1
+R360
+R369
+R370
+!i113 1
+R13
+R14
+Pauk_dspip_lib_pkg
+R191
+R41
+R4
+R5
+R1
+R0
+8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_lib_pkg.vhd
+FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_lib_pkg.vhd
+l0
+L28
+V@5TZ3J`6R0Z4E@<HDj:l_0
+!s100 KcRlL:CTnlUz=1CF=kC_S0
+R8
+32
+R9
+!i10b 1
+R360
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_lib_pkg.vhd|
+!s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_lib_pkg.vhd|
+!i113 1
+R13
+R14
+Pauk_dspip_math_pkg
+R41
+R4
+R5
+R1
+R0
+Z371 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_math_pkg.vhd
+Z372 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_math_pkg.vhd
+l0
+L51
+VfeAJWTeL]Mhij:o[8KNI`0
+!s100 [z_3ODE8b:W7XDJ[_]HTW0
+R8
+32
+b1
+R9
+!i10b 1
+R10
+Z373 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_math_pkg.vhd|
+Z374 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_math_pkg.vhd|
+!i113 1
+R13
+R14
+Bbody
+R191
+R41
+R4
+R5
+l0
+L128
+VABbzlJeL=9S_09@`K1MPk1
+!s100 `941_Ff6o7=GBNnXYB1eU3
+R8
+32
+R9
+!i10b 1
+R10
+R373
+R374
+!i113 1
+R13
+R14
+Eauk_dspip_roundsat
+R1
+R41
+R4
+R5
+R0
+Z375 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_roundsat.vhd
+Z376 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_roundsat.vhd
+l0
+L45
+VNLhXaEEeF6olGMz02mR1I3
+!s100 :Ro[aE[BH^N6eIGEG[O?N3
+R8
+32
+R9
+!i10b 1
+R10
+Z377 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_roundsat.vhd|
+Z378 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_roundsat.vhd|
+!i113 1
+R13
+R14
+Abeh
+R41
+R4
+R5
+DEx4 work 18 auk_dspip_roundsat 0 22 NLhXaEEeF6olGMz02mR1I3
+l63
+L61
+VNFU:T[W[[bl=ho21TCBR81
+!s100 ]_3I0;m7RDoiJeFA6M^`A1
+R8
+32
+R9
+!i10b 1
+R10
+R377
+R378
+!i113 1
+R13
+R14
+Pauk_dspip_text_pkg
+R41
+R4
+R5
+R1
+R0
+Z379 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_text_pkg.vhd
+Z380 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_text_pkg.vhd
+l0
+L60
+VAF^jCG71[?HYhTX[D:ZV]2
+!s100 D132L>H75ieXQdW840k7O0
+R8
+32
+b1
+R359
+!i10b 1
+R360
+Z381 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_text_pkg.vhd|
+Z382 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/auk_dspip_text_pkg.vhd|
+!i113 1
+R13
+R14
+Bbody
+DPx4 work 18 auk_dspip_text_pkg 0 22 AF^jCG71[?HYhTX[D:ZV]2
+R41
+R4
+R5
+l0
+L76
+V>6[?O[`VliH1ga5jlEaLe0
+!s100 8<?]li33IkB>fMMF[SR`S2
+R8
+32
+R359
+!i10b 1
+R360
+R381
+R382
+!i113 1
+R13
+R14
+Pauk_fft_pkg
+R41
+R4
+R5
+R1
+R0
+Z383 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/auk_fft_pkg.vhd
+Z384 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/auk_fft_pkg.vhd
+l0
+L18
+V6edHL[Z4if`j=jEN3^hTF0
+!s100 KO4z40;KgGV8e8Ta2T@QA0
+R8
+32
+b1
+R345
+!i10b 1
+R346
+Z385 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/auk_fft_pkg.vhd|
+Z386 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/auk_fft_pkg.vhd|
+!i113 1
+R13
+R14
+Bbody
+DPx4 work 11 auk_fft_pkg 0 22 6edHL[Z4if`j=jEN3^hTF0
+R41
+R4
+R5
+l0
+L27
+Vo6FAYU=:jLT>8TEfYlAif1
+!s100 PON1X2]W1W82nXe?d6j<h2
+R8
+32
+R345
+!i10b 1
+R346
+R385
+R386
+!i113 1
+R13
+R14
+Ecordic_atan2_v2
+Z387 w1583104466
+R41
+R4
+R5
+R0
+Z388 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/cordic_atan2_v2.vhd
+Z389 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/cordic_atan2_v2.vhd
+l0
+L9
+VD0_W5LFkRf611L7jo;3Oo2
+!s100 _Q=O96S<fm^W[9=^MAMH`3
+R8
+32
+R359
+!i10b 1
+R360
+Z390 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/cordic_atan2_v2.vhd|
+Z391 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/cordic_atan2_v2.vhd|
+!i113 1
+R13
+R14
+Artl
+R41
+R4
+R5
+DEx4 work 15 cordic_atan2_v2 0 22 D0_W5LFkRf611L7jo;3Oo2
+l34
+L21
+V2SbHMfQASeCa[Z3]@JBeE3
+!s100 [SlMdD4:D;zi>=X2b0;UX1
+R8
+32
+R359
+!i10b 1
+R360
+R390
+R391
+!i113 1
+R13
+R14
+Ecordic_atan2_v2_cordic_0
+Z392 w1583104473
+R55
+R2
+R3
+Z393 DPx4 work 21 dspba_library_package 0 22 g5ge0<PbUA3NecLg[8;Cj3
+Z394 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+R41
+R4
+R5
+R0
+Z395 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/submodules/cordic_atan2_v2_CORDIC_0.vhd
+Z396 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/submodules/cordic_atan2_v2_CORDIC_0.vhd
+l0
+L36
+V6TPVQ[V0LM695Ok4o2DX60
+!s100 BNMni[K]lTz=W2=I^Y_Vb3
+R8
+32
+Z397 !s110 1584206623
+!i10b 1
+Z398 !s108 1584206623.000000
+Z399 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/submodules/cordic_atan2_v2_CORDIC_0.vhd|
+Z400 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/submodules/cordic_atan2_v2_CORDIC_0.vhd|
+!i113 1
+R13
+R14
+Anormal
+R55
+R2
+R3
+R393
+R394
+R41
+R4
+R5
+DEx4 work 24 cordic_atan2_v2_cordic_0 0 22 6TPVQ[V0LM695Ok4o2DX60
+l495
+L48
+VVYiWQD]Wa;D>DjWlY`O500
+!s100 SF2:WKUBcGo=PHQR>Ch2b0
+R8
+32
+R397
+!i10b 1
+R398
+R399
+R400
+!i113 1
+R13
+R14
+vZpEv5jNlKeRJKkVAYZy54A==
+Z401 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R345
+!i10b 0
+!s100 QdHzZ<>7ZdJ4XRAz9oZQA0
+I8jfV`WCQc`X22KZI3KY@D1
+R50
+!i8a 949366720
+!s105 counter_module_sv_unit
+S1
+R0
+w1584206637
+8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/counter_module.sv
+FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/counter_module.sv
+R51
+R52
+r1
+!s85 0
+31
+R346
+!s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/counter_module.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/counter_module.sv|
+!i113 1
+Z402 o-work work -sv
+R54
+n50012c5
+Edspba_delay
+R392
+R393
+R4
+R5
+R0
+Z403 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/submodules/dspba_library.vhd
+Z404 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/submodules/dspba_library.vhd
+l0
+L18
+VJZ>XXZi]3nAML><T1OJmD2
+!s100 >TY9@l4a>2O5Wd_6jF4:g0
+R8
+32
+R359
+!i10b 1
+R398
+Z405 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/submodules/dspba_library.vhd|
+Z406 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/submodules/dspba_library.vhd|
+!i113 1
+R13
+R14
+Adelay
+R393
+R4
+R5
+DEx4 work 11 dspba_delay 0 22 JZ>XXZi]3nAML><T1OJmD2
+l37
+L34
+VH[ibU<H]FT4<DCgHmIjFa0
+!s100 DAfPXKZhR<Ac>Wg8zYj1H3
+R8
+32
+R359
+!i10b 1
+R398
+R405
+R406
+!i113 1
+R13
+R14
+Pdspba_library_package
+R4
+R5
+R392
+R0
+8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/submodules/dspba_library_package.vhd
+FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/submodules/dspba_library_package.vhd
+l0
+L17
+Vg5ge0<PbUA3NecLg[8;Cj3
+!s100 @e;XE0e^oAdIdzY=Rc];H3
+R8
+32
+R397
+!i10b 1
+R398
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/submodules/dspba_library_package.vhd|
+!s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/cordic_atan2_v2/cordic_atan2_v2/simulation/submodules/dspba_library_package.vhd|
+!i113 1
+R13
+R14
+Edspba_pipe
+R392
+R41
+R4
+R5
+R0
+R403
+R404
+l0
+L343
+VhX_ehDHUhEGT`<4CLHDEW1
+!s100 ko3XcgZgdPgSD;SDR?Wmi2
+R8
+32
+R359
+!i10b 1
+R398
+R405
+R406
+!i113 1
+R13
+R14
+Artl
+R41
+R4
+R5
+DEx4 work 10 dspba_pipe 0 22 hX_ehDHUhEGT`<4CLHDEW1
+l362
+L356
+VF>oh8b`LjePmYI9jU_S=k2
+!s100 =]hA3YBJaaU9dNBMla?I?2
+R8
+32
+R359
+!i10b 1
+R398
+R405
+R406
+!i113 1
+R13
+R14
+Edspba_sync_reg
+R392
+R393
+R41
+R4
+R5
+R0
+R403
+R404
+l0
+L93
+V[2:MQ1fH@k]9VCDY^FzcN0
+!s100 G`[2Ci2RQWoL`zK>2h>oj2
+R8
+32
+R359
+!i10b 1
+R398
+R405
+R406
+!i113 1
+R13
+R14
+Async_reg
+R393
+R41
+R4
+R5
+DEx4 work 14 dspba_sync_reg 0 22 [2:MQ1fH@k]9VCDY^FzcN0
+l136
+L117
+VXjK]3?6G<i`:[Y@3Y=3Bo1
+!s100 D5ba3Bk5_`1nL6?j<JkK81
+R8
+32
+R359
+!i10b 1
+R398
+R405
+R406
+!i113 1
+R13
+R14
+Efft_atan2_v1_vhd_tst
+w1584072783
+R4
+R5
+R0
+Z407 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/simulation/fft_atan2_v2_tb.vhd
+Z408 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/simulation/fft_atan2_v2_tb.vhd
+l0
+L6
+VU0kTgh]fmfZXiD32O^N=[3
+!s100 T1^LL>HPdZZ<BPB>UK92U1
+R8
+32
+!s110 1584073021
+!i10b 1
+!s108 1584073021.000000
+Z409 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/simulation/fft_atan2_v2_tb.vhd|
+Z410 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/simulation/fft_atan2_v2_tb.vhd|
+!i113 1
+R13
+R14
+Efft_atan2_v2
+Z411 w1584074550
+R4
+R5
+R0
+Z412 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd
+Z413 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd
+l0
+L8
+V7KI6ASCkL7hFc0DbEG;3h2
+!s100 Uzlfe^I0hia04UTgCM^G03
+R8
+32
+R397
+!i10b 1
+R398
+Z414 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd|
+Z415 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd|
+!i113 1
+R13
+R14
+Artl
+R4
+R5
+DEx4 work 12 fft_atan2_v2 0 22 7KI6ASCkL7hFc0DbEG;3h2
+l110
+L31
+V^Tb^h[j6zKKeNijD>ccUo3
+!s100 H556kmje=lc20b;`QM7je1
+R8
+32
+R397
+!i10b 1
+R398
+R414
+R415
+!i113 1
+R13
+R14
+Efft_atan2_v2_tb
+Z416 w1584073105
+R4
+R5
+R0
+R407
+R408
+l0
+L6
+V1imleMg9GA5I;ZaN0MZcN1
+!s100 9=DI9TXc[>S6Jg1S_?b?o2
+R8
+32
+R397
+!i10b 1
+R398
+R409
+R410
+!i113 1
+R13
+R14
+Afft_atan2_v2
+R4
+R5
+DEx4 work 15 fft_atan2_v2_tb 0 22 1imleMg9GA5I;ZaN0MZcN1
+l53
+L9
+VHCD_IJFIiQQob<]Zj<dX?1
+!s100 ma5WcXeRc4`RC<GE@OZKe1
+R8
+32
+R397
+!i10b 1
+R398
+R409
+R410
+!i113 1
+R13
+R14
+Efft_burst_16x1024_v1
+Z417 w1581906114
+R41
+R4
+R5
+R0
+Z418 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/FFT_Burst_16x1024_v1.vhd
+Z419 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/FFT_Burst_16x1024_v1.vhd
+l0
+L9
+V[gHhk;5R?^FX]DL@f:A`c3
+!s100 ka@MOM<kNCG0VQnY<kQ8g3
+R8
+32
+R359
+!i10b 1
+R360
+Z420 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/FFT_Burst_16x1024_v1.vhd|
+Z421 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/FFT_Burst_16x1024_v1.vhd|
+!i113 1
+R13
+R14
+Artl
+R41
+R4
+R5
+DEx4 work 20 fft_burst_16x1024_v1 0 22 [gHhk;5R?^FX]DL@f:A`c3
+l56
+L32
+Vgh=TzCPh9cQj8`_T>d5_P1
+!s100 N0gomQMR]O:63m_EQXFz32
+R8
+32
+R359
+!i10b 1
+R360
+R420
+R421
+!i113 1
+R13
+R14
+vFFT_Burst_16x1024_v1_fft_ii_0
+R401
+R397
+!i10b 1
+!s100 W4XgVZBQ8S?Db=_5Bc1fA0
+I:WiDL[bGbfKj:9SzV?eE;0
+R50
+!s105 FFT_Burst_16x1024_v1_fft_ii_0_sv_unit
+S1
+R0
+w1582413439
+8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1_fft_ii_0.sv
+FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1_fft_ii_0.sv
+L0 15
+R52
+r1
+!s85 0
+31
+R398
+!s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1_fft_ii_0.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1_fft_ii_0.sv|
+!i113 1
+R402
+R54
+n@f@f@t_@burst_16x1024_v1_fft_ii_0
+Pfft_pack
+R31
+R19
+R4
+R5
+R1
+R0
+Z422 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/fft_pack.vhd
+Z423 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/fft_pack.vhd
+l0
+L34
+VFI>ng:6fAz_@k=mf4WM9=3
+!s100 1bK16@n_UGFH;TT`Q1^cU1
+R8
+32
+b1
+Z424 !s110 1584206638
+!i10b 1
+R346
+Z425 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/fft_pack.vhd|
+Z426 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/fft_pack.vhd|
+!i113 1
+R13
+R14
+Bbody
+R30
+R31
+R19
+R4
+R5
+l0
+L2136
+V]Q`[<czP7B=6hYRD]Ea1]2
+!s100 aiJm8h=n]IJOG00moeCiL2
+R8
+32
+R424
+!i10b 1
+R346
+R425
+R426
+!i113 1
+R13
+R14
+v82c+AjZFoO2fbntmQify9UeV1mVpckGgDhX6waRGHcw=
+R424
+!i10b 0
+!s100 L^@BnRdg_lel_IeL9W?Th1
+I31H:097hT`FOabJ=ZIkQ13
+R50
+!i8a 1984761312
+R0
+w1584206638
+8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/hyper_pipeline_interface.v
+FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/hyper_pipeline_interface.v
+R51
+R52
+r1
+!s85 0
+31
+Z427 !s108 1584206638.000000
+!s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/hyper_pipeline_interface.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/hyper_pipeline_interface.v|
+!i113 1
+R53
+R54
+n5f39f65
+Erom_rawdata
+Z428 w1584074722
+R3
+R4
+R5
+R0
+Z429 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_RAWDATA/ROM_RAWDATA.vhd
+Z430 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_RAWDATA/ROM_RAWDATA.vhd
+l0
+L42
+V4CjZMmPnP6:EEa4FFkYc=3
+!s100 ROD7`?iX`ad__a0C2VeYJ0
+R8
+32
+R424
+!i10b 1
+R427
+Z431 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_RAWDATA/ROM_RAWDATA.vhd|
+Z432 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_RAWDATA/ROM_RAWDATA.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R4
+R5
+DEx4 work 11 rom_rawdata 0 22 4CjZMmPnP6:EEa4FFkYc=3
+l57
+L53
+VkJ9QXM:W7iT1j>oQb<<z73
+!s100 G@@MQKnJJUa7Z51B?7U430
+R8
+32
+R424
+!i10b 1
+R427
+R431
+R432
+!i113 1
+R13
+R14
+Erom_reader_v2
+Z433 w1583979606
+R41
+R4
+R5
+R0
+Z434 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_READER_V2/ROM_READER_V2.vhd
+Z435 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_READER_V2/ROM_READER_V2.vhd
+l0
+L13
+VX8LA`P>WZS`dYio?DBD3^1
+!s100 fhn<hR>5[Hh55N93^LLDa1
+R8
+32
+R424
+!i10b 1
+R427
+Z436 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_READER_V2/ROM_READER_V2.vhd|
+Z437 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_READER_V2/ROM_READER_V2.vhd|
+!i113 1
+R13
+R14
+Artl
+R41
+R4
+R5
+Z438 DEx4 work 13 rom_reader_v2 0 22 X8LA`P>WZS`dYio?DBD3^1
+l47
+L26
+Z439 VC1Jdko98ZEi3HSI2UIh7<3
+Z440 !s100 99VQdY7WC3oGP`I[ceJSZ3
+R8
+32
+R424
+!i10b 1
+R427
+R436
+R437
+!i113 1
+R13
+R14
+Etwid_rom
+R122
+R3
+R55
+R31
+R19
+R30
+R4
+R5
+R0
+Z441 8C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/twid_rom.vhd
+Z442 FC:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/twid_rom.vhd
+l0
+L59
+V`M3KfX5NBYgCiK0AUJI0G3
+!s100 N:N;E9BjTk`5z@C9o1d7C0
+R8
+32
+R9
+!i10b 1
+R10
+Z443 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/twid_rom.vhd|
+Z444 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/twid_rom.vhd|
+!i113 1
+R13
+R14
+Asyn
+R3
+R55
+R31
+R19
+R30
+R4
+R5
+DEx4 work 8 twid_rom 0 22 `M3KfX5NBYgCiK0AUJI0G3
+l98
+L77
+VJX@:U0LlW5g5b@NBldhQc0
+!s100 8JcZJ@WIWhZc=CAB55VZl3
+R8
+32
+R9
+!i10b 1
+R10
+R443
+R444
+!i113 1
+R13
+R14
