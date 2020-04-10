@@ -1,5 +1,5 @@
 Analysis & Synthesis report for fft_atan2_v2
-Sun Mar 15 20:06:30 2020
+Fri Apr 10 10:44:58 2020
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -17,11 +17,16 @@ Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
   9. General Register Statistics
  10. Source assignments for ROM_RAWDATA:inst2|altsyncram:altsyncram_component|altsyncram_ob24:auto_generated
  11. Parameter Settings for User Entity Instance: ROM_RAWDATA:inst2|altsyncram:altsyncram_component
- 12. altsyncram Parameter Settings by Entity Instance
- 13. Port Connectivity Checks: "ROM_READER_V2:inst1"
- 14. Post-Synthesis Netlist Statistics for Top Partition
- 15. Elapsed Time Per Partition
- 16. Analysis & Synthesis Messages
+ 12. Parameter Settings for User Entity Instance: shift_reg1bit:inst3
+ 13. Parameter Settings for User Entity Instance: shift_reg1bit:inst4
+ 14. Parameter Settings for User Entity Instance: shift_reg1bit:inst5
+ 15. altsyncram Parameter Settings by Entity Instance
+ 16. Port Connectivity Checks: "shift_reg1bit:inst5"
+ 17. Port Connectivity Checks: "shift_reg1bit:inst4"
+ 18. Port Connectivity Checks: "shift_reg1bit:inst3"
+ 19. Post-Synthesis Netlist Statistics for Top Partition
+ 20. Elapsed Time Per Partition
+ 21. Analysis & Synthesis Messages
 
 
 
@@ -47,14 +52,14 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Mar 15 20:06:29 2020       ;
+; Analysis & Synthesis Status     ; Successful - Fri Apr 10 10:44:58 2020       ;
 ; Quartus Prime Version           ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; fft_atan2_v2                                ;
 ; Top-level Entity Name           ; fft_atan2_v2                                ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 26                                          ;
-; Total pins                      ; 82                                          ;
+; Total registers                 ; 40                                          ;
+; Total pins                      ; 85                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 16,384                                      ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -190,6 +195,7 @@ refer to the applicable agreement for further details.
 ; altdpram.inc                     ; yes             ; Megafunction                           ; c:/intelfpga_lite/17.1/quartus/libraries/megafunctions/altdpram.inc               ;         ;
 ; db/altsyncram_ob24.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/db/altsyncram_ob24.tdf          ;         ;
 ; rawdata.hex                      ; yes             ; Auto-Found Memory Initialization File  ; C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/rawdata.hex                     ;         ;
+; shift_reg1bit.vhd                ; yes             ; Auto-Found VHDL File                   ; C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/shift_reg1bit.vhd               ;         ;
 +----------------------------------+-----------------+----------------------------------------+-----------------------------------------------------------------------------------+---------+
 
 
@@ -198,27 +204,27 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 14        ;
+; Estimate of Logic utilization (ALMs needed) ; 22        ;
 ;                                             ;           ;
-; Combinational ALUT usage for logic          ; 15        ;
+; Combinational ALUT usage for logic          ; 19        ;
 ;     -- 7 input functions                    ; 0         ;
 ;     -- 6 input functions                    ; 0         ;
-;     -- 5 input functions                    ; 2         ;
-;     -- 4 input functions                    ; 1         ;
+;     -- 5 input functions                    ; 3         ;
+;     -- 4 input functions                    ; 4         ;
 ;     -- <=3 input functions                  ; 12        ;
 ;                                             ;           ;
-; Dedicated logic registers                   ; 26        ;
+; Dedicated logic registers                   ; 40        ;
 ;                                             ;           ;
-; I/O pins                                    ; 82        ;
+; I/O pins                                    ; 85        ;
 ; Total MLAB memory bits                      ; 0         ;
 ; Total block memory bits                     ; 16384     ;
 ;                                             ;           ;
 ; Total DSP Blocks                            ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; CLK~input ;
-; Maximum fan-out                             ; 41        ;
-; Total fan-out                               ; 424       ;
-; Average fan-out                             ; 1.92      ;
+; Maximum fan-out                             ; 55        ;
+; Total fan-out                               ; 477       ;
+; Average fan-out                             ; 1.95      ;
 +---------------------------------------------+-----------+
 
 
@@ -227,11 +233,14 @@ refer to the applicable agreement for further details.
 +-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------------+-----------------+--------------+
 ; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                            ; Entity Name     ; Library Name ;
 +-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------------+-----------------+--------------+
-; |fft_atan2_v2                             ; 15 (0)              ; 26 (0)                    ; 16384             ; 0          ; 82   ; 0            ; |fft_atan2_v2                                                                                  ; fft_atan2_v2    ; work         ;
+; |fft_atan2_v2                             ; 19 (0)              ; 40 (0)                    ; 16384             ; 0          ; 85   ; 0            ; |fft_atan2_v2                                                                                  ; fft_atan2_v2    ; work         ;
 ;    |ROM_RAWDATA:inst2|                    ; 0 (0)               ; 0 (0)                     ; 16384             ; 0          ; 0    ; 0            ; |fft_atan2_v2|ROM_RAWDATA:inst2                                                                ; ROM_RAWDATA     ; work         ;
 ;       |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)                     ; 16384             ; 0          ; 0    ; 0            ; |fft_atan2_v2|ROM_RAWDATA:inst2|altsyncram:altsyncram_component                                ; altsyncram      ; work         ;
 ;          |altsyncram_ob24:auto_generated| ; 0 (0)               ; 0 (0)                     ; 16384             ; 0          ; 0    ; 0            ; |fft_atan2_v2|ROM_RAWDATA:inst2|altsyncram:altsyncram_component|altsyncram_ob24:auto_generated ; altsyncram_ob24 ; work         ;
-;    |ROM_READER_V2:inst1|                  ; 15 (15)             ; 26 (26)                   ; 0                 ; 0          ; 0    ; 0            ; |fft_atan2_v2|ROM_READER_V2:inst1                                                              ; ROM_READER_V2   ; work         ;
+;    |ROM_READER_V2:inst1|                  ; 19 (19)             ; 28 (28)                   ; 0                 ; 0          ; 0    ; 0            ; |fft_atan2_v2|ROM_READER_V2:inst1                                                              ; ROM_READER_V2   ; work         ;
+;    |shift_reg1bit:inst3|                  ; 0 (0)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |fft_atan2_v2|shift_reg1bit:inst3                                                              ; shift_reg1bit   ; work         ;
+;    |shift_reg1bit:inst4|                  ; 0 (0)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |fft_atan2_v2|shift_reg1bit:inst4                                                              ; shift_reg1bit   ; work         ;
+;    |shift_reg1bit:inst5|                  ; 0 (0)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |fft_atan2_v2|shift_reg1bit:inst5                                                              ; shift_reg1bit   ; work         ;
 +-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------------+-----------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -250,10 +259,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 26    ;
+; Total registers                              ; 40    ;
 ; Number of registers using Synchronous Clear  ; 10    ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 25    ;
+; Number of registers using Asynchronous Clear ; 27    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 10    ;
 ; Number of registers using Preset             ; 0     ;
@@ -330,6 +339,36 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: shift_reg1bit:inst3 ;
++----------------+-------+-----------------------------------------+
+; Parameter Name ; Value ; Type                                    ;
++----------------+-------+-----------------------------------------+
+; num_stages     ; 4     ; Signed Integer                          ;
++----------------+-------+-----------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: shift_reg1bit:inst4 ;
++----------------+-------+-----------------------------------------+
+; Parameter Name ; Value ; Type                                    ;
++----------------+-------+-----------------------------------------+
+; num_stages     ; 4     ; Signed Integer                          ;
++----------------+-------+-----------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: shift_reg1bit:inst5 ;
++----------------+-------+-----------------------------------------+
+; Parameter Name ; Value ; Type                                    ;
++----------------+-------+-----------------------------------------+
+; num_stages     ; 4     ; Signed Integer                          ;
++----------------+-------+-----------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +-----------------------------------------------------------------------------------------------+
 ; altsyncram Parameter Settings by Entity Instance                                              ;
 +-------------------------------------------+---------------------------------------------------+
@@ -350,14 +389,31 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------------------+---------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ROM_READER_V2:inst1"                                                                ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                             ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; sop  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; eop  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
++-------------------------------------------------+
+; Port Connectivity Checks: "shift_reg1bit:inst5" ;
++--------+-------+----------+---------------------+
+; Port   ; Type  ; Severity ; Details             ;
++--------+-------+----------+---------------------+
+; enable ; Input ; Info     ; Stuck at VCC        ;
++--------+-------+----------+---------------------+
+
+
++-------------------------------------------------+
+; Port Connectivity Checks: "shift_reg1bit:inst4" ;
++--------+-------+----------+---------------------+
+; Port   ; Type  ; Severity ; Details             ;
++--------+-------+----------+---------------------+
+; enable ; Input ; Info     ; Stuck at VCC        ;
++--------+-------+----------+---------------------+
+
+
++-------------------------------------------------+
+; Port Connectivity Checks: "shift_reg1bit:inst3" ;
++--------+-------+----------+---------------------+
+; Port   ; Type  ; Severity ; Details             ;
++--------+-------+----------+---------------------+
+; enable ; Input ; Info     ; Stuck at VCC        ;
++--------+-------+----------+---------------------+
 
 
 +-----------------------------------------------------+
@@ -365,24 +421,24 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 26                          ;
-;     CLR               ; 15                          ;
+; arriav_ff             ; 40                          ;
+;     CLR               ; 17                          ;
 ;     ENA CLR SCLR      ; 10                          ;
-;     plain             ; 1                           ;
-; arriav_lcell_comb     ; 16                          ;
+;     plain             ; 13                          ;
+; arriav_lcell_comb     ; 20                          ;
 ;     arith             ; 10                          ;
 ;         1 data inputs ; 10                          ;
-;     normal            ; 6                           ;
+;     normal            ; 10                          ;
 ;         0 data inputs ; 1                           ;
 ;         2 data inputs ; 1                           ;
 ;         3 data inputs ; 1                           ;
-;         4 data inputs ; 1                           ;
-;         5 data inputs ; 2                           ;
-; boundary_port         ; 82                          ;
+;         4 data inputs ; 4                           ;
+;         5 data inputs ; 3                           ;
+; boundary_port         ; 85                          ;
 ; stratixv_ram_block    ; 16                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 2.00                        ;
-; Average LUT depth     ; 0.90                        ;
+; Average LUT depth     ; 0.82                        ;
 +-----------------------+-----------------------------+
 
 
@@ -401,12 +457,12 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Sun Mar 15 20:06:17 2020
+    Info: Processing started: Fri Apr 10 10:44:45 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off fft_atan2_v2 -c fft_atan2_v2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file fft_atan2_v2.vhd
-    Info (12022): Found design unit 1: fft_atan2_v2-rtl File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 31
+    Info (12022): Found design unit 1: fft_atan2_v2-rtl File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 36
     Info (12023): Found entity 1: fft_atan2_v2 File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 8
 Info (12021): Found 2 design units, including 1 entities, in source file rom_reader_v2/rom_reader_v2.vhd
     Info (12022): Found design unit 1: ROM_READER_V2-rtl File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_READER_V2/ROM_READER_V2.vhd Line: 26
@@ -415,11 +471,10 @@ Info (12021): Found 2 design units, including 1 entities, in source file rom_raw
     Info (12022): Found design unit 1: rom_rawdata-SYN File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_RAWDATA/ROM_RAWDATA.vhd Line: 53
     Info (12023): Found entity 1: ROM_RAWDATA File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_RAWDATA/ROM_RAWDATA.vhd Line: 42
 Info (12127): Elaborating entity "fft_atan2_v2" for the top level hierarchy
-Warning (10036): Verilog HDL or VHDL warning at fft_atan2_v2.vhd(100): object "RESETn" assigned a value but never read File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 100
-Warning (10036): Verilog HDL or VHDL warning at fft_atan2_v2.vhd(103): object "w1" assigned a value but never read File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 103
-Warning (10036): Verilog HDL or VHDL warning at fft_atan2_v2.vhd(104): object "w2" assigned a value but never read File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 104
-Info (12128): Elaborating entity "ROM_READER_V2" for hierarchy "ROM_READER_V2:inst1" File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 121
-Info (12128): Elaborating entity "ROM_RAWDATA" for hierarchy "ROM_RAWDATA:inst2" File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 134
+Warning (10036): Verilog HDL or VHDL warning at fft_atan2_v2.vhd(116): object "RESETn" assigned a value but never read File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 116
+Warning (10036): Verilog HDL or VHDL warning at fft_atan2_v2.vhd(125): object "gnd" assigned a value but never read File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 125
+Info (12128): Elaborating entity "ROM_READER_V2" for hierarchy "ROM_READER_V2:inst1" File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 149
+Info (12128): Elaborating entity "ROM_RAWDATA" for hierarchy "ROM_RAWDATA:inst2" File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 162
 Info (12128): Elaborating entity "altsyncram" for hierarchy "ROM_RAWDATA:inst2|altsyncram:altsyncram_component" File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_RAWDATA/ROM_RAWDATA.vhd Line: 60
 Info (12130): Elaborated megafunction instantiation "ROM_RAWDATA:inst2|altsyncram:altsyncram_component" File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_RAWDATA/ROM_RAWDATA.vhd Line: 60
 Info (12133): Instantiated megafunction "ROM_RAWDATA:inst2|altsyncram:altsyncram_component" with the following parameter: File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_RAWDATA/ROM_RAWDATA.vhd Line: 60
@@ -476,6 +531,10 @@ Info (12133): Instantiated megafunction "ROM_RAWDATA:inst2|altsyncram:altsyncram
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_ob24.tdf
     Info (12023): Found entity 1: altsyncram_ob24 File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/db/altsyncram_ob24.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_ob24" for hierarchy "ROM_RAWDATA:inst2|altsyncram:altsyncram_component|altsyncram_ob24:auto_generated" File: c:/intelfpga_lite/17.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Warning (12125): Using design file shift_reg1bit.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: shift_reg1bit-rtl File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/shift_reg1bit.vhd Line: 52
+    Info (12023): Found entity 1: shift_reg1bit File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/shift_reg1bit.vhd Line: 35
+Info (12128): Elaborating entity "shift_reg1bit" for hierarchy "shift_reg1bit:inst3" File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 172
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "source_imag[0]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 21
     Warning (13410): Pin "source_imag[1]" is stuck at GND File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/fft_atan2_v2.vhd Line: 21
@@ -543,15 +602,15 @@ Warning (13024): Output pins are stuck at VCC or GND
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 128 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 147 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 3 input pins
-    Info (21059): Implemented 79 output pins
-    Info (21061): Implemented 30 logic cells
+    Info (21059): Implemented 82 output pins
+    Info (21061): Implemented 46 logic cells
     Info (21064): Implemented 16 RAM segments
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 68 warnings
-    Info: Peak virtual memory: 4869 megabytes
-    Info: Processing ended: Sun Mar 15 20:06:30 2020
+    Info: Peak virtual memory: 4867 megabytes
+    Info: Processing ended: Fri Apr 10 10:44:58 2020
     Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:26
+    Info: Total CPU time (on all processors): 00:00:25
 
 

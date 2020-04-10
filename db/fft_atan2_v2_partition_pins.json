@@ -68,6 +68,18 @@
 					"strict" : false
 				},
 				{
+					"name" : "sink_sop_out",
+					"strict" : false
+				},
+				{
+					"name" : "sink_eop_out",
+					"strict" : false
+				},
+				{
+					"name" : "sink_valid_out",
+					"strict" : false
+				},
+				{
 					"name" : "CLK",
 					"strict" : false
 				},

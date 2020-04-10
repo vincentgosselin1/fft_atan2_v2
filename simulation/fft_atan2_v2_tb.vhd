@@ -16,9 +16,9 @@ SIGNAL mag : STD_LOGIC_VECTOR(14 DOWNTO 0);
 SIGNAL rad : STD_LOGIC_VECTOR(15 DOWNTO 0);
 SIGNAL RESET : STD_LOGIC;
 SIGNAL sink_ready : STD_LOGIC;
-SIGNAL sink_sop : STD_LOGIC;
-signal sink_eop : STD_LOGIC;
-signal sink_valid : STD_LOGIC;
+SIGNAL sink_sop_out : STD_LOGIC;
+signal sink_eop_out : STD_LOGIC;
+signal sink_valid_out : STD_LOGIC;
 SIGNAL source_imag : STD_LOGIC_VECTOR(15 DOWNTO 0);
 SIGNAL source_real : STD_LOGIC_VECTOR(15 DOWNTO 0);
 SIGNAL source_valid : STD_LOGIC_VECTOR(0 DOWNTO 0);
@@ -46,7 +46,12 @@ COMPONENT fft_atan2_v2
 
 		--cordic_atan2_v2, also gives magnetude
 		mag :  OUT  STD_LOGIC_VECTOR(14 DOWNTO 0);
-		rad :  OUT  STD_LOGIC_VECTOR(15 DOWNTO 0)
+		rad :  OUT  STD_LOGIC_VECTOR(15 DOWNTO 0);
+		
+		--for sim
+		sink_sop_out : out std_logic;
+		sink_eop_out : out std_logic;
+		sink_valid_out : out std_logic
 	);
 END COMPONENT;
 
@@ -69,9 +74,15 @@ BEGIN
 
 		--cordic_atan2_v2, also gives magnetude
 		mag => mag,
-		rad => rad
+		rad => rad,
+		
+		--for sim
+		sink_sop_out => sink_sop_out,
+		sink_eop_out => sink_eop_out,
+		sink_valid_out => sink_valid_out
 		
 	);
+	
 init : PROCESS                                               
 -- variable declarations                                     
 BEGIN                                                        

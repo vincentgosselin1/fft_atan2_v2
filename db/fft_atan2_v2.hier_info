@@ -1,6 +1,9 @@
 |fft_atan2_v2
 CLK => ROM_READER_V2:inst1.CLK
 CLK => ROM_RAWDATA:inst2.clock
+CLK => shift_reg1bit:inst3.clk
+CLK => shift_reg1bit:inst4.clk
+CLK => shift_reg1bit:inst5.clk
 RESET => ROM_READER_V2:inst1.RESET
 trigger_in => ROM_READER_V2:inst1.TRIGGER_IN
 rom_out[0] << ROM_RAWDATA:inst2.q[0]
@@ -82,6 +85,9 @@ rad[12] << <GND>
 rad[13] << <GND>
 rad[14] << <GND>
 rad[15] << <GND>
+sink_sop_out << shift_reg1bit:inst3.sr_out
+sink_eop_out << shift_reg1bit:inst4.sr_out
+sink_valid_out << shift_reg1bit:inst5.sr_out
 
 
 |fft_atan2_v2|ROM_READER_V2:inst1
@@ -462,5 +468,44 @@ rden_a => ram_block1a12.ENA0
 rden_a => ram_block1a13.ENA0
 rden_a => ram_block1a14.ENA0
 rden_a => ram_block1a15.ENA0
+
+
+|fft_atan2_v2|shift_reg1bit:inst3
+clk => sr[0].CLK
+clk => sr[1].CLK
+clk => sr[2].CLK
+clk => sr[3].CLK
+enable => sr[0].ENA
+enable => sr[1].ENA
+enable => sr[2].ENA
+enable => sr[3].ENA
+sr_in => sr[0].DATAIN
+sr_out <= sr[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fft_atan2_v2|shift_reg1bit:inst4
+clk => sr[0].CLK
+clk => sr[1].CLK
+clk => sr[2].CLK
+clk => sr[3].CLK
+enable => sr[0].ENA
+enable => sr[1].ENA
+enable => sr[2].ENA
+enable => sr[3].ENA
+sr_in => sr[0].DATAIN
+sr_out <= sr[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fft_atan2_v2|shift_reg1bit:inst5
+clk => sr[0].CLK
+clk => sr[1].CLK
+clk => sr[2].CLK
+clk => sr[3].CLK
+enable => sr[0].ENA
+enable => sr[1].ENA
+enable => sr[2].ENA
+enable => sr[3].ENA
+sr_in => sr[0].DATAIN
+sr_out <= sr[3].DB_MAX_OUTPUT_PORT_TYPE
 
 

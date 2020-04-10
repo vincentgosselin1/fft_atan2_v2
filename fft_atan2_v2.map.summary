@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Sun Mar 15 20:06:29 2020
+Analysis & Synthesis Status : Successful - Fri Apr 10 10:44:58 2020
 Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 Revision Name : fft_atan2_v2
 Top-level Entity Name : fft_atan2_v2
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 26
-Total pins : 82
+Total registers : 40
+Total pins : 85
 Total virtual pins : 0
 Total block memory bits : 16,384
 Total DSP Blocks : 0

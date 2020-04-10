@@ -23,7 +23,12 @@ ENTITY fft_atan2_v2 IS
 
 		--cordic_atan2_v2, also gives magnetude
 		mag :  OUT  STD_LOGIC_VECTOR(14 DOWNTO 0);
-		rad :  OUT  STD_LOGIC_VECTOR(15 DOWNTO 0)
+		rad :  OUT  STD_LOGIC_VECTOR(15 DOWNTO 0);
+		
+		--for sim
+		sink_sop_out : out std_logic;
+		sink_eop_out : out std_logic;
+		sink_valid_out : out std_logic
 		
 	);
 END fft_atan2_v2;
@@ -95,6 +100,17 @@ component ROM_READER_V2 IS
 	);
 END component;
 
+COMPONENT shift_reg1bit
+GENERIC ( NUM_STAGES : INTEGER := 256 );
+PORT
+(
+	clk		:	 IN STD_LOGIC;
+	enable		:	 IN STD_LOGIC;
+	sr_in		:	 IN STD_LOGIC;
+	sr_out		:	 OUT STD_LOGIC
+);
+END COMPONENT;
+
 	
 --signals
 SIGNAL	RESETn :  STD_LOGIC;
@@ -102,20 +118,32 @@ SIGNAL	VCC	:	STD_LOGIC;
 signal	read_req : std_logic;
 signal	w1 : std_logic;
 signal	w2 : std_logic;
+signal	w3 : std_logic;
+signal sink_sop,sink_eop,sink_valid : std_logic;
 signal rom_addr : std_logic_vector(9 downto 0);
 signal rom_out_w : std_logic_vector(15 downto 0);
+signal gnd : natural; -- for bus 
 
 
 
 
 BEGIN 
 
+--signal assignments
 resetn <= not(reset);
 rom_out <= rom_out_w;
 source_imag <= (others => '0');
 source_real <= (others => '0');
 mag <= (others => '0');
 rad <= (others => '0');
+VCC <= '1';
+gnd <= 0;
+
+--for sim
+sink_eop_out <= sink_eop;
+sink_sop_out <= sink_sop;
+sink_valid_out <= sink_valid;
+ 
 
 --rom reader		
 	inst1 : ROM_READER_V2
@@ -139,35 +167,64 @@ rad <= (others => '0');
 		rden	 => read_req,
 		q	 => rom_out_w
 	);
+	
+	--sink_sop
+	inst3 : shift_reg1bit
+	GENERIC map( NUM_STAGES => 2 )
+	PORT map
+	(
+		clk		=> clk,
+		enable	=> VCC,
+		sr_in	=> w1,
+		sr_out	=> sink_sop
+	);
+	--sink_eop
+	inst4 : shift_reg1bit
+	GENERIC map( NUM_STAGES => 2 )
+	PORT map
+	(
+		clk		=> clk,
+		enable	=> VCC,
+		sr_in	=> w2,
+		sr_out	=> sink_eop
+	);
+	--sink_valid
+	inst5 : shift_reg1bit
+	GENERIC map( NUM_STAGES => 2 )
+	PORT map
+	(
+		clk		=> clk,
+		enable	=> VCC,
+		sr_in	=> read_req,
+		sr_out	=> sink_valid
+	);
+	
+	-- inst3 : component FFT_Burst_16x1024_v1
+	-- port map (
+		-- clk          => clk,          --    clk.clk
+		-- reset_n      => resetn,      --    rst.reset_n
+		-- sink_valid   => CONNECTED_TO_sink_valid,   --   sink.sink_valid
+		-- sink_ready   => CONNECTED_TO_sink_ready,   --       .sink_ready
+		-- sink_error   => CONNECTED_TO_sink_error,   --       .sink_error
+		-- sink_sop     => sink_sop,     --       .sink_sop
+		-- sink_eop     => CONNECTED_TO_sink_eop,     --       .sink_eop
+		-- sink_real    => CONNECTED_TO_sink_real,    --       .sink_real
+		-- sink_imag    => CONNECTED_TO_sink_imag,    --       .sink_imag
+		-- inverse      => CONNECTED_TO_inverse,      --       .inverse
+		-- source_valid => CONNECTED_TO_source_valid, -- source.source_valid
+		-- source_ready => CONNECTED_TO_source_ready, --       .source_ready
+		-- source_error => CONNECTED_TO_source_error, --       .source_error
+		-- source_sop   => CONNECTED_TO_source_sop,   --       .source_sop
+		-- source_eop   => CONNECTED_TO_source_eop,   --       .source_eop
+		-- source_real  => CONNECTED_TO_source_real,  --       .source_real
+		-- source_imag  => CONNECTED_TO_source_imag,  --       .source_imag
+		-- source_exp   => CONNECTED_TO_source_exp    --       .source_exp
+	-- );
+	
+	
+	
+	
 
--- VCC <= '1';
-
--- inst3 : FFT_Burst_16x1024_v1
--- PORT MAP(clk => CLK,
-		 -- reset_n => RESETn,
-		 -- sink_valid => valid,
-		 -- sink_sop => sop,
-		 -- sink_eop => eop,
-		 -- inverse => SYNTHESIZED_WIRE_0,
-		 -- source_ready => SYNTHESIZED_WIRE_1,
-		 -- sink_error => SYNTHESIZED_WIRE_2,
-		 -- sink_imag => SYNTHESIZED_WIRE_3,
-		 -- sink_real => W4,
-		 -- source_valid => SYNTHESIZED_WIRE_4(0),
-		 -- source_imag => source_imag_ALTERA_SYNTHESIZED,
-		 -- source_real => source_real_ALTERA_SYNTHESIZED,
-		 -- sink_ready => sink_ready);	
-
-	-- u0 : component cordic_atan2_v2
-		-- port map (
-			-- clk    => CLK,    --    clk.clk
-			-- areset => RESET, -- areset.reset
-			-- x      => source_real_ALTERA_SYNTHESIZED,      --      x.x
-			-- y      => source_imag_ALTERA_SYNTHESIZED,      --      y.y
-			-- q      => rad,      --      q.q
-			-- r      => mag,      --      r.r
-			-- en(0)     => VCC      --     en.en
-		-- );
 		
 
 END rtl;
