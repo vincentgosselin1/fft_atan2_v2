@@ -2,6 +2,7 @@
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.all; 
+USE ieee.numeric_std.ALL;  
 
 LIBRARY work;
 
@@ -122,7 +123,10 @@ signal	w3 : std_logic;
 signal sink_sop,sink_eop,sink_valid : std_logic;
 signal rom_addr : std_logic_vector(9 downto 0);
 signal rom_out_w : std_logic_vector(15 downto 0);
-signal gnd : natural; -- for bus 
+signal gnd : integer; -- for bus 
+signal gnd1 : std_logic_vector(0 downto 0);
+signal gnd2 : std_logic_vector(1 downto 0);
+signal gnd16 : std_logic_vector(15 downto 0);
 
 
 
@@ -132,12 +136,15 @@ BEGIN
 --signal assignments
 resetn <= not(reset);
 rom_out <= rom_out_w;
-source_imag <= (others => '0');
-source_real <= (others => '0');
 mag <= (others => '0');
 rad <= (others => '0');
 VCC <= '1';
 gnd <= 0;
+
+gnd1 <= std_logic_vector(to_unsigned(gnd,1));
+gnd2 <= std_logic_vector(to_unsigned(gnd,2));
+gnd16 <= std_logic_vector(to_unsigned(gnd,16));
+
 
 --for sim
 sink_eop_out <= sink_eop;
@@ -199,27 +206,27 @@ sink_valid_out <= sink_valid;
 		sr_out	=> sink_valid
 	);
 	
-	-- inst3 : component FFT_Burst_16x1024_v1
-	-- port map (
-		-- clk          => clk,          --    clk.clk
-		-- reset_n      => resetn,      --    rst.reset_n
-		-- sink_valid   => CONNECTED_TO_sink_valid,   --   sink.sink_valid
-		-- sink_ready   => CONNECTED_TO_sink_ready,   --       .sink_ready
-		-- sink_error   => CONNECTED_TO_sink_error,   --       .sink_error
-		-- sink_sop     => sink_sop,     --       .sink_sop
-		-- sink_eop     => CONNECTED_TO_sink_eop,     --       .sink_eop
-		-- sink_real    => CONNECTED_TO_sink_real,    --       .sink_real
-		-- sink_imag    => CONNECTED_TO_sink_imag,    --       .sink_imag
-		-- inverse      => CONNECTED_TO_inverse,      --       .inverse
-		-- source_valid => CONNECTED_TO_source_valid, -- source.source_valid
-		-- source_ready => CONNECTED_TO_source_ready, --       .source_ready
-		-- source_error => CONNECTED_TO_source_error, --       .source_error
-		-- source_sop   => CONNECTED_TO_source_sop,   --       .source_sop
-		-- source_eop   => CONNECTED_TO_source_eop,   --       .source_eop
-		-- source_real  => CONNECTED_TO_source_real,  --       .source_real
-		-- source_imag  => CONNECTED_TO_source_imag,  --       .source_imag
-		-- source_exp   => CONNECTED_TO_source_exp    --       .source_exp
-	-- );
+	inst6 : component FFT_Burst_16x1024_v1
+	port map (
+		clk          => clk,          --    clk.clk
+		reset_n      => resetn,      --    rst.reset_n
+		sink_valid   => sink_valid,   --   sink.sink_valid
+		sink_ready   => OPEN,   --       .sink_ready
+		sink_error   => gnd2,   --       .sink_error
+		sink_sop     => sink_sop,     --       .sink_sop
+		sink_eop     => sink_eop,     --       .sink_eop
+		sink_real    => rom_out_w,    --       .sink_real
+		sink_imag    => gnd16,    --       .sink_imag
+		inverse      => gnd1,      --       .inverse
+		source_valid => OPEN, -- source.source_valid
+		source_ready => VCC, --       .source_ready
+		source_error => OPEN, --       .source_error
+		source_sop   => OPEN,   --       .source_sop
+		source_eop   => OPEN,   --       .source_eop
+		source_real  => source_real,  --       .source_real
+		source_imag  => source_imag,  --       .source_imag
+		source_exp   => OPEN    --       .source_exp
+	);
 	
 	
 	

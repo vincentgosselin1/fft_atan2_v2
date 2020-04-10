@@ -1,5 +1,5 @@
 Flow report for fft_atan2_v2
-Fri Apr 10 10:44:58 2020
+Fri Apr 10 11:22:34 2020
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Fri Apr 10 10:44:58 2020       ;
+; Flow Status                     ; Successful - Fri Apr 10 11:22:34 2020       ;
 ; Quartus Prime Version           ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; fft_atan2_v2                                ;
 ; Top-level Entity Name           ; fft_atan2_v2                                ;
@@ -48,11 +48,11 @@ refer to the applicable agreement for further details.
 ; Device                          ; 5CEFA4F23C7                                 ;
 ; Timing Models                   ; Final                                       ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 40                                          ;
+; Total registers                 ; 4007                                        ;
 ; Total pins                      ; 85                                          ;
 ; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 16,384                                      ;
-; Total DSP Blocks                ; 0                                           ;
+; Total block memory bits         ; 139,958                                     ;
+; Total DSP Blocks                ; 6                                           ;
 ; Total HSSI RX PCSs              ; 0                                           ;
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
 ; Total HSSI TX PCSs              ; 0                                           ;
@@ -67,26 +67,34 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/10/2020 10:44:46 ;
+; Start date & time ; 04/10/2020 11:21:25 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; fft_atan2_v2        ;
 +-------------------+---------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                        ;
-+-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
-+-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 84440850203615.158652988608200         ; --            ; --          ; --         ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --          ; --         ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --         ;
-+-------------------------------------+----------------------------------------+---------------+-------------+------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                          ;
++-------------------------------------+------------------------------------------------------------------------+---------------+-------------------------------+------------+
+; Assignment Name                     ; Value                                                                  ; Default Value ; Entity Name                   ; Section Id ;
++-------------------------------------+------------------------------------------------------------------------+---------------+-------------------------------+------------+
+; COMPILER_SIGNATURE_ID               ; 84440850203615.158653208508548                                         ; --            ; --                            ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                                     ; --            ; --                            ; --         ;
+; MESSAGE_DISABLE                     ; 270007                                                                 ; --            ; FFT_Burst_16x1024_v1_fft_ii_0 ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                                      ; --            ; --                            ; --         ;
+; MISC_FILE                           ; FFT_Burst_16x1024_v1/synthesis/../FFT_Burst_16x1024_v1.cmp             ; --            ; --                            ; --         ;
+; MISC_FILE                           ; FFT_Burst_16x1024_v1/synthesis/../../FFT_Burst_16x1024_v1.qsys         ; --            ; --                            ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family)                                 ; --            ; --                            ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                                 ; --            ; --                            ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                                 ; --            ; --                            ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                                    ; --            ; --                            ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                  ; --            ; --                            ; --         ;
+; SEARCH_PATH                         ; c:\intelfpga_lite\17.1\quartus\mydev\fft_atan2_v2\fft_burst_16x1024_v1 ; --            ; --                            ; --         ;
+; SLD_FILE                            ; FFT_Burst_16x1024_v1/synthesis/FFT_Burst_16x1024_v1.debuginfo          ; --            ; --                            ; --         ;
+; SLD_INFO                            ; QSYS_NAME FFT_Burst_16x1024_v1 HAS_SOPCINFO 1 GENERATION_ID 1581906124 ; --            ; FFT_Burst_16x1024_v1          ; --         ;
+; SOPCINFO_FILE                       ; FFT_Burst_16x1024_v1/synthesis/../../FFT_Burst_16x1024_v1.sopcinfo     ; --            ; --                            ; --         ;
+; SYNTHESIS_ONLY_QIP                  ; On                                                                     ; --            ; --                            ; --         ;
++-------------------------------------+------------------------------------------------------------------------+---------------+-------------------------------+------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -94,8 +102,8 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:13     ; 1.0                     ; 4867 MB             ; 00:00:25                           ;
-; Total                ; 00:00:13     ; --                      ; --                  ; 00:00:25                           ;
+; Analysis & Synthesis ; 00:01:05     ; 1.0                     ; 5063 MB             ; 00:01:27                           ;
+; Total                ; 00:01:05     ; --                      ; --                  ; 00:01:27                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
