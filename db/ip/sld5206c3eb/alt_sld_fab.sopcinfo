@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="alt_sld_fab" kind="alt_sld_fab" version="1.0" fabric="QSYS">
  <!-- Format version 17.1 590 (Future versions may contain additional information.) -->
- <!-- 2020.04.10.11:22:09 -->
+ <!-- 2020.04.10.17:39:04 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_DEVICE_FAMILY">
   <type>java.lang.String</type>
-  <value>CYCLONEV</value>
+  <value>ARRIAII</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -32,7 +32,7 @@
  </parameter>
  <parameter name="deviceFamily">
   <type>java.lang.String</type>
-  <value>Cyclone V</value>
+  <value>Arria II GX</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -56,7 +56,7 @@
 the requested settings for a module instance. -->
   <parameter name="DESIGN_HASH">
    <type>java.lang.String</type>
-   <value>6a1a859e0e97eee557ea</value>
+   <value>5a10d0667858ff031d4e</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -136,7 +136,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="DEVICE_FAMILY">
    <type>java.lang.String</type>
-   <value>CYCLONEV</value>
+   <value>ARRIAII</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -1045,7 +1045,7 @@ parameters are a RESULT of the module parameters. -->
 the requested settings for a module instance. -->
   <parameter name="DEVICE_FAMILY">
    <type>java.lang.String</type>
-   <value>CYCLONEV</value>
+   <value>ARRIAII</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -1627,7 +1627,7 @@ parameters are a RESULT of the module parameters. -->
 the requested settings for a module instance. -->
   <parameter name="DESIGN_HASH">
    <type>java.lang.String</type>
-   <value>6a1a859e0e97eee557ea</value>
+   <value>5a10d0667858ff031d4e</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>

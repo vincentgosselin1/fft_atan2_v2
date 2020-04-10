@@ -1,17 +1,20 @@
-Analysis & Synthesis Status : Successful - Fri Apr 10 11:22:34 2020
+Analysis & Synthesis Status : Successful - Fri Apr 10 17:39:34 2020
 Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 Revision Name : fft_atan2_v2
 Top-level Entity Name : fft_atan2_v2
-Family : Cyclone V
-Logic utilization (in ALMs) : N/A
-Total registers : 4007
+Family : Arria II GX
+Logic utilization : N/A
+    Combinational ALUTs : 3,631
+    Memory ALUTs : 0
+    Dedicated logic registers : 4,458
+Total registers : 4458
 Total pins : 85
 Total virtual pins : 0
-Total block memory bits : 139,958
-Total DSP Blocks : 6
-Total HSSI RX PCSs : 0
-Total HSSI PMA RX Deserializers : 0
-Total HSSI TX PCSs : 0
-Total HSSI PMA TX Serializers : 0
+Total block memory bits : 139,922
+DSP block 18-bit elements : 12
+Total GXB Receiver Channel PCS : 0
+Total GXB Receiver Channel PMA : 0
+Total GXB Transmitter Channel PCS : 0
+Total GXB Transmitter Channel PMA : 0
 Total PLLs : 0
 Total DLLs : 0

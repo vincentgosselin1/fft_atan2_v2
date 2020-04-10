@@ -19,7 +19,7 @@ ENTITY fft_atan2_v2 IS
 		rom_out : out std_logic_vector(15 DOWNTO 0);
 		
 		--fft outputs
-		source_imag :  OUT  STD_LOGIC_VECTOR(15 DOWNTO 0);
+		source_imag	:  OUT  STD_LOGIC_VECTOR(15 DOWNTO 0);
 		source_real :  OUT  STD_LOGIC_VECTOR(15 DOWNTO 0);
 
 		--cordic_atan2_v2, also gives magnetude
@@ -39,6 +39,15 @@ ARCHITECTURE rtl OF fft_atan2_v2 IS
 
 
 --components used
+component pll_50_to_250m 
+	port (
+		refclk : in std_logic;
+		rst	: in std_logic;
+		outclk_0 : out std_logic
+	);
+end component;
+
+
 
 COMPONENT fft_burst_16x1024_v1
 	PORT(clk : IN STD_LOGIC;
@@ -114,8 +123,9 @@ END COMPONENT;
 
 	
 --signals
+--signal 	clk 	: std_logic;
 SIGNAL	RESETn :  STD_LOGIC;
-SIGNAL	VCC	:	STD_LOGIC;
+SIGNAL	VCC	: integer; -- for bus 
 signal	read_req : std_logic;
 signal	w1 : std_logic;
 signal	w2 : std_logic;
@@ -123,10 +133,16 @@ signal	w3 : std_logic;
 signal sink_sop,sink_eop,sink_valid : std_logic;
 signal rom_addr : std_logic_vector(9 downto 0);
 signal rom_out_w : std_logic_vector(15 downto 0);
-signal gnd : integer; -- for bus 
+signal gnd : integer; -- for bus
+signal VCC0 : std_logic;
+signal VCC1 : std_logic_vector(0 downto 0);
 signal gnd1 : std_logic_vector(0 downto 0);
 signal gnd2 : std_logic_vector(1 downto 0);
 signal gnd16 : std_logic_vector(15 downto 0);
+
+signal source_imag_w : std_logic_vector(15 downto 0);
+signal source_real_w : std_logic_vector(15 downto 0);
+
 
 
 
@@ -136,14 +152,18 @@ BEGIN
 --signal assignments
 resetn <= not(reset);
 rom_out <= rom_out_w;
-mag <= (others => '0');
-rad <= (others => '0');
-VCC <= '1';
+VCC <= 1;
+VCC0 <= '1';
 gnd <= 0;
 
+VCC1 <= std_logic_vector(to_unsigned(VCC,1));
 gnd1 <= std_logic_vector(to_unsigned(gnd,1));
 gnd2 <= std_logic_vector(to_unsigned(gnd,2));
 gnd16 <= std_logic_vector(to_unsigned(gnd,16));
+
+source_imag <= source_imag_w;
+source_real <= source_real_w;
+
 
 
 --for sim
@@ -151,6 +171,16 @@ sink_eop_out <= sink_eop;
 sink_sop_out <= sink_sop;
 sink_valid_out <= sink_valid;
  
+
+	-- inst0 : pll_50_to_250m
+	-- port map
+	-- (
+		-- refclk => clk_50,
+		-- rst => reset,
+		-- outclk_0 => clk
+	-- );
+	
+
 
 --rom reader		
 	inst1 : ROM_READER_V2
@@ -181,7 +211,7 @@ sink_valid_out <= sink_valid;
 	PORT map
 	(
 		clk		=> clk,
-		enable	=> VCC,
+		enable	=> VCC0,
 		sr_in	=> w1,
 		sr_out	=> sink_sop
 	);
@@ -191,7 +221,7 @@ sink_valid_out <= sink_valid;
 	PORT map
 	(
 		clk		=> clk,
-		enable	=> VCC,
+		enable	=> VCC0,
 		sr_in	=> w2,
 		sr_out	=> sink_eop
 	);
@@ -201,7 +231,7 @@ sink_valid_out <= sink_valid;
 	PORT map
 	(
 		clk		=> clk,
-		enable	=> VCC,
+		enable	=> VCC0,
 		sr_in	=> read_req,
 		sr_out	=> sink_valid
 	);
@@ -217,16 +247,29 @@ sink_valid_out <= sink_valid;
 		sink_eop     => sink_eop,     --       .sink_eop
 		sink_real    => rom_out_w,    --       .sink_real
 		sink_imag    => gnd16,    --       .sink_imag
-		inverse      => gnd1,      --       .inverse
+		inverse      => VCC1,      --       .inverse
 		source_valid => OPEN, -- source.source_valid
-		source_ready => VCC, --       .source_ready
+		source_ready => VCC0, --       .source_ready
 		source_error => OPEN, --       .source_error
 		source_sop   => OPEN,   --       .source_sop
 		source_eop   => OPEN,   --       .source_eop
-		source_real  => source_real,  --       .source_real
-		source_imag  => source_imag,  --       .source_imag
+		source_real  => source_real_w,  --       .source_real
+		source_imag  => source_imag_w,  --       .source_imag
 		source_exp   => OPEN    --       .source_exp
 	);
+	
+		inst7 : cordic_atan2_v2
+		port map (
+			areset => reset,
+			clk  => clk,
+			en   => VCC1,
+			--Angle is q.
+			q   => OPEN,
+			--Magnitude is r
+			r  => mag,
+			x  => source_real_w,
+			y  => source_imag_w
+		);
 	
 	
 	

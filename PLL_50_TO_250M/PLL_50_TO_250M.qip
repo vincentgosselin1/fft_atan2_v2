@@ -34,7 +34,7 @@ set_global_assignment -entity "PLL_50_TO_250M_0002" -library "PLL_50_TO_250M" -n
 set_global_assignment -entity "PLL_50_TO_250M_0002" -library "PLL_50_TO_250M" -name IP_COMPONENT_PARAMETER "Z3VpX2ZyYWN0aW9uYWxfY291dA==::MzI=::RnJhY3Rpb25hbCBjYXJyeSBvdXQ="
 set_global_assignment -entity "PLL_50_TO_250M_0002" -library "PLL_50_TO_250M" -name IP_COMPONENT_PARAMETER "Z3VpX2RzbV9vdXRfc2Vs::MXN0X29yZGVy::RFNNIE9yZGVy"
 set_global_assignment -entity "PLL_50_TO_250M_0002" -library "PLL_50_TO_250M" -name IP_COMPONENT_PARAMETER "b3BlcmF0aW9uX21vZGU=::ZGlyZWN0::b3BlcmF0aW9uX21vZGU="
-set_global_assignment -entity "PLL_50_TO_250M_0002" -library "PLL_50_TO_250M" -name IP_COMPONENT_PARAMETER "Z3VpX3VzZV9sb2NrZWQ=::dHJ1ZQ==::RW5hYmxlIGxvY2tlZCBvdXRwdXQgcG9ydA=="
+set_global_assignment -entity "PLL_50_TO_250M_0002" -library "PLL_50_TO_250M" -name IP_COMPONENT_PARAMETER "Z3VpX3VzZV9sb2NrZWQ=::ZmFsc2U=::RW5hYmxlIGxvY2tlZCBvdXRwdXQgcG9ydA=="
 set_global_assignment -entity "PLL_50_TO_250M_0002" -library "PLL_50_TO_250M" -name IP_COMPONENT_PARAMETER "Z3VpX2VuX2Fkdl9wYXJhbXM=::ZmFsc2U=::RW5hYmxlIHBoeXNpY2FsIG91dHB1dCBjbG9jayBwYXJhbWV0ZXJz"
 set_global_assignment -entity "PLL_50_TO_250M_0002" -library "PLL_50_TO_250M" -name IP_COMPONENT_PARAMETER "Z3VpX251bWJlcl9vZl9jbG9ja3M=::MQ==::TnVtYmVyIE9mIENsb2Nrcw=="
 set_global_assignment -entity "PLL_50_TO_250M_0002" -library "PLL_50_TO_250M" -name IP_COMPONENT_PARAMETER "bnVtYmVyX29mX2Nsb2Nrcw==::MQ==::bnVtYmVyX29mX2Nsb2Nrcw=="
@@ -329,7 +329,7 @@ set_global_assignment -entity "PLL_50_TO_250M_0002" -library "PLL_50_TO_250M" -n
 set_global_assignment -entity "PLL_50_TO_250M_0002" -library "PLL_50_TO_250M" -name IP_COMPONENT_PARAMETER "Z3VpX2VuYWJsZV9jYXNjYWRlX291dA==::ZmFsc2U=::Q3JlYXRlIGEgJ2Nhc2NhZGVfb3V0JyBzaWduYWwgdG8gY29ubmVjdCB3aXRoIGEgZG93bnN0cmVhbSBQTEw="
 set_global_assignment -entity "PLL_50_TO_250M_0002" -library "PLL_50_TO_250M" -name IP_COMPONENT_PARAMETER "Z3VpX2VuYWJsZV9jYXNjYWRlX2lu::ZmFsc2U=::Q3JlYXRlIGFuIGFkanBsbGluIG9yIGNjbGsgc2lnbmFsIHRvIGNvbm5lY3Qgd2l0aCBhbiB1cHN0cmVhbSBQTEw="
 
-set_global_assignment -library "PLL_50_TO_250M" -name VHDL_FILE [file join $::quartus(qip_path) "PLL_50_TO_250M.vhd"]
+set_global_assignment -library "PLL_50_TO_250M" -name VERILOG_FILE [file join $::quartus(qip_path) "PLL_50_TO_250M.v"]
 set_global_assignment -library "PLL_50_TO_250M" -name VERILOG_FILE [file join $::quartus(qip_path) "PLL_50_TO_250M/PLL_50_TO_250M_0002.v"]
 set_global_assignment -library "PLL_50_TO_250M" -name QIP_FILE [file join $::quartus(qip_path) "PLL_50_TO_250M/PLL_50_TO_250M_0002.qip"]
 

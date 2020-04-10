@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <simPackage>
- <file path="PLL_50_TO_250M_sim/PLL_50_TO_250M.vho" type="VHDL" />
+ <file path="PLL_50_TO_250M_sim/PLL_50_TO_250M.vo" type="VERILOG" />
  <topLevel name="PLL_50_TO_250M" />
  <deviceFamily name="cyclonev" />
 </simPackage>

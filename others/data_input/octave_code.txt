@@ -1,0 +1,41 @@
+#multiplication of two functions and showing their FFts.
+graphics_toolkit('gnuplot')
+
+x = 0:1:1023;
+
+y = round(100* sin (x/0.01));
+figure
+plot (x,y , 'o-r')
+title("function y")
+
+#expected fft abs
+y_fft = abs(ifft(y));
+figure
+plot (y_fft , 'o-r')
+title("function abs(ifft(y))")
+
+y1 = round(10* sin (x*1000));
+figure
+plot (x,y1, 'o-r')
+title("function y1")
+
+#expected fft abs
+y1_fft = abs(ifft(y1));
+figure
+plot (y1_fft , 'o-r')
+title("function abs(ifft(y1))")
+
+y2 = y.*y1;
+figure
+plot (x,y2 , 'o-r')
+title("function y2 = y .* y1")
+
+#expected fft abs
+y2_fft = abs(ifft(y2));
+figure
+plot (y2_fft , 'o-r')
+title("function abs(ifft(y2))")
+
+
+
+#
