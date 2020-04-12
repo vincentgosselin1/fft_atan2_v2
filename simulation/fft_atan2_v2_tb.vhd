@@ -21,7 +21,9 @@ signal sink_eop_out : STD_LOGIC;
 signal sink_valid_out : STD_LOGIC;
 SIGNAL source_imag : STD_LOGIC_VECTOR(15 DOWNTO 0);
 SIGNAL source_real : STD_LOGIC_VECTOR(15 DOWNTO 0);
-SIGNAL source_valid : STD_LOGIC_VECTOR(0 DOWNTO 0);
+SIGNAL source_valid_out : std_logic;
+SIGNAL source_sop_out : std_logic;
+SIGNAL source_eop_out : std_logic;
 SIGNAL TRIGGER_in : STD_LOGIC;
 SIGNAL valid : STD_LOGIC;
 SIGNAL ROM_OUT : STD_LOGIC_VECTOR(15 DOWNTO 0);
@@ -51,7 +53,10 @@ COMPONENT fft_atan2_v2
 		--for sim
 		sink_sop_out : out std_logic;
 		sink_eop_out : out std_logic;
-		sink_valid_out : out std_logic
+		sink_valid_out : out std_logic;
+		source_sop_out : out std_logic;
+		source_eop_out : out std_logic;
+		source_valid_out : out std_logic
 	);
 END COMPONENT;
 
@@ -79,7 +84,10 @@ BEGIN
 		--for sim
 		sink_sop_out => sink_sop_out,
 		sink_eop_out => sink_eop_out,
-		sink_valid_out => sink_valid_out
+		sink_valid_out => sink_valid_out,
+		source_sop_out => source_sop_out,
+		source_eop_out => source_eop_out,
+		source_valid_out => source_valid_out
 		
 	);
 	

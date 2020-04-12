@@ -29,7 +29,11 @@ ENTITY fft_atan2_v2 IS
 		--for sim
 		sink_sop_out : out std_logic;
 		sink_eop_out : out std_logic;
-		sink_valid_out : out std_logic
+		sink_valid_out : out std_logic;
+		source_sop_out : out std_logic;
+		source_eop_out : out std_logic;
+		source_valid_out : out std_logic
+		
 		
 	);
 END fft_atan2_v2;
@@ -248,11 +252,11 @@ sink_valid_out <= sink_valid;
 		sink_real    => rom_out_w,    --       .sink_real
 		sink_imag    => gnd16,    --       .sink_imag
 		inverse      => VCC1,      --       .inverse
-		source_valid => OPEN, -- source.source_valid
+		source_valid => source_valid_out, -- source.source_valid
 		source_ready => VCC0, --       .source_ready
 		source_error => OPEN, --       .source_error
-		source_sop   => OPEN,   --       .source_sop
-		source_eop   => OPEN,   --       .source_eop
+		source_sop   => source_sop_out,   --       .source_sop
+		source_eop   => source_eop_out,   --       .source_eop
 		source_real  => source_real_w,  --       .source_real
 		source_imag  => source_imag_w,  --       .source_imag
 		source_exp   => OPEN    --       .source_exp
