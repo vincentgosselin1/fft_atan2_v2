@@ -196,6 +196,66 @@
 					"strict" : false
 				},
 				{
+					"name" : "mag[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mag[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mag[2]",
+					"strict" : false
+				},
+				{
+					"name" : "mag[3]",
+					"strict" : false
+				},
+				{
+					"name" : "mag[4]",
+					"strict" : false
+				},
+				{
+					"name" : "mag[5]",
+					"strict" : false
+				},
+				{
+					"name" : "mag[6]",
+					"strict" : false
+				},
+				{
+					"name" : "mag[7]",
+					"strict" : false
+				},
+				{
+					"name" : "mag[8]",
+					"strict" : false
+				},
+				{
+					"name" : "mag[9]",
+					"strict" : false
+				},
+				{
+					"name" : "mag[10]",
+					"strict" : false
+				},
+				{
+					"name" : "mag[11]",
+					"strict" : false
+				},
+				{
+					"name" : "mag[12]",
+					"strict" : false
+				},
+				{
+					"name" : "mag[13]",
+					"strict" : false
+				},
+				{
+					"name" : "mag[14]",
+					"strict" : false
+				},
+				{
 					"name" : "sink_sop_out",
 					"strict" : false
 				},

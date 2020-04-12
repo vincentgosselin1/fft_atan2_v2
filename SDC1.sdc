@@ -3,4 +3,4 @@
 #derive_pll_clocks
 
 #without PLL
-create_clock -name clk -period 2 -waveform {0 1} [get_ports {clk}]
+create_clock -name clk -period 1 -waveform {0 0.5} [get_ports {clk}]

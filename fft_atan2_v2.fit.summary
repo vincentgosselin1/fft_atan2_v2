@@ -1,22 +1,20 @@
-Fitter Status : Successful - Fri Apr 10 12:33:25 2020
+Fitter Status : Successful - Sat Apr 11 23:15:23 2020
 Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 Revision Name : fft_atan2_v2
 Top-level Entity Name : fft_atan2_v2
-Family : Arria II GX
-Device : EP2AGX45DF25I3
+Family : Cyclone V
+Device : 5CGXFC5C6F23C6
 Timing Models : Final
-Logic utilization : 11 %
-    Combinational ALUTs : 2,193 / 36,100 ( 6 % )
-    Memory ALUTs : 28 / 18,050 ( < 1 % )
-    Dedicated logic registers : 3,547 / 36,100 ( 10 % )
-Total registers : 3547
-Total pins : 85 / 292 ( 29 % )
+Logic utilization (in ALMs) : 2,242 / 29,080 ( 8 % )
+Total registers : 4891
+Total pins : 88 / 268 ( 33 % )
 Total virtual pins : 0
-Total block memory bits : 139,520 / 2,939,904 ( 5 % )
-DSP block 18-bit elements : 12 / 232 ( 5 % )
-Total GXB Receiver Channel PCS : 0 / 8 ( 0 % )
-Total GXB Receiver Channel PMA : 0 / 8 ( 0 % )
-Total GXB Transmitter Channel PCS : 0 / 8 ( 0 % )
-Total GXB Transmitter Channel PMA : 0 / 8 ( 0 % )
-Total PLLs : 0 / 4 ( 0 % )
-Total DLLs : 0 / 2 ( 0 % )
+Total block memory bits : 139,926 / 4,567,040 ( 3 % )
+Total RAM Blocks : 22 / 446 ( 5 % )
+Total DSP Blocks : 6 / 150 ( 4 % )
+Total HSSI RX PCSs : 0 / 6 ( 0 % )
+Total HSSI PMA RX Deserializers : 0 / 6 ( 0 % )
+Total HSSI TX PCSs : 0 / 6 ( 0 % )
+Total HSSI PMA TX Serializers : 0 / 6 ( 0 % )
+Total PLLs : 0 / 12 ( 0 % )
+Total DLLs : 0 / 4 ( 0 % )

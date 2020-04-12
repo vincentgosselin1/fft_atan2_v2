@@ -1,9 +1,9 @@
 <sld_project_info>
   <project>
-    <hash md5_digest_80b="6a1a859e0e97eee557ea"/>
+    <hash md5_digest_80b="a490a295bcf0230f5442"/>
   </project>
   <file_info>
-    <file device="EP2AGX45DF25I3" path="fft_atan2_v2_time_limited.sof" usercode="0xFFFFFFFF"/>
+    <file device="5CGXFC5C6F23C6" path="fft_atan2_v2_time_limited.sof" usercode="0xFFFFFFFF"/>
   </file_info>
   <hub_info hub_ir_width="4" ir_width="2" node_addr_width="1" node_count="1"/>
   <node_info>
@@ -13,6 +13,12 @@
     <sld_info hpath="FFT_Burst_16x1024_v1:inst6" name="inst6">
       <assignment_values>
         <assignment_value text="QSYS_NAME FFT_Burst_16x1024_v1 HAS_SOPCINFO 1 GENERATION_ID 1581906124"/>
+      </assignment_values>
+      <parameters/>
+    </sld_info>
+    <sld_info hpath="cordic_atan2_v2:inst7" name="inst7">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME cordic_atan2_v2 HAS_SOPCINFO 1 GENERATION_ID 1586661137"/>
       </assignment_values>
       <parameters/>
     </sld_info>

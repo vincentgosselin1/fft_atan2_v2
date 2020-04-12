@@ -25,6 +25,23 @@ END ROM_READER_V2;
 
 ARCHITECTURE rtl OF ROM_READER_V2 IS 
 
+
+--components declaration
+component pulse_gen is
+	port
+	(
+		-- Input ports
+		input	: in std_logic;
+		clk : in std_logic; 
+		resetn : in std_logic;
+		
+		-- Output ports
+		pulse	:	out std_logic
+	);
+end component;
+
+
+
 SIGNAL	SOP_OUT : STD_LOGIC;	--WIRES
 SIGNAL	SOP_OUT_ff : STD_LOGIC;	--WIRES
 SIGNAL 	EOP_OUT	: STD_LOGIC; --WIRES
@@ -41,12 +58,15 @@ signal	cout : std_logic;
 SIGNAL	Q_OUTd : STD_LOGIC_VECTOR(9 DOWNTO 0);
 signal	trigger_in_sync : std_logic;
 signal 	trigger_in_sync2 : std_logic;
+signal resetn : std_logic;
 
 
 	
 
 
 BEGIN 
+
+	resetn <= not(reset);
 	
 		--COUNTER <=  to_integer(unsigned(Q_OUT));
 		--my_slv <= std_logic_vector(to_unsigned(my_int, my_slv'length));
@@ -151,25 +171,20 @@ BEGIN
 	end process;
 
 
---dff0	
-	process(RESET, TRIGGER_IN_sync2, dff1)
-begin
-	if((RESET = '1') or (dff1 = '1')) then
-		dff0 <= '0';
-	elsif (rising_edge(TRIGGER_IN_sync2)) then
-		dff0 <= '1';
-	end if;
-end process;
 
+--dff0
+inst55 :  pulse_gen
+	port map
+	(
+		-- Input ports
+		input	=> trigger_in_sync2,
+		clk => clk, 
+		resetn => resetn,
+		
+		-- Output ports
+		pulse	=> dff1
+	);
 
-
---dff1
-process (CLK,dff0)
-begin
-	if (rising_edge(CLK)) then
-		dff1 <= dff0;
-	end if;
-end process;
 
 --cnt_ena_ff
 process(CLK, dff1, cout, reset)

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2020.04.10.17:38:27"
+ date="2020.04.11.23:12:27"
  outputDirectory="C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/db/ip/cordic_atan2_v2/">
  <perimeter>
   <parameter
@@ -90,19 +90,19 @@
  </perimeter>
  <entity
    path=""
-   parameterizationKey="cordic_atan2_v2:1.0:AUTO_CLK_CLOCK_DOMAIN=-1,AUTO_CLK_CLOCK_RATE=-1,AUTO_CLK_RESET_DOMAIN=-1,AUTO_DEVICE=EP2AGX45DF25I3,AUTO_DEVICE_FAMILY=Arria II GX,AUTO_DEVICE_SPEEDGRADE=3,AUTO_GENERATION_ID=1586554697,AUTO_UNIQUE_ID=(altera_CORDIC:17.1:ALL_function=VECTRANSLATE,FUNCTION_FAMILY=ALL,LUTSize=6,RES_DSP_param=0,RES_LUT_param=0,RES_MBIT_param=0,RES_MBLOCK_param=0,SFCompensation=true,derivedfunction=VECTRANSLATE,force_elaborate=0,frequency_feedback=0,frequency_target=200,fxpt_in_2_fraction_derived=0,fxpt_in_2_sign_derived=1,fxpt_in_2_width_derived=32,fxpt_in_fraction=15,fxpt_in_fraction_derived=0,fxpt_in_sign=1,fxpt_in_sign_derived=1,fxpt_in_width=16,fxpt_in_width_derived=32,fxpt_out_2_fraction_derived=14,fxpt_out_2_sign_derived=0,fxpt_out_2_width_derived=15,fxpt_out_fraction=13,fxpt_out_fraction_derived=0,fxpt_out_sign=0,fxpt_out_sign_derived=1,fxpt_out_width=32,fxpt_out_width_derived=16,gen_enable=true,latency_feedback=0,latency_target=2,performance_goal=frequency,report_resources_to_xml=false,selected_device_family=Arria II GX,selected_device_speedgrade=3,specifyLUTs=false,useLUTs=false,validation_failed=false)"
+   parameterizationKey="cordic_atan2_v2:1.0:AUTO_CLK_CLOCK_DOMAIN=-1,AUTO_CLK_CLOCK_RATE=-1,AUTO_CLK_RESET_DOMAIN=-1,AUTO_DEVICE=5CGXFC5C6F23C6,AUTO_DEVICE_FAMILY=Cyclone V,AUTO_DEVICE_SPEEDGRADE=6_H6,AUTO_GENERATION_ID=1586661137,AUTO_UNIQUE_ID=(altera_CORDIC:17.1:ALL_function=VECTRANSLATE,FUNCTION_FAMILY=ALL,LUTSize=6,RES_DSP_param=0,RES_LUT_param=0,RES_MBIT_param=0,RES_MBLOCK_param=0,SFCompensation=true,derivedfunction=VECTRANSLATE,force_elaborate=0,frequency_feedback=0,frequency_target=200,fxpt_in_2_fraction_derived=0,fxpt_in_2_sign_derived=1,fxpt_in_2_width_derived=32,fxpt_in_fraction=15,fxpt_in_fraction_derived=0,fxpt_in_sign=1,fxpt_in_sign_derived=1,fxpt_in_width=16,fxpt_in_width_derived=32,fxpt_out_2_fraction_derived=14,fxpt_out_2_sign_derived=0,fxpt_out_2_width_derived=15,fxpt_out_fraction=13,fxpt_out_fraction_derived=0,fxpt_out_sign=0,fxpt_out_sign_derived=1,fxpt_out_width=32,fxpt_out_width_derived=16,gen_enable=true,latency_feedback=0,latency_target=2,performance_goal=frequency,report_resources_to_xml=false,selected_device_family=Cyclone V,selected_device_speedgrade=6_H6,specifyLUTs=false,useLUTs=false,validation_failed=false)"
    instancePathKey="cordic_atan2_v2"
    kind="cordic_atan2_v2"
    version="1.0"
    name="cordic_atan2_v2">
   <parameter name="AUTO_CLK_CLOCK_RATE" value="-1" />
-  <parameter name="AUTO_GENERATION_ID" value="1586554697" />
-  <parameter name="AUTO_DEVICE" value="EP2AGX45DF25I3" />
-  <parameter name="AUTO_DEVICE_FAMILY" value="Arria II GX" />
+  <parameter name="AUTO_GENERATION_ID" value="1586661137" />
+  <parameter name="AUTO_DEVICE" value="5CGXFC5C6F23C6" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone V" />
   <parameter name="AUTO_CLK_RESET_DOMAIN" value="-1" />
   <parameter name="AUTO_CLK_CLOCK_DOMAIN" value="-1" />
   <parameter name="AUTO_UNIQUE_ID" value="" />
-  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="3" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="6_H6" />
   <generatedFiles>
    <file
        path="C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/db/ip/cordic_atan2_v2/cordic_atan2_v2.v"
@@ -146,10 +146,10 @@
    <message level="Debug">Transform: ResetAdaptation</message>
    <message level="Debug" culprit="cordic_atan2_v2"><![CDATA["<b>cordic_atan2_v2</b>" reuses <b>altera_CORDIC</b> "<b>submodules/cordic_atan2_v2_CORDIC_0</b>"]]></message>
    <message level="Debug" culprit="cordic_atan2_v2">queue size: 0 starting:altera_CORDIC "submodules/cordic_atan2_v2_CORDIC_0"</message>
-   <message level="Info" culprit="CORDIC_0">C:/intelfpga_lite/17.1/quartus/dspba/backend/windows64/cmdPolyEval -target ArriaIIGX -frequency 200 -name cordic_atan2_v2_CORDIC_0 -noChanValid -faithfulRounding -enable -printMachineReadable -lang VHDL -speedgrade 3 FXPVecTranslate 16 15 1 13 1</message>
-   <message level="Info" culprit="CORDIC_0">Latency on Arria II GX is 9 cycles</message>
+   <message level="Info" culprit="CORDIC_0">C:/intelfpga_lite/17.1/quartus/dspba/backend/windows64/cmdPolyEval -target CycloneV -frequency 200 -name cordic_atan2_v2_CORDIC_0 -noChanValid -faithfulRounding -enable -printMachineReadable -lang VHDL -speedgrade 6_H6 FXPVecTranslate 16 15 1 13 1</message>
+   <message level="Info" culprit="CORDIC_0">Latency on Cyclone V is 21 cycles</message>
    <message level="Info" culprit="CORDIC_0">DSP Blocks Used: 0</message>
-   <message level="Info" culprit="CORDIC_0">LUTs Used: 2135</message>
+   <message level="Info" culprit="CORDIC_0">LUTs Used: 2179</message>
    <message level="Info" culprit="CORDIC_0">Memory Bits Used: 0</message>
    <message level="Info" culprit="CORDIC_0">Memory Blocks Used: 0</message>
    <message level="Info" culprit="CORDIC_0"><![CDATA["<b>cordic_atan2_v2</b>" instantiated <b>altera_CORDIC</b> "<b>CORDIC_0</b>"]]></message>
@@ -157,7 +157,7 @@
  </entity>
  <entity
    path="submodules/"
-   parameterizationKey="altera_CORDIC:17.1:ALL_function=VECTRANSLATE,FUNCTION_FAMILY=ALL,LUTSize=6,RES_DSP_param=0,RES_LUT_param=0,RES_MBIT_param=0,RES_MBLOCK_param=0,SFCompensation=true,derivedfunction=VECTRANSLATE,force_elaborate=0,frequency_feedback=0,frequency_target=200,fxpt_in_2_fraction_derived=0,fxpt_in_2_sign_derived=1,fxpt_in_2_width_derived=32,fxpt_in_fraction=15,fxpt_in_fraction_derived=0,fxpt_in_sign=1,fxpt_in_sign_derived=1,fxpt_in_width=16,fxpt_in_width_derived=32,fxpt_out_2_fraction_derived=14,fxpt_out_2_sign_derived=0,fxpt_out_2_width_derived=15,fxpt_out_fraction=13,fxpt_out_fraction_derived=0,fxpt_out_sign=0,fxpt_out_sign_derived=1,fxpt_out_width=32,fxpt_out_width_derived=16,gen_enable=true,latency_feedback=0,latency_target=2,performance_goal=frequency,report_resources_to_xml=false,selected_device_family=Arria II GX,selected_device_speedgrade=3,specifyLUTs=false,useLUTs=false,validation_failed=false"
+   parameterizationKey="altera_CORDIC:17.1:ALL_function=VECTRANSLATE,FUNCTION_FAMILY=ALL,LUTSize=6,RES_DSP_param=0,RES_LUT_param=0,RES_MBIT_param=0,RES_MBLOCK_param=0,SFCompensation=true,derivedfunction=VECTRANSLATE,force_elaborate=0,frequency_feedback=0,frequency_target=200,fxpt_in_2_fraction_derived=0,fxpt_in_2_sign_derived=1,fxpt_in_2_width_derived=32,fxpt_in_fraction=15,fxpt_in_fraction_derived=0,fxpt_in_sign=1,fxpt_in_sign_derived=1,fxpt_in_width=16,fxpt_in_width_derived=32,fxpt_out_2_fraction_derived=14,fxpt_out_2_sign_derived=0,fxpt_out_2_width_derived=15,fxpt_out_fraction=13,fxpt_out_fraction_derived=0,fxpt_out_sign=0,fxpt_out_sign_derived=1,fxpt_out_width=32,fxpt_out_width_derived=16,gen_enable=true,latency_feedback=0,latency_target=2,performance_goal=frequency,report_resources_to_xml=false,selected_device_family=Cyclone V,selected_device_speedgrade=6_H6,specifyLUTs=false,useLUTs=false,validation_failed=false"
    instancePathKey="cordic_atan2_v2:.:CORDIC_0"
    kind="altera_CORDIC"
    version="17.1"
@@ -168,7 +168,7 @@
   <parameter name="fxpt_out_2_sign_derived" value="0" />
   <parameter name="fxpt_in_fraction" value="15" />
   <parameter name="fxpt_out_width" value="32" />
-  <parameter name="selected_device_family" value="Arria II GX" />
+  <parameter name="selected_device_family" value="Cyclone V" />
   <parameter name="fxpt_out_fraction" value="13" />
   <parameter name="fxpt_in_2_fraction_derived" value="0" />
   <parameter name="fxpt_in_2_width_derived" value="32" />
@@ -187,7 +187,7 @@
   <parameter name="fxpt_in_width" value="16" />
   <parameter name="fxpt_in_sign" value="1" />
   <parameter name="fxpt_out_2_fraction_derived" value="14" />
-  <parameter name="selected_device_speedgrade" value="3" />
+  <parameter name="selected_device_speedgrade" value="6_H6" />
   <parameter name="derivedfunction" value="VECTRANSLATE" />
   <parameter name="fxpt_out_2_width_derived" value="15" />
   <parameter name="specifyLUTs" value="false" />
@@ -221,10 +221,10 @@
   <instantiator instantiator="cordic_atan2_v2" as="CORDIC_0" />
   <messages>
    <message level="Debug" culprit="cordic_atan2_v2">queue size: 0 starting:altera_CORDIC "submodules/cordic_atan2_v2_CORDIC_0"</message>
-   <message level="Info" culprit="CORDIC_0">C:/intelfpga_lite/17.1/quartus/dspba/backend/windows64/cmdPolyEval -target ArriaIIGX -frequency 200 -name cordic_atan2_v2_CORDIC_0 -noChanValid -faithfulRounding -enable -printMachineReadable -lang VHDL -speedgrade 3 FXPVecTranslate 16 15 1 13 1</message>
-   <message level="Info" culprit="CORDIC_0">Latency on Arria II GX is 9 cycles</message>
+   <message level="Info" culprit="CORDIC_0">C:/intelfpga_lite/17.1/quartus/dspba/backend/windows64/cmdPolyEval -target CycloneV -frequency 200 -name cordic_atan2_v2_CORDIC_0 -noChanValid -faithfulRounding -enable -printMachineReadable -lang VHDL -speedgrade 6_H6 FXPVecTranslate 16 15 1 13 1</message>
+   <message level="Info" culprit="CORDIC_0">Latency on Cyclone V is 21 cycles</message>
    <message level="Info" culprit="CORDIC_0">DSP Blocks Used: 0</message>
-   <message level="Info" culprit="CORDIC_0">LUTs Used: 2135</message>
+   <message level="Info" culprit="CORDIC_0">LUTs Used: 2179</message>
    <message level="Info" culprit="CORDIC_0">Memory Bits Used: 0</message>
    <message level="Info" culprit="CORDIC_0">Memory Blocks Used: 0</message>
    <message level="Info" culprit="CORDIC_0"><![CDATA["<b>cordic_atan2_v2</b>" instantiated <b>altera_CORDIC</b> "<b>CORDIC_0</b>"]]></message>

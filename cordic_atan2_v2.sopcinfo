@@ -5,11 +5,11 @@
  version="1.0"
  fabric="QSYS">
  <!-- Format version 17.1 590 (Future versions may contain additional information.) -->
- <!-- 2020.04.10.17:38:17 -->
+ <!-- 2020.04.11.23:12:17 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
-  <value>1586554697</value>
+  <value>1586661137</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -27,7 +27,7 @@
  </parameter>
  <parameter name="AUTO_DEVICE_FAMILY">
   <type>java.lang.String</type>
-  <value>ARRIAII</value>
+  <value>CYCLONEV</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -36,7 +36,7 @@
  </parameter>
  <parameter name="AUTO_DEVICE">
   <type>java.lang.String</type>
-  <value>EP2AGX45DF25I3</value>
+  <value>5CGXFC5C6F23C6</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -45,7 +45,7 @@
  </parameter>
  <parameter name="AUTO_DEVICE_SPEEDGRADE">
   <type>java.lang.String</type>
-  <value>3</value>
+  <value>6_H6</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -84,7 +84,7 @@
  </parameter>
  <parameter name="deviceFamily">
   <type>java.lang.String</type>
-  <value>Arria II GX</value>
+  <value>Cyclone V</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -368,7 +368,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="selected_device_family">
    <type>java.lang.String</type>
-   <value>ARRIAII</value>
+   <value>CYCLONEV</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -377,7 +377,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="selected_device_speedgrade">
    <type>java.lang.String</type>
-   <value>3</value>
+   <value>6_H6</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>false</visible>
