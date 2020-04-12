@@ -13,19 +13,19 @@ ARCHITECTURE fft_atan2_v2 OF fft_atan2_v2_tb IS
 
 SIGNAL CLK : STD_LOGIC;
 SIGNAL mag : STD_LOGIC_VECTOR(14 DOWNTO 0);
-SIGNAL rad : STD_LOGIC_VECTOR(15 DOWNTO 0);
+--SIGNAL rad : STD_LOGIC_VECTOR(15 DOWNTO 0);
 SIGNAL RESET : STD_LOGIC;
-SIGNAL sink_ready : STD_LOGIC;
+--SIGNAL sink_ready : STD_LOGIC;
 SIGNAL sink_sop_out : STD_LOGIC;
 signal sink_eop_out : STD_LOGIC;
 signal sink_valid_out : STD_LOGIC;
 SIGNAL source_imag : STD_LOGIC_VECTOR(15 DOWNTO 0);
 SIGNAL source_real : STD_LOGIC_VECTOR(15 DOWNTO 0);
-SIGNAL source_valid_out : std_logic;
-SIGNAL source_sop_out : std_logic;
-SIGNAL source_eop_out : std_logic;
+--SIGNAL source_valid_out : std_logic;
+--SIGNAL source_sop_out : std_logic;
+--SIGNAL source_eop_out : std_logic;
 SIGNAL TRIGGER_in : STD_LOGIC;
-SIGNAL valid : STD_LOGIC;
+--SIGNAL valid : STD_LOGIC;
 SIGNAL ROM_OUT : STD_LOGIC_VECTOR(15 DOWNTO 0);
 
 
@@ -79,15 +79,15 @@ BEGIN
 
 		--cordic_atan2_v2, also gives magnetude
 		mag => mag,
-		rad => rad,
+		--rad => rad,
 		
 		--for sim
 		sink_sop_out => sink_sop_out,
 		sink_eop_out => sink_eop_out,
-		sink_valid_out => sink_valid_out,
-		source_sop_out => source_sop_out,
-		source_eop_out => source_eop_out,
-		source_valid_out => source_valid_out
+		sink_valid_out => sink_valid_out
+		-- source_sop_out => source_sop_out,
+		-- source_eop_out => source_eop_out,
+		-- source_valid_out => source_valid_out
 		
 	);
 	
