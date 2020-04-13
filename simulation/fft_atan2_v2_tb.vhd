@@ -101,7 +101,7 @@ END PROCESS init;
 clock_running : PROCESS
 
 	--constant init.
-	constant clock_period : time := 5 ns;
+	constant clock_period : time := 2.5 ns;
 
 --	--clock running
 	BEGIN
