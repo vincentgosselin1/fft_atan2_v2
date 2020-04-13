@@ -1,5 +1,5 @@
 Analysis & Synthesis report for fft_atan2_v2
-Sat Apr 11 23:13:33 2020
+Mon Apr 13 13:53:58 2020
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -130,7 +130,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sat Apr 11 23:13:33 2020       ;
+; Analysis & Synthesis Status     ; Successful - Mon Apr 13 13:53:58 2020       ;
 ; Quartus Prime Version           ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; fft_atan2_v2                                ;
 ; Top-level Entity Name           ; fft_atan2_v2                                ;
@@ -2522,7 +2522,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:10     ;
+; Top            ; 00:00:09     ;
 ; pzdyqx:nabboc  ; 00:00:00     ;
 +----------------+--------------+
 
@@ -2533,19 +2533,19 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Sat Apr 11 23:11:57 2020
+    Info: Processing started: Mon Apr 13 13:52:20 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off fft_atan2_v2 -c fft_atan2_v2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12248): Elaborating Platform Designer system entity "cordic_atan2_v2.qsys"
-Info (12250): 2020.04.11.23:12:14 Progress: Loading cordic_atan2_v2/cordic_atan2_v2.qsys
-Info (12250): 2020.04.11.23:12:15 Progress: Reading input file
-Info (12250): 2020.04.11.23:12:15 Progress: Adding CORDIC_0 [altera_CORDIC 17.1]
-Info (12250): 2020.04.11.23:12:16 Progress: Parameterizing module CORDIC_0
-Info (12250): 2020.04.11.23:12:16 Progress: Building connections
-Info (12250): 2020.04.11.23:12:16 Progress: Parameterizing connections
-Info (12250): 2020.04.11.23:12:16 Progress: Validating
-Info (12250): 2020.04.11.23:12:16 Progress: Done reading input file
+Info (12250): 2020.04.13.13:52:39 Progress: Loading cordic_atan2_v2/cordic_atan2_v2.qsys
+Info (12250): 2020.04.13.13:52:40 Progress: Reading input file
+Info (12250): 2020.04.13.13:52:40 Progress: Adding CORDIC_0 [altera_CORDIC 17.1]
+Info (12250): 2020.04.13.13:52:41 Progress: Parameterizing module CORDIC_0
+Info (12250): 2020.04.13.13:52:41 Progress: Building connections
+Info (12250): 2020.04.13.13:52:41 Progress: Parameterizing connections
+Info (12250): 2020.04.13.13:52:41 Progress: Validating
+Info (12250): 2020.04.13.13:52:41 Progress: Done reading input file
 Info (12250): Cordic_atan2_v2: Generating cordic_atan2_v2 "cordic_atan2_v2" for QUARTUS_SYNTH
 Info (12250): CORDIC_0: C:/intelfpga_lite/17.1/quartus/dspba/backend/windows64/cmdPolyEval -target CycloneV -frequency 200 -name cordic_atan2_v2_CORDIC_0 -noChanValid -faithfulRounding -enable -printMachineReadable -lang VHDL -speedgrade 6_H6 FXPVecTranslate 16 15 1 13 1
 Info (12250): CORDIC_0: Latency on Cyclone V is 21 cycles
@@ -3087,7 +3087,7 @@ Info (12128): Elaborating entity "dspba_delay" for hierarchy "cordic_atan2_v2:in
 Info (12128): Elaborating entity "dspba_delay" for hierarchy "cordic_atan2_v2:inst7|cordic_atan2_v2_CORDIC_0:cordic_0|dspba_delay:redist53_signX_uid7_vecTranslateTest_b_18" File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/db/ip/cordic_atan2_v2/submodules/cordic_atan2_v2_cordic_0.vhd Line: 2336
 Info (12128): Elaborating entity "dspba_delay" for hierarchy "cordic_atan2_v2:inst7|cordic_atan2_v2_CORDIC_0:cordic_0|dspba_delay:redist4_atanResPostRR_uid336_vecTranslateTest_b_3" File: C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/db/ip/cordic_atan2_v2/submodules/cordic_atan2_v2_cordic_0.vhd Line: 2395
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2020.04.11.23:13:00 Progress: Loading sld5206c3eb/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2020.04.13.13:53:26 Progress: Loading sld5206c3eb/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -3233,9 +3233,9 @@ Info (21057): Implemented 6483 device resources after synthesis - the final reso
     Info (21064): Implemented 556 RAM segments
     Info (21062): Implemented 6 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 41 warnings
-    Info: Peak virtual memory: 5085 megabytes
-    Info: Processing ended: Sat Apr 11 23:13:33 2020
-    Info: Elapsed time: 00:01:36
-    Info: Total CPU time (on all processors): 00:02:09
+    Info: Peak virtual memory: 5101 megabytes
+    Info: Processing ended: Mon Apr 13 13:53:59 2020
+    Info: Elapsed time: 00:01:39
+    Info: Total CPU time (on all processors): 00:02:12
 
 

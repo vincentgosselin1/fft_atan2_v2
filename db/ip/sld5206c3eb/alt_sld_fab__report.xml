@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2020.04.11.23:13:09"
+ date="2020.04.13.13:53:36"
  outputDirectory="C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/db/ip/sld5206c3eb/">
  <perimeter>
   <parameter

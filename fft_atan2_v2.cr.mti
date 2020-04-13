@@ -122,14 +122,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity asj_fft_dft_bfp
 -- Compiling architecture dft_r4 of asj_fft_dft_bfp
 
-} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/simulation/fft_atan2_v2_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/simulation/fft_atan2_v2_tb.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity fft_atan2_v2_tb
--- Compiling architecture fft_atan2_v2 of fft_atan2_v2_tb
-
 } {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_wrengen.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_wrengen.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -896,6 +888,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity fft_atan2_v2
 -- Compiling architecture rtl of fft_atan2_v2
 
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_READER_V2/ROM_READER_V2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_READER_V2/ROM_READER_V2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ROM_READER_V2
+-- Compiling architecture rtl of ROM_READER_V2
+
 } {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_se_so_bb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_si_se_so_bb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -930,6 +931,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package NUMERIC_STD
 -- Compiling entity FFT_Burst_16x1024_v1
 -- Compiling architecture rtl of FFT_Burst_16x1024_v1
+
+} {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_READER_V2/pulse_gen.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/ROM_READER_V2/pulse_gen.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pulse_gen
+-- Compiling architecture rtl of pulse_gen
 
 } {} {}} C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_data_ram.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/17.1/quartus/MyDev/fft_atan2_v2/FFT_Burst_16x1024_v1/simulation/submodules/mentor/asj_fft_data_ram.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
